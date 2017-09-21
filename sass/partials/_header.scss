@@ -1,0 +1,30 @@
+header {
+	height: 50px;
+
+	@include respond-to('medium') {
+		height: 65px;
+	}
+
+	#haku-logo {
+		position: absolute;
+		left: 9px;
+		top: 10px;
+		z-index: 10;
+
+		img {
+			width: 60%;
+
+			@include respond-to('medium') {
+				width: auto;
+			}
+		}
+
+		@include respond-to('medium') {
+			left: -28px;
+			top: 10px;
+		}
+
+	}
+
+}
+

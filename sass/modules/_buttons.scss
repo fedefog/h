@@ -1,0 +1,27 @@
+.btn {
+	font-size: 18px;
+	font-weight: $light;
+	border-bottom: 3px solid $green;
+	padding-bottom:4px;
+	padding-right: 30px;
+	background-repeat: no-repeat;
+
+	&.btn-white {
+		color: $white;
+	}
+
+	&.border-white {
+		border-color: $white;
+	}
+
+	&.btn-bottom-arrow {
+		background-image: url(images/bottom-arrow.png);
+		background-position: right 3px;
+	}
+
+	&.btn-side-arrow {
+		background-image: url(images/side-arrow.png);
+		background-position: right 5px;
+	}
+
+}

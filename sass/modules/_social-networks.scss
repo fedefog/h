@@ -1,0 +1,13 @@
+.social-networks {
+	font-size: 19px;
+
+	.social-link {
+		padding: 0 5px;
+		color: $white;
+
+		&:hover {
+			color: $green;
+		}
+		
+	}
+}

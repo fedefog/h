@@ -1,0 +1,58 @@
+.flexslider {
+	background: none;
+	border: none;
+	margin-bottom: 0px;
+
+	.slides {
+		
+		img {
+			
+			@include respond-to('medium') {
+				width: auto;
+			}
+
+		}
+
+	}
+
+	.flex-control-nav {
+
+		li {
+ 
+			a {
+				@include box-shadow(none);
+				@include transition-property(all);
+				@include transition-duration(0.1s);
+				@include transition-timing-function(forwards);
+				font-size: 0px;
+
+				&.flex-active {
+					padding: 0 15px;
+				}
+			}
+			
+			&:nth-child(1) a {
+				background: #5810D0;
+			}
+
+			&:nth-child(2) a {
+				background: #6573DA;
+			}
+
+			&:nth-child(3) a {
+				background: #57A0EB;
+			}
+
+			&:nth-child(4) a {
+				background: #65ECF1;
+			}
+
+			&:nth-child(5) a {
+				background: #9AF7AA;
+			}
+
+		}
+
+	}
+
+}

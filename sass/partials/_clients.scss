@@ -1,0 +1,17 @@
+.clients {
+	
+	.clients-container {
+		padding-top: 0px;
+
+		@include respond-to('medium') {
+			padding-top: 60px;
+		}
+
+	}
+
+	.client {
+		padding: 35px 0;
+		display: flex;
+	}
+
+}

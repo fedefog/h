@@ -1,0 +1,100 @@
+.testimonials {
+
+	.arrow {
+		top: -80px;
+		height: 150px;
+		@include transition-property(all);
+		@include transition-delay(1.2s);
+		@include transition-duration(0.5s);
+		@include transition-timing-function(forwards);
+
+		&.custom-animate {
+			height: 493px
+		}
+
+	}
+
+	.testimonial {
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0px;
+			top: -30px;
+			display: block;
+			width: 123px;
+			height: 89px;
+			background-image: url(images/quotes.png);
+
+			@include respond-to('medium') {
+				left: -85px;
+			}
+
+		}
+
+		.testimonial-text {
+			font-size: 24px;
+			font-weight: $light;
+			color: $black;
+			line-height: 1.5;
+			opacity: 0;
+			@include transform (translate( 0, 10px));
+			@include transition-property(all);
+
+			@include respond-to('medium') {
+				font-size: 26px;
+			}
+
+		}
+
+		.testimonial-author {
+			font-weight: $extra-bold;
+			color: $black;
+			font-size: 24px;
+			padding-top: 40px;
+			opacity: 0;
+			@include transform (translate( 0, 10px));
+			@include transition-property(all);
+
+			@include respond-to('medium') {
+				padding-top: 85px;
+			}
+
+			.author-position {
+				font-weight: $light;
+				font-size: 16px;
+				display: block;
+				padding-top: 10px;
+			}	
+
+		}
+
+		&.flex-active-slide {
+
+			.testimonial-text {
+				@include animation(hero_titles 1s 0.2s normal forwards);
+			}
+
+			.testimonial-author {
+				@include animation(hero_titles 1s 0.3s normal forwards);
+			}
+
+		}
+
+	}
+
+	.flexslider {
+		
+		.flex-control-nav {
+			text-align: left;
+			bottom: -80px;
+
+			li:first-child {
+				margin-left: 0px;
+			}
+
+		}
+
+	}
+
+}

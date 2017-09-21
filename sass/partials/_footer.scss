@@ -1,0 +1,192 @@
+footer {
+	height: 424px;
+	color: $white;
+	margin-top: 85px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#410d96+0,5374bb+100 */
+	background: rgb(65,13,150); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(65,13,150,1) 0%, rgba(83,116,187,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(65,13,150,1) 0%,rgba(83,116,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(65,13,150,1) 0%,rgba(83,116,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#410d96', endColorstr='#5374bb',GradientType=0 ); /* IE6-9 */
+
+	.arrow {
+		min-height: 150px;
+		top: -80px;
+		@include transition-property(all);
+		@include transition-delay(1.2s);
+		@include transition-duration(0.5s);
+		@include transition-timing-function(forwards);
+
+		&.custom-animate {
+			min-height: 268px;
+		}
+
+	}
+
+	.logo-footer {
+		position: absolute;
+		left: 50%;
+		margin-left: -39px;
+		top: -38px;
+
+		@include respond-to('medium') {
+			right: -9px;
+			left: auto;
+			margin-left: auto;
+		}
+
+	}
+
+	.footer-text {
+		padding-top: 118px;
+		color: $green;
+		font-size: 22px;
+		font-weight: $extra-bold;
+		text-align: center;
+
+		@include respond-to('medium') {
+			text-align: left;
+		}
+
+	}
+
+	.footer-mail {
+		padding-top: 10px;
+		color: $white;
+		font-size: 26px;
+		font-weight: $extra-bold;
+		display: block;
+		text-align: center;
+
+		@include respond-to('medium') {
+			font-size: 42px;
+			text-align: left; 
+		}
+
+	}
+
+	.social-networks {
+		padding-top: 60px;
+		text-align: center;
+
+		@include respond-to('medium') {
+			text-align: left;
+		}
+
+	}
+
+	.footer-rights {
+		width: 100%;
+		text-align: center;
+
+		@include respond-to('medium') {
+			float: left;
+			width: auto;
+			text-align: left;
+		}
+
+	}
+
+	.clock-container {
+		position: absolute;
+		bottom: 45px;
+		width: 150px;
+		left: 50%;
+		margin-left: -75px;
+
+		.numbers {
+			font-size: 14px;
+			color: $white;
+			font-weight: 600;
+			position: relative;
+			top: 16px;
+			left: 39px;
+		}
+
+		strong {
+			color: #FFF;
+			font-weight: 300;
+			position: relative;
+			top: 16px;
+			left: 10px;
+		}
+
+		*{
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.clock-border {
+			display: block;
+			width: 41px;
+			height: 41px;
+			border-radius: 100%;
+			border: 2px solid $green;
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+		}	
+
+		.clock {
+			border: 3px solid rgba(0, 0, 0, 0);
+			border-radius: 100%;
+			display: inline-block;
+			height: 35px;
+			width: 35px;
+			position: relative;
+			top: -3px;
+			float: right;
+			right: 3px;
+
+			.hour {
+				background: $green;
+				height: 0;
+				left: 50%;
+				position: absolute;
+				top: 50%;
+				width: 0;
+				-webkit-transform-origin: 50% 100%;
+				-moz-transform-origin: 50% 100%;
+				-o-transform-origin: 50% 100%;
+				-ms-transform-origin: 50% 100%;
+				transform-origin: 50% 100%;
+				margin: -12px -2px 0;
+				padding: 12px 1px 0;
+			}
+
+			.minute {
+				background: $green;
+				height: 0;
+				left: 50%;
+				position: absolute;
+				top: 50%;
+				width: 0;
+				-webkit-transform-origin: 50% 100%;
+				-moz-transform-origin: 50% 100%;
+				-o-transform-origin: 50% 100%;
+				-ms-transform-origin: 50% 100%;
+				transform-origin: 50% 100%;
+				margin: -16px -2px 0;
+				padding: 16px 1px 0;
+			}
+
+		}
+		
+		@include respond-to('medium') {
+			right: 0px;
+			left: auto;
+			bottom: -4px;
+			margin-left: auto;
+		}
+
+	}
+
+	.footer-bottom {
+		padding-top: 96px;
+		font-size: 14px;
+		font-weight: $light;
+	}
+
+}

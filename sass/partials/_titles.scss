@@ -1,0 +1,9 @@
+.heading {
+	font-size: 20px;
+	margin-top: 0px;
+
+	@include respond-to('medium') {
+		font-size: 22px;
+	}
+
+}

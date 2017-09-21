@@ -1,0 +1,60 @@
+.btn-menu-mobile {
+	width: 55px;
+	float: right;
+    border: none;
+    background: none;
+    margin-right: 5px;
+    margin-top: 13px;
+
+	span {
+		height: 4px;
+		background: $black;
+		width: 100%;
+		display: block;
+		margin: 2px 0;
+		float: right;
+		@include border-radius(5px);
+
+		&.middle {
+			width: 80%;
+		}
+
+	}
+}
+.pure-menu-horizontal {
+	float: right;
+	width: auto;
+	padding-top: 14px;
+
+	.pure-menu-item {
+		margin-left: 25px;
+
+		&:last-child {
+
+			.pure-menu-link {
+				padding-right: 0px;
+			}
+
+		}
+		
+		.pure-menu-link {
+			font-size: 18px;
+			font-weight: $semi-bold;
+			color: $black;
+
+			&:hover {
+				color: $green;
+				background: none;
+			}
+
+		}
+
+		.pure-button-active {
+			border: none;
+			color: $green;
+			box-shadow: none;
+		}
+
+	}
+
+}

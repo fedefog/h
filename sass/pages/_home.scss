@@ -1,0 +1,216 @@
+.page-home {
+	.hero-home {
+		color: $white;
+		position: relative;
+		overflow-x: hidden;
+
+		@include respond-to('medium') {
+			overflow-x: initial;
+		}
+
+		.pure-img {
+			height: 300px;
+			max-width: initial;
+
+			@include respond-to('medium') {
+				max-width: 100%;
+				height: initial;
+			}
+
+		}
+
+		.hero-absolute {
+			position: absolute;
+			top: 0;
+			width: 100%;
+
+			.arrow {
+				left: -18px;
+				top: 275px;
+				height: 350px;
+				@include transition-property(all);
+				@include transition-delay(1.2s);
+				@include transition-duration(0.5s);
+				@include transition-timing-function(forwards);
+				//height: 680px;
+
+				&.custom-animate {
+					height: 680px
+				}
+			}
+
+			.hero-home-title {
+				font-size: 32px;
+				font-weight: $extra-bold;
+				margin: 70px 0 0;
+				opacity: 0;
+				@include transform (translate( 0, 50px));
+				@include transition-property(all);
+
+				@include respond-to('medium') {
+					font-size: 64px;
+					margin: 265px 0 0;
+				}
+
+				&.custom-animate {
+					@include animation(hero_titles 1s 0.5s normal forwards);
+				}
+
+				span {
+					color: $green;
+				}
+
+			}
+
+			.hero-home-subtitle {
+				font-size: 18px;
+				font-weight: $light;
+				margin-bottom: 50px;
+				opacity: 0;
+				@include transform (translate( 0, 50px));
+				@include transition-property(all);
+
+				@include respond-to('medium') {
+					font-size: 20px;
+					margin-bottom: 48px;
+				}
+
+				&.custom-animate {
+					@include animation(hero_titles 1s 0.6s normal forwards);
+				}
+
+			}
+
+			.btn {
+				opacity: 0;
+				@include transform (translate( 0, 50px));
+				@include transition-property(all);
+
+				&.custom-animate {
+					@include animation(hero_titles 1s 0.7s normal forwards);
+				}
+
+			}
+
+			.social-networks {
+				float: right;
+			}
+
+		}
+
+	}
+
+	.works {
+		padding-top: 185px;
+		position: relative;
+
+		@include respond-to('medium') {
+			padding-top: 475px;
+		}
+
+		&:before {
+			position: absolute;
+			top: 31%;
+			content: '';
+			display: block;
+			width: 100%;
+			height: 51%;
+			background: $grey-light;
+		}
+
+		.work {
+
+			@include respond-to('medium') {
+				bottom: -160px;
+			}
+
+			&.pull-left {
+				bottom:auto;
+				top: 0px;
+			}
+
+		}
+
+		.container {
+
+			&:before {
+				content: 'works';
+				display: block;
+				color: $black;
+				position: absolute;
+				top: -85px;
+				right: 0;
+				font-size: 100px;
+				font-weight: $extra-bold;
+				opacity: 0.1;
+				width: 100%;
+				text-align: center;
+
+				@include respond-to('medium') {
+					top: -330px;
+					font-size: 270px;
+					text-align: initial;
+					width: auto;
+				}
+
+			}
+
+		}
+
+		.btn {
+			position: relative;
+			margin: 40px auto 0;
+			display: block;
+			clear: both;
+			top: 50px;
+			width: 140px;
+
+			@include respond-to('medium') {
+				top: -160px;
+				left: 160px;
+				width: auto;
+				display: inline-block;
+				margin: auto;
+			}
+			
+		}
+
+	}
+
+	.testimonials {
+		padding-top: 150px;
+		padding-bottom: 100px;
+
+		@include respond-to('medium') {
+			padding-top: 208px;
+		}
+
+	}
+
+	.carrousel {
+		padding-top: 100px;
+
+		@include respond-to('medium') {
+			padding-top: 200px;
+		}
+
+	}
+
+	.clients {
+		
+		.arrow {
+			min-height: 150px;
+			top: -175px;
+			@include transition-property(all);
+			@include transition-delay(1.2s);
+			@include transition-duration(0.5s);
+			@include transition-timing-function(forwards);
+
+			&.custom-animate {
+				min-height: 345px;
+			}
+
+		}
+
+	}
+}

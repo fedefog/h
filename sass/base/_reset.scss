@@ -1,0 +1,17 @@
+html {
+	background: $white;
+	font-family: $fixed-font-family, $base-font-family;
+	font-weight: $base-font-weight;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+}
+a {
+	color: $black;
+	text-decoration: none;
+}
+img {
+	margin: auto;
+}
+.pure-g [class*=pure-u] {
+	font-family: $fixed-font-family, $base-font-family;
+}

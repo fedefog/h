@@ -1,0 +1,17 @@
+.container {
+	margin: auto;
+	position: relative;
+
+	@include respond-to('medium') {
+		width: 768px;
+	}
+
+	@include respond-to('large') {
+		width: 1024px;
+	}
+
+	@include respond-to('xlarge') {
+		width: 1110px;
+	}
+
+}
