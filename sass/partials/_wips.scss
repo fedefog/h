@@ -1,0 +1,32 @@
+.wips {
+	padding-top: 120px;
+
+	.heading {
+		font-size: 24px;
+		margin-bottom: 40px;
+	}
+
+	.wip {
+		padding: 0 15px;
+		margin: 15px 0;
+
+		img{
+
+			&:hover{
+				box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.21);
+			}
+
+		}
+
+	}
+
+	.btn {
+		position: relative;
+		margin: 40px auto 0;
+		display: block;
+		clear: both;
+		top: 50px;
+		width: 140px;
+	}
+
+}

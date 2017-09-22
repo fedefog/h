@@ -1,0 +1,47 @@
+.page-services {
+	.hero-section {
+		.arrow {
+			&.custom-animate {
+				height: 315px;
+			}
+
+		}
+
+	}
+
+	.service-container {
+		margin: 100px 0px;
+
+		.heading {
+			font-size: 20px;
+			margin-top: 50px;
+		}
+
+		.service-description {
+			font-size: 16px;
+			font-weight: $light;
+			line-height: 2;
+			margin-bottom: 30px;
+		}
+
+	}
+
+	.banner {
+		position:relative;
+
+		.banner-absolute {
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		.banner-heading {
+			font-size:32px;
+			color: $white;
+			font-weight: $semi-bold;
+			letter-spacing: 0.5px;
+			margin-top: 230px;
+		}
+	}
+
+}
