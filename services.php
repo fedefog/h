@@ -111,8 +111,29 @@
       </div>
     </section>
 
-    <section class="process-learning">
-      
+    <section class="process-section">
+      <div class="pure-u-12-12 pure-u-md-5-12 padding-mb">
+		  <div class="process-absolute">
+			  <h2 class="process-subtitle">Our process</h2>
+			  <h1 class="process-title">Learning</h1>	 
+		 </div>
+	  </div>
+		
+	  <div class="pure-u-12-12 pure-u-md-7-12 padding-mb">
+		<div class="flexslider">
+		  	<ol class="flex-control-nav flex-control-paging">
+		  	  <li><a href="#" class="flex-active">1</a></li>
+			  <li><a href="#">2</a></li>
+			  <li><a href="#">3</a></li>
+			  <li><a href="#">4</a></li>
+			  <li><a href="#">5</a></li>
+		  	</ol>
+			<div class="process-info">
+				<h3 class="process-info-title">1/5 Learning</h3>
+				<p class="process-info-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depht of your project so you can develop realistic project recommendations. These initial phases also teach us about how we can work best.</p>
+			</div>
+		</div>
+	  </div>
     </section>
 
 <?php include('footer.php'); ?>

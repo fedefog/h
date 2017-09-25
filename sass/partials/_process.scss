@@ -1,0 +1,94 @@
+.process-section {
+	width: 100%;
+	height: 630px;
+	color: $white;
+	position:relative;
+	background: rgb(65,13,150); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(65,13,150,1) 0%, rgba(83,116,187,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(65,13,150,1) 0%,rgba(83,116,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(65,13,150,1) 0%,rgba(83,116,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#410d96', endColorstr='#5374bb',GradientType=0 ); /* IE6-9 */
+	font-size: 0;
+
+	&:before {
+		content: "1";
+		position: absolute;
+		top: -120px;
+		left: 0;
+		font-size: 800px;
+		font-family: 'Open Sans';
+		color: #4f5eb3;
+    	opacity: 0.5;
+	}
+	
+	.process-absolute{
+		position: absolute;
+		left: 250px;
+		top: calc(50% - 30px);
+		
+		.process-subtitle{
+			font-size: 20px;
+			font-weight: $light;
+			margin: 0;
+		}
+		
+		.process-title{
+			font-size: 38px;
+			font-weight: $regular;
+			margin: 0;
+		}
+		
+	}
+	
+	.flexslider{
+		height: 630px;
+		
+		.flex-control-nav{
+			width: 20px;
+			height: 120px;
+			top: calc(50% - 65px);
+    		left: 0;
+
+			li{
+				margin: 3px 0;
+
+				&:nth-child(1) a{
+					background: #704ac5;
+				}
+
+				a{
+					&.flex-active{
+						padding: 15px 0;
+					}
+				}
+			}
+
+		}
+		
+	}
+	
+	.process-info{
+		width: 60%;
+		height: 226px;
+		border: 3px solid;
+		border-image: linear-gradient(#5812d0, #63ccd9, #30f237)0 100%;
+		padding: 20px 30px;
+		margin-left: 50px;
+		position: absolute;
+		top: calc(50% - 135px);
+		
+		.process-info-title{
+			font-size: 20px;
+			font-weight: $light;
+		}
+		
+		.process-info-description{
+			font-size: 16px;
+			line-height: 30px;
+			font-weight: 100;
+			letter-spacing: 0.1px;
+		}
+		
+	} 
+	
+}
