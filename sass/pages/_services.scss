@@ -43,5 +43,27 @@
 			margin-top: 230px;
 		}
 	}
+	
+	.testimonials{
+		padding-top: 150px;
+    padding-bottom: 100px;
+		
+		.arrow{
+			height: 500px;
+			top: -150px;
+			
+			&.custom-animate {
+				height: 780px;
+			}
+			
+		}
+		
+	}
+	
+	footer{
+		.arrow{
+			visibility: hidden;
+		}
+	}
 
 }

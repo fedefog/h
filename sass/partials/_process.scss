@@ -62,33 +62,121 @@
 					}
 				}
 			}
+			
+		}
+		
+		.slides{
+			
+			.first-slide{
+				display: block;
+				width: 60%;
+				margin-left: 50px;
+				position: absolute;
+				padding: 20px 30px;
+				top: 20px;
+				
+				.process-info-description{
+					font-size: 16px;
+					font-weight: $light;
+					color: #636ec6;
+					line-height: 25px;
+				}
+				
+			}
+						
+			.last-slide{
+				@extend .first-slide;
+				top: initial;
+				bottom: 20px;
+			}
+			
+			.main-slide{
+				width: 60%;
+				height: 226px;
+				border: 3px solid;
+				border-image: linear-gradient(#5812d0, #63ccd9, #30f237)0 100%;
+				padding: 20px 30px;
+				margin-left: 50px;
+				position: absolute;
+				top: calc(50% - 135px);
+				display: block;
 
+				.process-info-title{
+					font-size: 20px;
+					font-weight: $light;
+				}
+
+				.process-info-description{
+					font-size: 16px;
+					line-height: 30px;
+					font-weight: 100;
+					letter-spacing: 0.1px;
+				}
+
+				&:before{
+					content: "";
+					width: 100%;
+					height: 3px;
+					background-color: #5812d0;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+
+				&:after{
+					content: "";
+					width: 100%;
+					height: 3px;
+					background-color: #30f237;
+					position: absolute;
+					bottom: 0;
+					left: 0;
+				} 
+				
+			}
+			
+		}
+
+	}
+		
+	.left-slide{
+		position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #30f237;
+    top: calc(50% - 2px);
+    left: 110px;
+		
+		&:before{
+			content: "";
+			position: absolute;
+			width: 23px;
+			height: 2px;
+			background-color: #30f237;
+			top: -8px;
+			left: -3px;
+			transform: rotate(-45deg);
+		}
+		
+		&:after{
+			content: "";
+			position: absolute;
+			width: 23px;
+			height: 2px;
+			background-color: #30f237;
+			top: 8px;
+			left: -3px;
+			transform: rotate(45deg);
 		}
 		
 	}
 	
-	.process-info{
-		width: 60%;
-		height: 226px;
-		border: 3px solid;
-		border-image: linear-gradient(#5812d0, #63ccd9, #30f237)0 100%;
-		padding: 20px 30px;
-		margin-left: 50px;
-		position: absolute;
-		top: calc(50% - 135px);
+	.right-slide{
+		@extend .left-slide;
+		left: initial;
+		right: 110px;
+		transform: rotate(180deg);
 		
-		.process-info-title{
-			font-size: 20px;
-			font-weight: $light;
-		}
-		
-		.process-info-description{
-			font-size: 16px;
-			line-height: 30px;
-			font-weight: 100;
-			letter-spacing: 0.1px;
-		}
-		
-	} 
-	
+	}
+
 }

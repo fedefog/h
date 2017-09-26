@@ -112,6 +112,8 @@
     </section>
 
     <section class="process-section">
+	  	<div class="left-slide"></div>
+				
       <div class="pure-u-12-12 pure-u-md-5-12 padding-mb">
 		  <div class="process-absolute">
 			  <h2 class="process-subtitle">Our process</h2>
@@ -120,20 +122,91 @@
 	  </div>
 		
 	  <div class="pure-u-12-12 pure-u-md-7-12 padding-mb">
-		<div class="flexslider">
-		  	<ol class="flex-control-nav flex-control-paging">
-		  	  <li><a href="#" class="flex-active">1</a></li>
-			  <li><a href="#">2</a></li>
-			  <li><a href="#">3</a></li>
-			  <li><a href="#">4</a></li>
-			  <li><a href="#">5</a></li>
-		  	</ol>
-			<div class="process-info">
-				<h3 class="process-info-title">1/5 Learning</h3>
-				<p class="process-info-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depht of your project so you can develop realistic project recommendations. These initial phases also teach us about how we can work best.</p>
-			</div>
-		</div>
+				<div class="flexslider">
+						<ol class="flex-control-nav flex-control-paging">
+							<li><a id="1" class="flex-active">1</a></li>
+							<li><a id="2">2</a></li>
+							<li><a id="3">3</a></li>
+							<li><a id="4">4</a></li>
+							<li><a id="5">5</a></li>
+						</ol>
+
+					<ul class="slides">
+						<li class="first-slide">
+							<h3 class="process-info-title">1/5 Learning</h3>
+							<p class="process-info-description">Lanzamos el producto terminado y validamos con el usuario final para detectar nuvas necesidades y aprender sobre nuestros objetivos</p>
+						</li>
+						<li class="main-slide"> 
+							<h3 class="process-info-title">1/5 Learning</h3>
+							<p class="process-info-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depht of your project so you can develop realistic project recommendations. These initial phases also teach us about how we can work best.</p>
+						</li>
+						<li class="last-slide">
+							<h3 class="process-info-title">1/5 Learning</h3>
+							<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+						</li>
+						<li>
+							<h3 class="process-info-title">1/5 Learning</h3>
+							<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+						</li>
+						<li>
+							<h3 class="process-info-title">1/5 Learning</h3>
+							<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+						</li>
+					</ul>
+				</div>
 	  </div>
+				
+		<div class="right-slide"></div>
+  </section>
+			
+	 <section class="testimonials">
+      <div class="container">
+        <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
+        <div class="pure-g padding-mb">
+          <div class="offset-lg-2 pure-u-12-12">
+            <div class="flexslider testimonials-slider">
+              <ul class="slides">
+                <li class="testimonial">
+                  <div class="testimonial-text">
+                    Hakuna is more to us than a design studio, they’ve been a partner in the growth of our brand. We got many praises for the beauty, simplicity  and quality of our new app and this is largely due to the their skills.
+                  </div>
+                  <div class="testimonial-author">
+                    Yitz Katz
+                    <span class="author-position">Director at Achisomoch.org.uk</span>
+                  </div>
+                </li>
+                <li class="testimonial">
+                  <div class="testimonial-text">
+                    Hakuna is more to us than a design studio, they’ve been a partner in the growth of our brand. We got many praises for the beauty, simplicity  and quality of our new app and this is largely due to the their skills.
+                  </div>
+                  <div class="testimonial-author">
+                    Jono Milner
+                    <span class="author-position">Director at Achisomoch.org.uk</span>
+                  </div>
+                </li>
+                <li class="testimonial">
+                  <div class="testimonial-text">
+                    Hakuna is more to us than a design studio, they’ve been a partner in the growth of our brand. We got many praises for the beauty, simplicity  and quality of our new app and this is largely due to the their skills.
+                  </div>
+                  <div class="testimonial-author">
+                    Jono Milner
+                    <span class="author-position">Director at Achisomoch.org.uk</span>
+                  </div>
+                </li>
+                <li class="testimonial">
+                  <div class="testimonial-text">
+                    Hakuna is more to us than a design studio, they’ve been a partner in the growth of our brand. We got many praises for the beauty, simplicity  and quality of our new app and this is largely due to the their skills.
+                  </div>
+                  <div class="testimonial-author">
+                    Jono Milner
+                    <span class="author-position">Director at Achisomoch.org.uk</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 <?php include('footer.php'); ?>
