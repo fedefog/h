@@ -11,6 +11,11 @@
 
 	.service-container {
 		margin: 100px 0px;
+		
+		&.custom-animate {
+				opacity: 1;
+				transition: all 2s;
+			}
 
 		.heading {
 			font-size: 20px;
