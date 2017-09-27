@@ -112,7 +112,12 @@
     </section>
 
     <section class="process-section">
-	  	<div class="left-slide"></div>
+			<div class="process-number">1</div>
+	  	<div class="left-slide">
+				<div class="arrow-1"></div>
+				<div class="arrow-2"></div>
+				<div class="arrow-3"></div>
+			</div>
 				
       <div class="pure-u-12-12 pure-u-md-5-12 padding-mb">
 		  <div class="process-absolute">
@@ -132,31 +137,45 @@
 						</ol>
 
 					<ul class="slides">
-						<li class="first-slide">
-							<h3 class="process-info-title">1/5 Learning</h3>
-							<p class="process-info-description">Lanzamos el producto terminado y validamos con el usuario final para detectar nuvas necesidades y aprender sobre nuestros objetivos</p>
-						</li>
 						<li class="main-slide"> 
-							<h3 class="process-info-title">1/5 Learning</h3>
-							<p class="process-info-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depht of your project so you can develop realistic project recommendations. These initial phases also teach us about how we can work best.</p>
+							<div class="process-info">
+								<h3 class="process-info-title">1/5 <span>Learning</span></h3>
+								<p class="process-info-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depht of your project so you can develop realistic project recommendations. These initial phases also teach us about how we can work best.</p>
+							</div>
 						</li>
 						<li class="last-slide">
-							<h3 class="process-info-title">1/5 Learning</h3>
-							<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+							<div class="process-info">
+								<h3 class="process-info-title">2/5 <span>Bla</span></h3>
+								<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+								</div>
 						</li>
 						<li>
-							<h3 class="process-info-title">1/5 Learning</h3>
-							<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+							<div class="process-info">
+								<h3 class="process-info-title">3/5 <span>Blabla</span></h3>
+								<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+							</div>
 						</li>
 						<li>
-							<h3 class="process-info-title">1/5 Learning</h3>
-							<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+							<div class="process-info">
+								<h3 class="process-info-title">4/5 <span>asdasd</span></h3>
+								<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+							</div>
+						</li>
+						<li class="first-slide">
+							<div class="process-info">
+								<h3 class="process-info-title">5/5 <span>alksjfdlisjfops</span></h3>
+								<p class="process-info-description">Lanzamos el producto terminado y validamos con el usuario final para detectar nuvas necesidades y aprender sobre nuestros objetivos</p>
+							</div>
 						</li>
 					</ul>
 				</div>
 	  </div>
 				
-		<div class="right-slide"></div>
+		<div class="right-slide">
+			<div class="arrow-1"></div>
+			<div class="arrow-2"></div>
+			<div class="arrow-3"></div>
+		</div>
   </section>
 			
 	 <section class="testimonials">

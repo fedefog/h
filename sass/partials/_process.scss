@@ -7,18 +7,24 @@
 	background: -moz-linear-gradient(top, rgba(65,13,150,1) 0%, rgba(83,116,187,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(65,13,150,1) 0%,rgba(83,116,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(65,13,150,1) 0%,rgba(83,116,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#410d96', endColorstr='#5374bb',GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#410d96', endColorstr='#5374bb',Gradie
+	ntType=0 ); /* IE6-9 */
 	font-size: 0;
+	overflow: hidden;
 
-	&:before {
-		content: "1";
+	.process-number {
 		position: absolute;
 		top: -120px;
 		left: 0;
 		font-size: 800px;
 		font-family: 'Open Sans';
 		color: #4f5eb3;
-    	opacity: 0.5;
+		opacity: 0;
+		
+		&.fade-number{
+			opacity: 0.5;
+			transition: all 2s;
+		}
 	}
 	
 	.process-absolute{
@@ -36,6 +42,12 @@
 			font-size: 38px;
 			font-weight: $regular;
 			margin: 0;
+			opacity: 0;
+			
+			&.fade-in{
+			opacity: 1;
+			transition: all 1s;
+			}
 		}
 		
 	}
@@ -66,6 +78,15 @@
 		}
 		
 		.slides{
+			
+			.process-info{
+				opacity: 0;
+				@include transform (translate( 0, 50px));
+					@include transition-property(all);
+					&.custom-animate {
+						@include animation(hero_titles 1s normal forwards);
+					}
+			}
 			
 			.first-slide{
 				display: block;
@@ -140,32 +161,35 @@
 	}
 		
 	.left-slide{
-		position: absolute;
+    position: absolute;
     width: 35px;
-    height: 2px;
-    background-color: #30f237;
-    top: calc(50% - 2px);
+    height: 35px;
+    top: calc(50% - 35px);
     left: 110px;
+		cursor: pointer;
 		
-		&:before{
-			content: "";
+		.arrow-1{
 			position: absolute;
-			width: 23px;
+			width: 35px;
 			height: 2px;
 			background-color: #30f237;
-			top: -8px;
-			left: -3px;
+			top: calc(50% - 2px);
+			left: 0;
+		}
+		
+		.arrow-2{
+			@extend .arrow-1;
+			width: 23px;
+			top: 7px;
+			left: -4px;
 			transform: rotate(-45deg);
 		}
 		
-		&:after{
-			content: "";
-			position: absolute;
+		.arrow-3{
+			@extend .arrow-1;
 			width: 23px;
-			height: 2px;
-			background-color: #30f237;
-			top: 8px;
-			left: -3px;
+			top: 23px;
+			left: -4px;
 			transform: rotate(45deg);
 		}
 		
