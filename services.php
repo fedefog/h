@@ -31,13 +31,13 @@
           </div>
 
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
-            <img src="images/services/service-1.png" title="service" alt="service" class="pure-img" width="340">
+            <img src="images/services/service-1.png" title="service" alt="service" class="pure-img">
           </div>
         </div>
 
         <div class="pure-g service-container hideme">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
-            <img src="images/services/service-2.png" title="service" alt="service" class="pure-img" width="380">
+            <img src="images/services/service-2.png" title="service" alt="service" class="pure-img">
           </div>
 
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
@@ -55,7 +55,7 @@
           </div>
 
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
-            <img src="images/services/service-3.png" title="service" alt="service" class="pure-img" width="400">
+            <img src="images/services/service-3.png" title="service" alt="service" class="pure-img">
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@
       <div class="container">
         <div class="pure-g service-container hideme">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
-            <img src="images/services/service-4.png" title="service" alt="service" class="pure-img" width="390">
+            <img src="images/services/service-4.png" title="service" alt="service" class="pure-img">
           </div>
 
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
@@ -93,13 +93,13 @@
           </div>
 
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
-            <img src="images/services/service-5.png" title="service" alt="service" class="pure-img" width="430">
+            <img src="images/services/service-5.png" title="service" alt="service" class="pure-img">
           </div>
         </div>
 
         <div class="pure-g service-container hideme">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
-            <img src="images/services/service-6.png" title="service" alt="service" class="pure-img" width="410">
+            <img src="images/services/service-6.png" title="service" alt="service" class="pure-img">
           </div>
 
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">

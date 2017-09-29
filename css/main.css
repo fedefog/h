@@ -5624,17 +5624,21 @@ footer .footer-bottom {
   line-height: 2;
   margin-bottom: 30px;
 }
-/* line 34, ../sass/pages/_services.scss */
+/* line 32, ../sass/pages/_services.scss */
+.page-services .service-container img {
+  width: 450px;
+}
+/* line 38, ../sass/pages/_services.scss */
 .page-services .banner {
   position: relative;
 }
-/* line 37, ../sass/pages/_services.scss */
+/* line 41, ../sass/pages/_services.scss */
 .page-services .banner .banner-absolute {
   position: absolute;
   top: 0;
   width: 100%;
 }
-/* line 43, ../sass/pages/_services.scss */
+/* line 47, ../sass/pages/_services.scss */
 .page-services .banner .banner-heading {
   font-size: 32px;
   color: #FFFFFF;
@@ -5642,21 +5646,35 @@ footer .footer-bottom {
   letter-spacing: 0.5px;
   margin-top: 230px;
 }
-/* line 52, ../sass/pages/_services.scss */
+/* line 56, ../sass/pages/_services.scss */
 .page-services .testimonials {
   padding-top: 150px;
   padding-bottom: 100px;
 }
-/* line 56, ../sass/pages/_services.scss */
+/* line 60, ../sass/pages/_services.scss */
 .page-services .testimonials .arrow {
   height: 500px;
   top: -150px;
 }
-/* line 60, ../sass/pages/_services.scss */
+/* line 64, ../sass/pages/_services.scss */
 .page-services .testimonials .arrow.custom-animate {
   height: 780px;
 }
-/* line 69, ../sass/pages/_services.scss */
+/* line 73, ../sass/pages/_services.scss */
 .page-services footer .arrow {
   visibility: hidden;
+}
+
+/* line 4, ../sass/pages/_studio.scss */
+.page-studio .hero-section .arrow.custom-animate {
+  /*height: 315px;*/
+}
+/* line 13, ../sass/pages/_studio.scss */
+.page-studio .carrousel .ig-icon {
+  margin: 0 20px 0 30px;
+  vertical-align: middle;
+}
+/* line 20, ../sass/pages/_studio.scss */
+.page-studio .team .team-member {
+  padding: 23px;
 }

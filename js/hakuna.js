@@ -59,22 +59,39 @@ $(document).ready(function() {
                 $(this).addClass('custom-animate');
             }
         });
-
+			
+				$('.process-section').each( function(i){
+            var bottom_of_object =  $(this).offset().top + $(this).outerHeight()-300;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            //console.log(bottom_of_window);
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                $(this).addClass('refresh');
+            }
+				});
+				
     });
 		
 	
 	/*Our Process section*/
-		var slideActive = 0;
-		
+		var slideActive = 1;
+		var timer;
+	
 		function refreshProcess() {
-			process(), setTimeout(refreshProcess, 5000);
-			rightSlide();
+			process();
+			timer = setTimeout(refreshProcess, 5000);
+			if($('.process-section').hasClass('refresh')){
+				rightSlide();
+				console.log(timer);
+			}
     }
     refreshProcess();
 	
 		$('.process-section .flex-control-nav li a').click(function(){
 			slideActive = parseInt($(this).attr('id'));
 			process();
+			clearTimeout(timer);
+			console.log(timer);
 		});
 	
 		$('.left-slide').click(function(){
