@@ -37,7 +37,7 @@
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link transition pure-button-active">Home</a></li>
                 <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition">Works</a></li>
-                <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link transition">Services</a></li>
+                <li class="pure-menu-item"><a href="services.php" title="" class="pure-menu-link transition">Services</a></li>
                 <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link transition">Studio</a></li>
             </ul>
         </nav>

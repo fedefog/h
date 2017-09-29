@@ -140,31 +140,31 @@
 						<li class="main-slide"> 
 							<div class="process-info">
 								<h3 class="process-info-title">1/5 <span>Learning</span></h3>
-								<p class="process-info-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depht of your project so you can develop realistic project recommendations. These initial phases also teach us about how we can work best.</p>
+								<p class="process-info-description">We learn and analyze the business and its customers, their competence, their needs and challenges. We define a goal and metrics.</p>
 							</div>
 						</li>
 						<li class="last-slide">
 							<div class="process-info">
-								<h3 class="process-info-title">2/5 <span>Bla</span></h3>
-								<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+								<h3 class="process-info-title">2/5 <span>Strategy</span></h3>
+								<p class="process-info-description">We work with the client on different action plans. We define a work plan with their respective tasks and responsible for each stage.</p>
 								</div>
 						</li>
 						<li>
 							<div class="process-info">
-								<h3 class="process-info-title">3/5 <span>Blabla</span></h3>
-								<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+								<h3 class="process-info-title">3/5 <span>Design</span></h3>
+								<p class="process-info-description">We iterate with the client on wireframes, sketches and initial designs based on the defined business strategy to create attractive and functional solutions. </p>
 							</div>
 						</li>
 						<li>
 							<div class="process-info">
-								<h3 class="process-info-title">4/5 <span>asdasd</span></h3>
-								<p class="process-info-description">Trabajamos con el cliente sobre diferentes planos de acción. Definimos un plan de trabajo con sus respectivas tareas y responsables para cada etapa</p>
+								<h3 class="process-info-title">4/5 <span>Development</span></h3>
+								<p class="process-info-description">We develop based on the latest web design and programming standards and validate the product with the customer prior to its launch.</p>
 							</div>
 						</li>
 						<li class="first-slide">
 							<div class="process-info">
-								<h3 class="process-info-title">5/5 <span>alksjfdlisjfops</span></h3>
-								<p class="process-info-description">Lanzamos el producto terminado y validamos con el usuario final para detectar nuvas necesidades y aprender sobre nuestros objetivos</p>
+								<h3 class="process-info-title">5/5 <span>Launch</span></h3>
+								<p class="process-info-description">We launch the finished product and validate with the end user to detect new needs and learn about new goals.</p>
 							</div>
 						</li>
 					</ul>

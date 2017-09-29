@@ -64,12 +64,17 @@ $(document).ready(function() {
 		
 	
 	/*Our Process section*/
-		var slideActive = 1;
-		process();
+		var slideActive = 0;
+		
+		function refreshProcess() {
+			process(), setTimeout(refreshProcess, 5000);
+			rightSlide();
+    }
+    refreshProcess();
+	
 		$('.process-section .flex-control-nav li a').click(function(){
 			slideActive = parseInt($(this).attr('id'));
 			process();
-			
 		});
 	
 		$('.left-slide').click(function(){
@@ -82,7 +87,8 @@ $(document).ready(function() {
 			process();
 			
 		});
-		$('.right-slide').click(function(){
+	
+		function rightSlide(){
 			if(slideActive!=5){
 				slideActive++;
 			}
@@ -91,6 +97,10 @@ $(document).ready(function() {
 			}
 			process();
 			
+		}
+	
+		$('.right-slide').click(function(){
+			rightSlide();
 		});
 		
 		function process(){
@@ -133,6 +143,7 @@ $(document).ready(function() {
 			$('.process-section .process-title').removeClass('fade-in');
 			setTimeout(function(){$('.process-section .process-title').addClass('fade-in');}, 0);
 		}
-
+		
+		
 });
 
