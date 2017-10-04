@@ -26,8 +26,12 @@
     <header>
       <div class="container">
         <div id="haku-logo">
+          <? if ($page_name=="home") { ?>
           <img src="images/hakuna-logo.png" title="Hakuna - Creative design & development studio." alt="Hakuna Logo">
-        </div>
+          <?php } else { ?>
+          <img class="logo-section" width="40" height="49" src="images/hakuna-logo-section.png" title="Hakuna - Creative design & development studio." alt="Hakuna Logo">
+          <?php }; ?>
+        </div> 
         <button class="btn-menu-mobile visible-xs">
             <span></span>
             <span class="middle"></span>
@@ -35,10 +39,10 @@
         </button>
         <nav class="pure-menu pure-menu-horizontal hidden-xs">
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link transition pure-button-active">Home</a></li>
-                <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition">Works</a></li>
-                <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link transition">Services</a></li>
-                <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link transition">Studio</a></li>
+                <li class="pure-menu-item"><a href="home.php" title="" class="pure-menu-link transition <? if ($page_name=="home") echo 'pure-button-active'; ?>">Home</a></li>
+                <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition <? if ($page_name=="works") echo 'pure-button-active'; ?>">Works</a></li>
+                <li class="pure-menu-item"><a href="services.php" title="" class="pure-menu-link transition <? if ($page_name=="services") echo 'pure-button-active'; ?>">Services</a></li>
+                <li class="pure-menu-item"><a href="studio.php" title="" class="pure-menu-link transition <? if ($page_name=="studio") echo 'pure-button-active'; ?>">Studio</a></li>
             </ul>
         </nav>
       </div>

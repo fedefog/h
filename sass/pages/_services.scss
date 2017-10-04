@@ -11,6 +11,11 @@
 
 	.service-container {
 		margin: 100px 0px;
+		
+		&.custom-animate {
+				opacity: 1;
+				transition: all 2s;
+			}
 
 		.heading {
 			font-size: 20px;
@@ -22,6 +27,10 @@
 			font-weight: $light;
 			line-height: 2;
 			margin-bottom: 30px;
+		}
+		
+		img{
+			width: 450px;
 		}
 
 	}
@@ -41,6 +50,28 @@
 			font-weight: $semi-bold;
 			letter-spacing: 0.5px;
 			margin-top: 230px;
+		}
+	}
+	
+	.testimonials{
+		padding-top: 150px;
+    padding-bottom: 100px;
+		
+		.arrow{
+			height: 500px;
+			top: -150px;
+			
+			&.custom-animate {
+				height: 780px;
+			}
+			
+		}
+		
+	}
+	
+	footer{
+		.arrow{
+			visibility: hidden;
 		}
 	}
 
