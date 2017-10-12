@@ -51,6 +51,7 @@
 
 		<section class="team">
 			<div class="container">
+      <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
         <div class="pure-g padding-mb">
           <div class="pure-u-12-12">
             <div class="meet-our-team">
@@ -63,67 +64,192 @@
 				<div class="pure-g padding-mb">
           <div class="pure-u-1-4">
             <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-            </div>
-          </div>
-                    <div class="pure-u-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-            </div>
-          </div>
-          <div class="pure-u-1-4">
-            <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-            </div>
-          </div>
-                    <div class="pure-u-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-            </div>
-          </div>
-          <div class="pure-u-1-4">
-            <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
               <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
-          
+          <div class="pure-u-1-4">
+            <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+              <img src="images/team/team1.png" class="pure-img">
+            </div>
+          </div>
+          <div class="pure-u-1-4">
+            <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+              <img src="images/team/team1.png" class="pure-img">
+            </div>
+          </div>
+          <div class="pure-u-1-4">
+            <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+              <img src="images/team/team1.png" class="pure-img">
+            </div>
+          </div>
+          <div class="pure-u-1-4">
+            <div class="team-member">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+              <img src="images/team/team1.png" class="pure-img">
+            </div>
+          </div>
+        </div>
+        <div class="pure-g padding-mb">
+          <div class="pure-u-1 join-team">
+            <a href="" title="Join or team" class="btn btn-side-arrow">Join our team</a>
+          </div>
         </div>
 			</div>
 		</section>
+
+    <section class="hakuna-video">
+      <img src="images/studio-video.jpg" class="pure-img">
+      <div class="video-info">
+        <div class="video-button">
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </div>
+        <div class="video-text">A day <br> at Hakuna</div>
+      </div>
+    </section>
+
+    <section class="work-rules">
+      <div class="container">
+        <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
+         <div class="pure-g padding-mb">
+          <div class="pure-u-12-12">
+            <div class="rules-heading">
+              <h2 class="heading">Our work rules</h2>
+              <div class="text">
+                As we grow as a company, it has become extremely important to have a set of clear values and rules from which we develop our work, our culture, and our brand.</div>
+            </div>
+          </div>
+        </div>
+        <div class="pure-g padding-mb">
+          <div class="pure-u-12-12">
+            <div class="flexslider rules-slider">
+              <ul class="slides">
+                  <li class="rule">
+                    <div class="bg-number">16</div>
+                    <div class="rule-content">
+                      <p class="rule-number">#16</p>
+                      <h3 class="rule-title">Always trust your team.</h3>
+                      <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
+                    </div>
+                  </li>
+                  <li class="rule">
+                    <div class="bg-number">16</div>
+                    <div class="rule-content">
+                      <p class="rule-number">#16</p>
+                      <h3 class="rule-title">Always trust your team.</h3>
+                      <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
+                    </div>
+                  </li>
+                  <li class="rule">
+                    <div class="bg-number">16</div>
+                    <div class="rule-content">
+                      <p class="rule-number">#16</p>
+                      <h3 class="rule-title">Always trust your team.</h3>
+                      <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
+                    </div>
+                  </li>
+                  <li class="rule">
+                    <div class="bg-number">16</div>
+                    <div class="rule-content">
+                      <p class="rule-number">#16</p>
+                      <h3 class="rule-title">Always trust your team.</h3>
+                      <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
+                    </div>
+                  </li><li class="rule">
+                    <div class="bg-number">16</div>
+                    <div class="rule-content">
+                      <p class="rule-number">#16</p>
+                      <h3 class="rule-title">Always trust your team.</h3>
+                      <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
 <?php include('footer.php'); ?>

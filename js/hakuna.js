@@ -35,6 +35,14 @@ $(document).ready(function() {
         directionNav: false
     });
 
+    $('.rules-slider').flexslider({
+        animation: "fade",
+        animationLoop: false,
+        slideshow: true,
+        animationLoop: true,
+        directionNav: true
+    });
+
     /* Functions working on Scroll */
     $(window).scroll( function(){
 
