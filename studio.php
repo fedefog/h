@@ -46,12 +46,12 @@
             <a href="" title="More about the studio" class="btn border-white btn-side-arrow">Follow us on Instagram</a>
           </div>
         </div>
+        <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
       </div>
     </section>
 
 		<section class="team">
 			<div class="container">
-      <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
         <div class="pure-g padding-mb">
           <div class="pure-u-12-12">
             <div class="meet-our-team">
