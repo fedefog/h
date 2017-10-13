@@ -65,37 +65,37 @@
           <div class="pure-u-1-4">
             <div class="team-member">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Marcelo Angel</h3>
+                <div class="member-position">Founder / Creative Director</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
+              <img src="images/team/marce.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <div class="member-position">Founder / Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
+              <img src="images/team/fede.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Guille Lambiase</h3>
+                <div class="member-position">Business Development</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
+              <img src="images/team/guille.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
             <div class="team-member">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Steve Rea</h3>
+                <div class="member-position">Business Development</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
+              <img src="images/team/steven.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-4">
