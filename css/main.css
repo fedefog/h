@@ -1113,30 +1113,43 @@ footer .footer-bottom {
 .hero-section {
   color: #3A3A3A;
   position: relative;
+  margin-top: 50px;
 }
-/* line 5, ../sass/partials/_hero-section.scss */
+@media (min-width: 768px) {
+  /* line 1, ../sass/partials/_hero-section.scss */
+  .hero-section {
+    margin-top: 0;
+  }
+}
+/* line 10, ../sass/partials/_hero-section.scss */
 .hero-section .pure-img {
   height: 300px;
   max-width: initial;
 }
 @media (min-width: 768px) {
-  /* line 5, ../sass/partials/_hero-section.scss */
+  /* line 10, ../sass/partials/_hero-section.scss */
   .hero-section .pure-img {
     max-width: 100%;
     height: initial;
   }
 }
-/* line 16, ../sass/partials/_hero-section.scss */
+/* line 21, ../sass/partials/_hero-section.scss */
 .hero-section .hero-absolute {
   position: absolute;
   top: 0;
   width: 100%;
 }
-/* line 22, ../sass/partials/_hero-section.scss */
+/* line 27, ../sass/partials/_hero-section.scss */
 .hero-section .hero-relative {
-  margin-bottom: 150px;
+  margin-bottom: 0;
 }
-/* line 26, ../sass/partials/_hero-section.scss */
+@media (min-width: 768px) {
+  /* line 27, ../sass/partials/_hero-section.scss */
+  .hero-section .hero-relative {
+    margin-bottom: 150px;
+  }
+}
+/* line 35, ../sass/partials/_hero-section.scss */
 .hero-section .arrow {
   left: -18px;
   top: 105px;
@@ -1158,11 +1171,11 @@ footer .footer-bottom {
   -webkit-transition-timing-function: forwards;
   transition-timing-function: forwards;
 }
-/* line 36, ../sass/partials/_hero-section.scss */
+/* line 45, ../sass/partials/_hero-section.scss */
 .hero-section .arrow.custom-animate {
   height: 680px;
 }
-/* line 41, ../sass/partials/_hero-section.scss */
+/* line 50, ../sass/partials/_hero-section.scss */
 .hero-section .hero-section-title {
   font-size: 32px;
   font-weight: 800;
@@ -1178,23 +1191,23 @@ footer .footer-bottom {
   transition-property: all;
 }
 @media (min-width: 768px) {
-  /* line 41, ../sass/partials/_hero-section.scss */
+  /* line 50, ../sass/partials/_hero-section.scss */
   .hero-section .hero-section-title {
     font-size: 64px;
     margin: 0 30px;
   }
 }
-/* line 54, ../sass/partials/_hero-section.scss */
+/* line 63, ../sass/partials/_hero-section.scss */
 .hero-section .hero-section-title.custom-animate {
   -moz-animation: hero_titles 1s 0.5s normal forwards;
   -webkit-animation: hero_titles 1s 0.5s normal forwards;
   animation: hero_titles 1s 0.5s normal forwards;
 }
-/* line 58, ../sass/partials/_hero-section.scss */
+/* line 67, ../sass/partials/_hero-section.scss */
 .hero-section .hero-section-title span {
   color: #1FFF00;
 }
-/* line 64, ../sass/partials/_hero-section.scss */
+/* line 73, ../sass/partials/_hero-section.scss */
 .hero-section .hero-section-subtitle {
   font-size: 18px;
   font-weight: 300;
@@ -1210,19 +1223,19 @@ footer .footer-bottom {
   transition-property: all;
 }
 @media (min-width: 768px) {
-  /* line 64, ../sass/partials/_hero-section.scss */
+  /* line 73, ../sass/partials/_hero-section.scss */
   .hero-section .hero-section-subtitle {
     font-size: 20px;
     margin: 160px 30px 0;
   }
 }
-/* line 77, ../sass/partials/_hero-section.scss */
+/* line 86, ../sass/partials/_hero-section.scss */
 .hero-section .hero-section-subtitle.custom-animate {
   -moz-animation: hero_titles 1s 0.6s normal forwards;
   -webkit-animation: hero_titles 1s 0.6s normal forwards;
   animation: hero_titles 1s 0.6s normal forwards;
 }
-/* line 83, ../sass/partials/_hero-section.scss */
+/* line 92, ../sass/partials/_hero-section.scss */
 .hero-section .hero-section-description {
   font-size: 18px;
   margin: 20px 0;
@@ -1239,19 +1252,19 @@ footer .footer-bottom {
   transition-property: all;
 }
 @media (min-width: 768px) {
-  /* line 83, ../sass/partials/_hero-section.scss */
+  /* line 92, ../sass/partials/_hero-section.scss */
   .hero-section .hero-section-description {
     font-size: 20px;
     margin: 155px 30px 0;
   }
 }
-/* line 97, ../sass/partials/_hero-section.scss */
+/* line 106, ../sass/partials/_hero-section.scss */
 .hero-section .hero-section-description.custom-animate {
   -moz-animation: hero_titles 1s 0.6s normal forwards;
   -webkit-animation: hero_titles 1s 0.6s normal forwards;
   animation: hero_titles 1s 0.6s normal forwards;
 }
-/* line 103, ../sass/partials/_hero-section.scss */
+/* line 112, ../sass/partials/_hero-section.scss */
 .hero-section .btn {
   opacity: 0;
   -moz-transform: translate(0, 50px);
@@ -1263,13 +1276,13 @@ footer .footer-bottom {
   -webkit-transition-property: all;
   transition-property: all;
 }
-/* line 108, ../sass/partials/_hero-section.scss */
+/* line 117, ../sass/partials/_hero-section.scss */
 .hero-section .btn.custom-animate {
   -moz-animation: hero_titles 1s 0.7s normal forwards;
   -webkit-animation: hero_titles 1s 0.7s normal forwards;
   animation: hero_titles 1s 0.7s normal forwards;
 }
-/* line 114, ../sass/partials/_hero-section.scss */
+/* line 123, ../sass/partials/_hero-section.scss */
 .hero-section .social-networks {
   float: right;
 }
@@ -5705,41 +5718,48 @@ footer .footer-bottom {
 }
 /* line 37, ../sass/pages/_studio.scss */
 .page-studio .team {
-  margin-top: 200px;
+  margin-top: 50px;
   position: relative;
   margin-bottom: 50px;
 }
-/* line 42, ../sass/pages/_studio.scss */
-.page-studio .team:before {
-  content: 'Team';
-  display: block;
-  color: #3A3A3A;
-  position: absolute;
-  top: 70px;
-  right: 354px;
-  font-size: 270px;
-  font-weight: 800;
-  opacity: 0.1;
-  text-align: center;
+@media (min-width: 768px) {
+  /* line 37, ../sass/pages/_studio.scss */
+  .page-studio .team {
+    margin-top: 200px;
+  }
+  /* line 45, ../sass/pages/_studio.scss */
+  .page-studio .team:before {
+    content: 'Team';
+    display: block;
+    color: #3A3A3A;
+    position: absolute;
+    top: 70px;
+    right: 22%;
+    font-size: 270px;
+    font-weight: 800;
+    opacity: 0.1;
+    text-align: center;
+  }
 }
-/* line 55, ../sass/pages/_studio.scss */
-.page-studio .team .meet-our-team {
-  padding-left: 35px;
-  margin-bottom: 145px;
+@media (min-width: 768px) {
+  /* line 60, ../sass/pages/_studio.scss */
+  .page-studio .team .meet-our-team {
+    padding-left: 35px;
+    margin-bottom: 145px;
+  }
 }
-/* line 59, ../sass/pages/_studio.scss */
+/* line 66, ../sass/pages/_studio.scss */
 .page-studio .team .meet-our-team .heading {
   font-size: 28px;
   margin-bottom: 10px;
 }
-/* line 64, ../sass/pages/_studio.scss */
+/* line 71, ../sass/pages/_studio.scss */
 .page-studio .team .meet-our-team .text {
   line-height: 35px;
 }
-/* line 70, ../sass/pages/_studio.scss */
+/* line 77, ../sass/pages/_studio.scss */
 .page-studio .team .team-member {
-  margin-bottom: 35px;
-  margin-right: 40px;
+  padding: 20px;
   position: relative;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -5754,24 +5774,26 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 78, ../sass/pages/_studio.scss */
-.page-studio .team .team-member:hover {
-  transform: translateY(-7px);
+@media (min-width: 768px) {
+  /* line 86, ../sass/pages/_studio.scss */
+  .page-studio .team .team-member:hover {
+    transform: translateY(-7px);
+  }
+  /* line 89, ../sass/pages/_studio.scss */
+  .page-studio .team .team-member:hover .member-info {
+    opacity: 1;
+    transform: translateY(-16px);
+  }
+  /* line 94, ../sass/pages/_studio.scss */
+  .page-studio .team .team-member:hover img {
+    box-shadow: 0px 0px 20px 4px rgba(102, 102, 102, 0.15);
+  }
 }
-/* line 81, ../sass/pages/_studio.scss */
-.page-studio .team .team-member:hover .member-info {
-  opacity: 1;
-  transform: translateY(-16px);
-}
-/* line 86, ../sass/pages/_studio.scss */
-.page-studio .team .team-member:hover img {
-  box-shadow: 0px 0px 20px 4px rgba(102, 102, 102, 0.15);
-}
-/* line 92, ../sass/pages/_studio.scss */
+/* line 102, ../sass/pages/_studio.scss */
 .page-studio .team .team-member .member-info {
   position: absolute;
-  bottom: -30px;
-  left: -15px;
+  bottom: -5px;
+  left: 5px;
   z-index: 20;
   background: #FFFFFF;
   padding: 20px 20px;
@@ -5793,7 +5815,7 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 108, ../sass/pages/_studio.scss */
+/* line 118, ../sass/pages/_studio.scss */
 .page-studio .team .team-member .member-info .member-name {
   font-size: 22px;
   font-weight: 800;
@@ -5801,15 +5823,14 @@ footer .footer-bottom {
   color: #3A3A3A;
   text-align: right;
 }
-/* line 116, ../sass/pages/_studio.scss */
+/* line 126, ../sass/pages/_studio.scss */
 .page-studio .team .team-member .member-info .member-position {
   font-size: 16px;
   color: #3A3A3A;
   text-align: right;
 }
-/* line 124, ../sass/pages/_studio.scss */
+/* line 134, ../sass/pages/_studio.scss */
 .page-studio .team .team-member img {
-  display: initial;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -5823,30 +5844,41 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 133, ../sass/pages/_studio.scss */
+/* line 142, ../sass/pages/_studio.scss */
 .page-studio .team .join-team {
   text-align: center;
   margin: 30px 0;
 }
-/* line 142, ../sass/pages/_studio.scss */
+/* line 151, ../sass/pages/_studio.scss */
 .page-studio .hakuna-video .video-container {
   position: relative;
   max-width: 1325px;
   margin: 0 auto;
 }
-/* line 149, ../sass/pages/_studio.scss */
+/* line 158, ../sass/pages/_studio.scss */
 .page-studio .hakuna-video .video-container:hover .video-info {
   color: #38bff4;
 }
-/* line 155, ../sass/pages/_studio.scss */
+/* line 164, ../sass/pages/_studio.scss */
 .page-studio .hakuna-video .video-container img {
   cursor: pointer;
+  position: relative;
+  width: auto;
+  max-width: initial;
+  height: 300px;
 }
-/* line 159, ../sass/pages/_studio.scss */
+@media (min-width: 768px) {
+  /* line 164, ../sass/pages/_studio.scss */
+  .page-studio .hakuna-video .video-container img {
+    max-width: 100%;
+    height: initial;
+  }
+}
+/* line 177, ../sass/pages/_studio.scss */
 .page-studio .hakuna-video .video-container .video-info {
   position: absolute;
-  bottom: 37px;
-  right: 40px;
+  right: calc(50% - 125px);
+  bottom: calc(50% - 37px);
   color: #FFFFFF;
   font-size: 34px;
   font-weight: 600;
@@ -5864,12 +5896,19 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 171, ../sass/pages/_studio.scss */
+@media (min-width: 768px) {
+  /* line 177, ../sass/pages/_studio.scss */
+  .page-studio .hakuna-video .video-container .video-info {
+    bottom: 37px;
+    right: 40px;
+  }
+}
+/* line 194, ../sass/pages/_studio.scss */
 .page-studio .hakuna-video .video-container .video-info .video-text, .page-studio .hakuna-video .video-container .video-info .video-button {
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 176, ../sass/pages/_studio.scss */
+/* line 199, ../sass/pages/_studio.scss */
 .page-studio .hakuna-video .video-container .video-info .video-button {
   border: 1px solid;
   font-size: 20px;
@@ -5877,15 +5916,15 @@ footer .footer-bottom {
   margin-bottom: 8px;
   margin-right: 5px;
 }
-/* line 191, ../sass/pages/_studio.scss */
+/* line 214, ../sass/pages/_studio.scss */
 .page-studio .work-rules {
   margin-bottom: 200px;
 }
-/* line 194, ../sass/pages/_studio.scss */
+/* line 217, ../sass/pages/_studio.scss */
 .page-studio .work-rules .arrow {
   min-height: 100px;
 }
-/* line 197, ../sass/pages/_studio.scss */
+/* line 220, ../sass/pages/_studio.scss */
 .page-studio .work-rules .arrow.custom-animate {
   min-height: 300px;
   -moz-transition-property: all;
@@ -5905,46 +5944,58 @@ footer .footer-bottom {
   -webkit-transition-timing-function: forwards;
   transition-timing-function: forwards;
 }
-/* line 206, ../sass/pages/_studio.scss */
+/* line 229, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-heading {
-  padding-left: 30px;
-  padding-top: 200px;
+  padding-top: 50px;
 }
-/* line 210, ../sass/pages/_studio.scss */
+@media (min-width: 768px) {
+  /* line 229, ../sass/pages/_studio.scss */
+  .page-studio .work-rules .rules-heading {
+    padding-left: 30px;
+    padding-top: 200px;
+  }
+}
+/* line 237, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-heading .heading {
   font-size: 28px;
   font-weight: 800;
   margin-bottom: 10px;
 }
-/* line 216, ../sass/pages/_studio.scss */
+/* line 243, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-heading .text {
   color: #727171;
   font-size: 22px;
   line-height: 35px;
 }
-/* line 227, ../sass/pages/_studio.scss */
+/* line 254, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider .flex-direction-nav a {
   opacity: 1;
 }
-/* line 230, ../sass/pages/_studio.scss */
+/* line 257, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider .flex-direction-nav a:before {
   opacity: 0;
 }
-/* line 242, ../sass/pages/_studio.scss */
+/* line 269, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 1;
   left: -50px;
 }
-/* line 247, ../sass/pages/_studio.scss */
+/* line 274, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 1;
   right: -50px;
 }
-/* line 258, ../sass/pages/_studio.scss */
+/* line 285, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider {
-  margin-top: 150px;
+  margin-top: 30px;
 }
-/* line 261, ../sass/pages/_studio.scss */
+@media (min-width: 768px) {
+  /* line 285, ../sass/pages/_studio.scss */
+  .page-studio .work-rules .rules-slider {
+    margin-top: 150px;
+  }
+}
+/* line 292, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide, .page-studio .work-rules .rules-slider .right-slide {
   position: absolute;
   width: 35px;
@@ -5953,7 +6004,7 @@ footer .footer-bottom {
   left: -50px;
   cursor: pointer;
 }
-/* line 269, ../sass/pages/_studio.scss */
+/* line 300, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide .arrow-1, .page-studio .work-rules .rules-slider .right-slide .arrow-1, .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .right-slide .arrow-3 {
   position: absolute;
   width: 35px;
@@ -5962,55 +6013,70 @@ footer .footer-bottom {
   top: calc(50% - 2px);
   left: 0;
 }
-/* line 278, ../sass/pages/_studio.scss */
+/* line 309, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .right-slide .arrow-2 {
   width: 23px;
   top: 7px;
   left: -4px;
   transform: rotate(-45deg);
 }
-/* line 286, ../sass/pages/_studio.scss */
+/* line 317, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .right-slide .arrow-3 {
   width: 23px;
   top: 23px;
   left: -4px;
   transform: rotate(45deg);
 }
-/* line 296, ../sass/pages/_studio.scss */
+/* line 327, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .right-slide {
   left: initial;
   right: -45px;
   transform: rotate(180deg);
 }
-/* line 303, ../sass/pages/_studio.scss */
+/* line 334, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule {
   position: relative;
-  height: 460px;
 }
-/* line 307, ../sass/pages/_studio.scss */
-.page-studio .work-rules .rules-slider .rule .bg-number {
-  position: absolute;
-  font-size: 650px;
-  font-family: 'Open Sans';
-  color: #f2f2f2;
-  z-index: -1;
-  letter-spacing: -54px;
-  top: -175px;
-  left: 115px;
+@media (min-width: 768px) {
+  /* line 334, ../sass/pages/_studio.scss */
+  .page-studio .work-rules .rules-slider .rule {
+    height: 460px;
+  }
 }
-/* line 318, ../sass/pages/_studio.scss */
-.page-studio .work-rules .rules-slider .rule .rule-content {
-  padding-right: 100px;
-  padding-left: 200px;
+@media (min-width: 768px) {
+  /* line 343, ../sass/pages/_studio.scss */
+  .page-studio .work-rules .rules-slider .rule .bg-number {
+    position: absolute;
+    font-size: 650px;
+    font-family: 'Open Sans';
+    color: #f2f2f2;
+    z-index: -1;
+    letter-spacing: -54px;
+    top: -175px;
+  }
 }
-/* line 322, ../sass/pages/_studio.scss */
+@media (min-width: 768px) and (min-width: 1024px) {
+  /* line 343, ../sass/pages/_studio.scss */
+  .page-studio .work-rules .rules-slider .rule .bg-number {
+    left: 115px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 360, ../sass/pages/_studio.scss */
+  .page-studio .work-rules .rules-slider .rule .rule-content {
+    padding-right: 100px;
+    padding-left: 200px;
+  }
+}
+/* line 366, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .rule-content .rule-number {
   font-size: 34px;
   color: #3A3A3A;
   font-weight: 100;
   margin: 0;
 }
-/* line 329, ../sass/pages/_studio.scss */
+/* line 373, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .rule-content .rule-title {
   font-size: 75px;
   color: #3A3A3A;
@@ -6025,7 +6091,7 @@ footer .footer-bottom {
   -webkit-transition-property: all;
   transition-property: all;
 }
-/* line 338, ../sass/pages/_studio.scss */
+/* line 382, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .rule-content .rule-description {
   color: #3A3A3A;
   font-weight: 100;
@@ -6041,13 +6107,13 @@ footer .footer-bottom {
   -webkit-transition-property: all;
   transition-property: all;
 }
-/* line 354, ../sass/pages/_studio.scss */
+/* line 398, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule.flex-active-slide .rule-content .rule-title {
   -moz-animation: hero_titles 1s 0.2s normal forwards;
   -webkit-animation: hero_titles 1s 0.2s normal forwards;
   animation: hero_titles 1s 0.2s normal forwards;
 }
-/* line 358, ../sass/pages/_studio.scss */
+/* line 402, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule.flex-active-slide .rule-content .rule-description {
   -moz-animation: hero_titles 1s 0.3s normal forwards;
   -webkit-animation: hero_titles 1s 0.3s normal forwards;

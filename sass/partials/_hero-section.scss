@@ -1,6 +1,11 @@
 .hero-section {
 	color: $black;
 	position: relative;
+	margin-top: 50px;
+
+	@include respond-to('medium') {
+		margin-top: 0;
+	}
 
 	.pure-img {
 		height: 300px;
@@ -20,7 +25,11 @@
 	}
 
 	.hero-relative {
-		margin-bottom: 150px;
+		margin-bottom: 0;
+
+		@include respond-to('medium') {
+			margin-bottom: 150px;
+		}
 	}
 
 	.arrow {
