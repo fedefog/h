@@ -204,7 +204,17 @@
         <div class="pure-g padding-mb">
           <div class="pure-u-12-12">
             <div class="flexslider rules-slider">
-              <ul class="slides">
+                  <div class="left-slide">
+                    <div class="arrow-1"></div>
+                    <div class="arrow-2"></div>
+                    <div class="arrow-3"></div>
+                  </div>
+                  <div class="right-slide">
+                    <div class="arrow-1"></div>
+                    <div class="arrow-2"></div>
+                    <div class="arrow-3"></div>
+                  </div>
+                <ul class="slides">
                   <li class="rule">
                     <div class="bg-number">16</div>
                     <div class="rule-content">
