@@ -99,7 +99,6 @@ $(document).ready(function() {
 			slideActive = parseInt($(this).attr('id'));
 			process();
 			clearTimeout(timer);
-			console.log(timer);
 		});
 	
 		$('.left-slide').click(function(){
@@ -110,7 +109,7 @@ $(document).ready(function() {
 				slideActive = 5;
 			}
 			process();
-			
+			clearTimeout(timer);
 		});
 	
 		function rightSlide(){
@@ -121,11 +120,11 @@ $(document).ready(function() {
 				slideActive = 1;
 			}
 			process();
-			
 		}
 	
 		$('.right-slide').click(function(){
 			rightSlide();
+			clearTimeout(timer);
 		});
 		
 		function process(){

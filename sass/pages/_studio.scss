@@ -18,6 +18,17 @@
 			vertical-align: middle;
 		}
 
+		.arrow{
+
+			&.custom-animate {
+				min-height: 370px;
+				@include transition-property(all);
+				@include transition-duration(0.3s);
+				@include transition-timing-function(ease-in-out);
+			}
+		}
+
+
 	}
 
 	.team{
@@ -36,11 +47,6 @@
 			font-weight: 800;
 			opacity: 0.1;
 			text-align: center;
-		}
-
-		.arrow{
-			top: -269px;
-			min-height: 369px;
 		}
 
 		.meet-our-team{
@@ -177,7 +183,14 @@
 	margin-bottom: 200px;
 
 		.arrow{
-			min-height: 300px;
+			min-height: 100px;
+
+			&.custom-animate {
+				min-height: 300px;
+				@include transition-property(all);
+				@include transition-duration(0.3s);
+				@include transition-timing-function(ease-in-out);
+			}
 		}
 
 		.rules-heading{
