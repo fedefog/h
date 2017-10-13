@@ -180,12 +180,14 @@
 		</section>
 
     <section class="hakuna-video">
-      <img src="images/studio-video.jpg" class="pure-img">
-      <div class="video-info">
-        <div class="video-button">
-          <i class="fa fa-play" aria-hidden="true"></i>
+      <div class="video-container">
+        <img src="images/studio-video.jpg" class="pure-img">
+        <div class="video-info">
+          <div class="video-button">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </div>
+          <div class="video-text">A day <br> at Hakuna</div>
         </div>
-        <div class="video-text">A day <br> at Hakuna</div>
       </div>
     </section>
 
@@ -218,7 +220,7 @@
                   <li class="rule">
                     <div class="bg-number">16</div>
                     <div class="rule-content">
-                      <p class="rule-number">#16</p>
+                      <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
                       <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
                     </div>
@@ -226,7 +228,7 @@
                   <li class="rule">
                     <div class="bg-number">16</div>
                     <div class="rule-content">
-                      <p class="rule-number">#16</p>
+                      <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
                       <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
                     </div>
@@ -234,7 +236,7 @@
                   <li class="rule">
                     <div class="bg-number">16</div>
                     <div class="rule-content">
-                      <p class="rule-number">#16</p>
+                      <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
                       <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
                     </div>
@@ -242,14 +244,14 @@
                   <li class="rule">
                     <div class="bg-number">16</div>
                     <div class="rule-content">
-                      <p class="rule-number">#16</p>
+                      <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
                       <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
                     </div>
                   </li><li class="rule">
                     <div class="bg-number">16</div>
                     <div class="rule-content">
-                      <p class="rule-number">#16</p>
+                      <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
                       <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
                     </div>

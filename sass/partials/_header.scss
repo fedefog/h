@@ -1,5 +1,6 @@
 header {
 	height: 50px;
+	padding-top: 40px;
 
 	@include respond-to('medium') {
 		height: 65px;

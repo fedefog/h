@@ -418,6 +418,7 @@ p {
 /* line 1, ../sass/partials/_header.scss */
 header {
   height: 50px;
+  padding-top: 40px;
 }
 @media (min-width: 768px) {
   /* line 1, ../sass/partials/_header.scss */
@@ -425,25 +426,25 @@ header {
     height: 65px;
   }
 }
-/* line 8, ../sass/partials/_header.scss */
+/* line 9, ../sass/partials/_header.scss */
 header #haku-logo {
   position: absolute;
   left: 9px;
   top: 10px;
   z-index: 10;
 }
-/* line 14, ../sass/partials/_header.scss */
+/* line 15, ../sass/partials/_header.scss */
 header #haku-logo img {
   width: 60%;
 }
 @media (min-width: 768px) {
-  /* line 14, ../sass/partials/_header.scss */
+  /* line 15, ../sass/partials/_header.scss */
   header #haku-logo img {
     width: auto;
   }
 }
 @media (min-width: 768px) {
-  /* line 8, ../sass/partials/_header.scss */
+  /* line 9, ../sass/partials/_header.scss */
   header #haku-logo {
     left: -28px;
     top: 10px;
@@ -5367,36 +5368,40 @@ footer .footer-bottom {
 }
 
 /* line 2, ../sass/pages/_home.scss */
+.page-home header {
+  padding-top: 0;
+}
+/* line 6, ../sass/pages/_home.scss */
 .page-home .hero-home {
   color: #FFFFFF;
   position: relative;
   overflow-x: hidden;
 }
 @media (min-width: 768px) {
-  /* line 2, ../sass/pages/_home.scss */
+  /* line 6, ../sass/pages/_home.scss */
   .page-home .hero-home {
     overflow-x: initial;
   }
 }
-/* line 11, ../sass/pages/_home.scss */
+/* line 15, ../sass/pages/_home.scss */
 .page-home .hero-home .pure-img {
   height: 300px;
   max-width: initial;
 }
 @media (min-width: 768px) {
-  /* line 11, ../sass/pages/_home.scss */
+  /* line 15, ../sass/pages/_home.scss */
   .page-home .hero-home .pure-img {
     max-width: 100%;
     height: initial;
   }
 }
-/* line 22, ../sass/pages/_home.scss */
+/* line 26, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute {
   position: absolute;
   top: 0;
   width: 100%;
 }
-/* line 27, ../sass/pages/_home.scss */
+/* line 31, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .arrow {
   left: -18px;
   top: 275px;
@@ -5418,11 +5423,11 @@ footer .footer-bottom {
   -webkit-transition-timing-function: forwards;
   transition-timing-function: forwards;
 }
-/* line 37, ../sass/pages/_home.scss */
+/* line 41, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .arrow.custom-animate {
   height: 680px;
 }
-/* line 42, ../sass/pages/_home.scss */
+/* line 46, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .hero-home-title {
   font-size: 32px;
   font-weight: 800;
@@ -5438,23 +5443,23 @@ footer .footer-bottom {
   transition-property: all;
 }
 @media (min-width: 768px) {
-  /* line 42, ../sass/pages/_home.scss */
+  /* line 46, ../sass/pages/_home.scss */
   .page-home .hero-home .hero-absolute .hero-home-title {
     font-size: 64px;
     margin: 265px 0 0;
   }
 }
-/* line 55, ../sass/pages/_home.scss */
+/* line 59, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .hero-home-title.custom-animate {
   -moz-animation: hero_titles 1s 0.5s normal forwards;
   -webkit-animation: hero_titles 1s 0.5s normal forwards;
   animation: hero_titles 1s 0.5s normal forwards;
 }
-/* line 59, ../sass/pages/_home.scss */
+/* line 63, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .hero-home-title span {
   color: #1FFF00;
 }
-/* line 65, ../sass/pages/_home.scss */
+/* line 69, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .hero-home-subtitle {
   font-size: 18px;
   font-weight: 300;
@@ -5470,19 +5475,19 @@ footer .footer-bottom {
   transition-property: all;
 }
 @media (min-width: 768px) {
-  /* line 65, ../sass/pages/_home.scss */
+  /* line 69, ../sass/pages/_home.scss */
   .page-home .hero-home .hero-absolute .hero-home-subtitle {
     font-size: 20px;
     margin-bottom: 48px;
   }
 }
-/* line 78, ../sass/pages/_home.scss */
+/* line 82, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .hero-home-subtitle.custom-animate {
   -moz-animation: hero_titles 1s 0.6s normal forwards;
   -webkit-animation: hero_titles 1s 0.6s normal forwards;
   animation: hero_titles 1s 0.6s normal forwards;
 }
-/* line 84, ../sass/pages/_home.scss */
+/* line 88, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .btn {
   opacity: 0;
   -moz-transform: translate(0, 50px);
@@ -5494,28 +5499,28 @@ footer .footer-bottom {
   -webkit-transition-property: all;
   transition-property: all;
 }
-/* line 89, ../sass/pages/_home.scss */
+/* line 93, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .btn.custom-animate {
   -moz-animation: hero_titles 1s 0.7s normal forwards;
   -webkit-animation: hero_titles 1s 0.7s normal forwards;
   animation: hero_titles 1s 0.7s normal forwards;
 }
-/* line 95, ../sass/pages/_home.scss */
+/* line 99, ../sass/pages/_home.scss */
 .page-home .hero-home .hero-absolute .social-networks {
   float: right;
 }
-/* line 103, ../sass/pages/_home.scss */
+/* line 107, ../sass/pages/_home.scss */
 .page-home .works {
   padding-top: 185px;
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 103, ../sass/pages/_home.scss */
+  /* line 107, ../sass/pages/_home.scss */
   .page-home .works {
     padding-top: 475px;
   }
 }
-/* line 111, ../sass/pages/_home.scss */
+/* line 115, ../sass/pages/_home.scss */
 .page-home .works:before {
   position: absolute;
   top: 31%;
@@ -5526,17 +5531,17 @@ footer .footer-bottom {
   background: #F7F7F7;
 }
 @media (min-width: 768px) {
-  /* line 121, ../sass/pages/_home.scss */
+  /* line 125, ../sass/pages/_home.scss */
   .page-home .works .work {
     bottom: -160px;
   }
 }
-/* line 127, ../sass/pages/_home.scss */
+/* line 131, ../sass/pages/_home.scss */
 .page-home .works .work.pull-left {
   bottom: auto;
   top: 0px;
 }
-/* line 136, ../sass/pages/_home.scss */
+/* line 140, ../sass/pages/_home.scss */
 .page-home .works .container:before {
   content: 'works';
   display: block;
@@ -5551,7 +5556,7 @@ footer .footer-bottom {
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 136, ../sass/pages/_home.scss */
+  /* line 140, ../sass/pages/_home.scss */
   .page-home .works .container:before {
     top: -330px;
     font-size: 270px;
@@ -5559,7 +5564,7 @@ footer .footer-bottom {
     width: auto;
   }
 }
-/* line 160, ../sass/pages/_home.scss */
+/* line 164, ../sass/pages/_home.scss */
 .page-home .works .btn {
   position: relative;
   margin: 40px auto 0;
@@ -5569,7 +5574,7 @@ footer .footer-bottom {
   width: 140px;
 }
 @media (min-width: 768px) {
-  /* line 160, ../sass/pages/_home.scss */
+  /* line 164, ../sass/pages/_home.scss */
   .page-home .works .btn {
     top: -160px;
     left: 160px;
@@ -5578,28 +5583,28 @@ footer .footer-bottom {
     margin: auto;
   }
 }
-/* line 180, ../sass/pages/_home.scss */
+/* line 184, ../sass/pages/_home.scss */
 .page-home .testimonials {
   padding-top: 150px;
   padding-bottom: 100px;
 }
 @media (min-width: 768px) {
-  /* line 180, ../sass/pages/_home.scss */
+  /* line 184, ../sass/pages/_home.scss */
   .page-home .testimonials {
     padding-top: 208px;
   }
 }
-/* line 190, ../sass/pages/_home.scss */
+/* line 194, ../sass/pages/_home.scss */
 .page-home .carrousel {
   padding-top: 100px;
 }
 @media (min-width: 768px) {
-  /* line 190, ../sass/pages/_home.scss */
+  /* line 194, ../sass/pages/_home.scss */
   .page-home .carrousel {
     padding-top: 200px;
   }
 }
-/* line 201, ../sass/pages/_home.scss */
+/* line 205, ../sass/pages/_home.scss */
 .page-home .clients .arrow {
   min-height: 150px;
   top: -175px;
@@ -5620,7 +5625,7 @@ footer .footer-bottom {
   -webkit-transition-timing-function: forwards;
   transition-timing-function: forwards;
 }
-/* line 209, ../sass/pages/_home.scss */
+/* line 213, ../sass/pages/_home.scss */
 .page-home .clients .arrow.custom-animate {
   min-height: 345px;
 }
@@ -5748,38 +5753,46 @@ footer .footer-bottom {
   visibility: hidden;
 }
 
-/* line 6, ../sass/pages/_studio.scss */
-.page-studio .hero-section .arrow.custom-animate {
-  /*height: 315px;*/
+/* line 3, ../sass/pages/_studio.scss */
+.page-studio .hero-section {
+  z-index: 10;
 }
-/* line 16, ../sass/pages/_studio.scss */
+/* line 8, ../sass/pages/_studio.scss */
+.page-studio .hero-section .arrow.custom-animate {
+  height: 510px;
+}
+/* line 18, ../sass/pages/_studio.scss */
 .page-studio .carrousel .ig-icon {
   margin: 0 20px 0 30px;
   vertical-align: middle;
 }
-/* line 23, ../sass/pages/_studio.scss */
+/* line 25, ../sass/pages/_studio.scss */
 .page-studio .carrousel .arrow.custom-animate {
   min-height: 370px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -moz-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
+  -moz-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: forwards;
+  -o-transition-timing-function: forwards;
+  -webkit-transition-timing-function: forwards;
+  transition-timing-function: forwards;
 }
-/* line 34, ../sass/pages/_studio.scss */
+/* line 37, ../sass/pages/_studio.scss */
 .page-studio .team {
   margin-top: 200px;
   position: relative;
   margin-bottom: 50px;
 }
-/* line 39, ../sass/pages/_studio.scss */
+/* line 42, ../sass/pages/_studio.scss */
 .page-studio .team:before {
   content: 'Team';
   display: block;
@@ -5792,21 +5805,21 @@ footer .footer-bottom {
   opacity: 0.1;
   text-align: center;
 }
-/* line 52, ../sass/pages/_studio.scss */
+/* line 55, ../sass/pages/_studio.scss */
 .page-studio .team .meet-our-team {
   padding-left: 35px;
   margin-bottom: 145px;
 }
-/* line 56, ../sass/pages/_studio.scss */
+/* line 59, ../sass/pages/_studio.scss */
 .page-studio .team .meet-our-team .heading {
   font-size: 28px;
   margin-bottom: 10px;
 }
-/* line 61, ../sass/pages/_studio.scss */
+/* line 64, ../sass/pages/_studio.scss */
 .page-studio .team .meet-our-team .text {
   line-height: 35px;
 }
-/* line 67, ../sass/pages/_studio.scss */
+/* line 70, ../sass/pages/_studio.scss */
 .page-studio .team .team-member {
   margin-bottom: 35px;
   margin-right: 40px;
@@ -5824,20 +5837,20 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 75, ../sass/pages/_studio.scss */
+/* line 78, ../sass/pages/_studio.scss */
 .page-studio .team .team-member:hover {
   transform: translateY(-7px);
 }
-/* line 78, ../sass/pages/_studio.scss */
+/* line 81, ../sass/pages/_studio.scss */
 .page-studio .team .team-member:hover .member-info {
   opacity: 1;
   transform: translateY(-16px);
 }
-/* line 83, ../sass/pages/_studio.scss */
+/* line 86, ../sass/pages/_studio.scss */
 .page-studio .team .team-member:hover img {
-  box-shadow: 0px 0px 20px 4px #e5e5e5;
+  box-shadow: 0px 0px 20px 4px rgba(102, 102, 102, 0.15);
 }
-/* line 89, ../sass/pages/_studio.scss */
+/* line 92, ../sass/pages/_studio.scss */
 .page-studio .team .team-member .member-info {
   position: absolute;
   bottom: -30px;
@@ -5848,7 +5861,7 @@ footer .footer-bottom {
   width: 195px;
   text-align: left;
   opacity: 1;
-  box-shadow: 0px 0px 20px 1px #e5e5e5;
+  box-shadow: 0px 0px 20px 1px rgba(102, 102, 102, 0.15);
   opacity: 0;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -5863,7 +5876,7 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 105, ../sass/pages/_studio.scss */
+/* line 108, ../sass/pages/_studio.scss */
 .page-studio .team .team-member .member-info .member-name {
   font-size: 22px;
   font-weight: 800;
@@ -5871,13 +5884,13 @@ footer .footer-bottom {
   color: #3A3A3A;
   text-align: right;
 }
-/* line 113, ../sass/pages/_studio.scss */
+/* line 116, ../sass/pages/_studio.scss */
 .page-studio .team .team-member .member-info .member-position {
   font-size: 16px;
   color: #3A3A3A;
   text-align: right;
 }
-/* line 121, ../sass/pages/_studio.scss */
+/* line 124, ../sass/pages/_studio.scss */
 .page-studio .team .team-member img {
   display: initial;
   -moz-transition-property: all;
@@ -5893,31 +5906,34 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 130, ../sass/pages/_studio.scss */
+/* line 133, ../sass/pages/_studio.scss */
 .page-studio .team .join-team {
   text-align: center;
   margin: 30px 0;
 }
-/* line 137, ../sass/pages/_studio.scss */
-.page-studio .hakuna-video {
+/* line 142, ../sass/pages/_studio.scss */
+.page-studio .hakuna-video .video-container {
   position: relative;
-}
-/* line 143, ../sass/pages/_studio.scss */
-.page-studio .hakuna-video:hover .video-info {
-  color: #38bff4;
+  max-width: 1325px;
+  margin: 0 auto;
 }
 /* line 149, ../sass/pages/_studio.scss */
-.page-studio .hakuna-video img {
+.page-studio .hakuna-video .video-container:hover .video-info {
+  color: #38bff4;
+}
+/* line 155, ../sass/pages/_studio.scss */
+.page-studio .hakuna-video .video-container img {
   cursor: pointer;
 }
-/* line 153, ../sass/pages/_studio.scss */
-.page-studio .hakuna-video .video-info {
+/* line 159, ../sass/pages/_studio.scss */
+.page-studio .hakuna-video .video-container .video-info {
   position: absolute;
   bottom: 37px;
-  right: 285px;
+  right: 40px;
   color: #FFFFFF;
   font-size: 34px;
   font-weight: 600;
+  cursor: pointer;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -5931,83 +5947,87 @@ footer .footer-bottom {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 164, ../sass/pages/_studio.scss */
-.page-studio .hakuna-video .video-info .video-text, .page-studio .hakuna-video .video-info .video-button {
+/* line 171, ../sass/pages/_studio.scss */
+.page-studio .hakuna-video .video-container .video-info .video-text, .page-studio .hakuna-video .video-container .video-info .video-button {
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 169, ../sass/pages/_studio.scss */
-.page-studio .hakuna-video .video-info .video-button {
+/* line 176, ../sass/pages/_studio.scss */
+.page-studio .hakuna-video .video-container .video-info .video-button {
   border: 1px solid;
   font-size: 20px;
   padding: 17px 20px 17px 23px;
   margin-bottom: 8px;
   margin-right: 5px;
 }
-/* line 182, ../sass/pages/_studio.scss */
+/* line 191, ../sass/pages/_studio.scss */
 .page-studio .work-rules {
   margin-bottom: 200px;
 }
-/* line 185, ../sass/pages/_studio.scss */
+/* line 194, ../sass/pages/_studio.scss */
 .page-studio .work-rules .arrow {
   min-height: 100px;
 }
-/* line 188, ../sass/pages/_studio.scss */
+/* line 197, ../sass/pages/_studio.scss */
 .page-studio .work-rules .arrow.custom-animate {
   min-height: 300px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -moz-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
+  -moz-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: forwards;
+  -o-transition-timing-function: forwards;
+  -webkit-transition-timing-function: forwards;
+  transition-timing-function: forwards;
 }
-/* line 196, ../sass/pages/_studio.scss */
+/* line 206, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-heading {
   padding-left: 30px;
   padding-top: 200px;
 }
-/* line 200, ../sass/pages/_studio.scss */
+/* line 210, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-heading .heading {
   font-size: 28px;
   font-weight: 800;
   margin-bottom: 10px;
 }
-/* line 206, ../sass/pages/_studio.scss */
+/* line 216, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-heading .text {
   color: #727171;
   font-size: 22px;
   line-height: 35px;
 }
-/* line 217, ../sass/pages/_studio.scss */
+/* line 227, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider .flex-direction-nav a {
   opacity: 1;
 }
-/* line 220, ../sass/pages/_studio.scss */
+/* line 230, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider .flex-direction-nav a:before {
   opacity: 0;
 }
-/* line 232, ../sass/pages/_studio.scss */
+/* line 242, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 1;
   left: -50px;
 }
-/* line 237, ../sass/pages/_studio.scss */
+/* line 247, ../sass/pages/_studio.scss */
 .page-studio .work-rules .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 1;
   right: -50px;
 }
-/* line 248, ../sass/pages/_studio.scss */
+/* line 258, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider {
   margin-top: 150px;
 }
-/* line 251, ../sass/pages/_studio.scss */
+/* line 261, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide, .page-studio .work-rules .rules-slider .right-slide {
   position: absolute;
   width: 35px;
@@ -6016,7 +6036,7 @@ footer .footer-bottom {
   left: -50px;
   cursor: pointer;
 }
-/* line 259, ../sass/pages/_studio.scss */
+/* line 269, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide .arrow-1, .page-studio .work-rules .rules-slider .right-slide .arrow-1, .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .right-slide .arrow-3 {
   position: absolute;
   width: 35px;
@@ -6025,32 +6045,32 @@ footer .footer-bottom {
   top: calc(50% - 2px);
   left: 0;
 }
-/* line 268, ../sass/pages/_studio.scss */
+/* line 278, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .right-slide .arrow-2 {
   width: 23px;
   top: 7px;
   left: -4px;
   transform: rotate(-45deg);
 }
-/* line 276, ../sass/pages/_studio.scss */
+/* line 286, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .right-slide .arrow-3 {
   width: 23px;
   top: 23px;
   left: -4px;
   transform: rotate(45deg);
 }
-/* line 286, ../sass/pages/_studio.scss */
+/* line 296, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .right-slide {
   left: initial;
   right: -45px;
   transform: rotate(180deg);
 }
-/* line 293, ../sass/pages/_studio.scss */
+/* line 303, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule {
   position: relative;
   height: 460px;
 }
-/* line 297, ../sass/pages/_studio.scss */
+/* line 307, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .bg-number {
   position: absolute;
   font-size: 650px;
@@ -6061,29 +6081,58 @@ footer .footer-bottom {
   top: -175px;
   left: 115px;
 }
-/* line 308, ../sass/pages/_studio.scss */
+/* line 318, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .rule-content {
   padding-right: 100px;
   padding-left: 200px;
 }
-/* line 312, ../sass/pages/_studio.scss */
+/* line 322, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .rule-content .rule-number {
   font-size: 34px;
   color: #3A3A3A;
-  letter-spacing: -6px;
   font-weight: 100;
   margin: 0;
 }
-/* line 320, ../sass/pages/_studio.scss */
+/* line 329, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .rule-content .rule-title {
   font-size: 75px;
   color: #3A3A3A;
   margin: 0;
+  opacity: 0;
+  -moz-transform: translate(0, 10px);
+  -ms-transform: translate(0, 10px);
+  -webkit-transform: translate(0, 10px);
+  transform: translate(0, 10px);
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
 }
-/* line 326, ../sass/pages/_studio.scss */
+/* line 338, ../sass/pages/_studio.scss */
 .page-studio .work-rules .rules-slider .rule .rule-content .rule-description {
   color: #3A3A3A;
   font-weight: 100;
   line-height: 30px;
   font-size: 16px;
+  opacity: 0;
+  -moz-transform: translate(0, 10px);
+  -ms-transform: translate(0, 10px);
+  -webkit-transform: translate(0, 10px);
+  transform: translate(0, 10px);
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+/* line 354, ../sass/pages/_studio.scss */
+.page-studio .work-rules .rules-slider .rule.flex-active-slide .rule-content .rule-title {
+  -moz-animation: hero_titles 1s 0.2s normal forwards;
+  -webkit-animation: hero_titles 1s 0.2s normal forwards;
+  animation: hero_titles 1s 0.2s normal forwards;
+}
+/* line 358, ../sass/pages/_studio.scss */
+.page-studio .work-rules .rules-slider .rule.flex-active-slide .rule-content .rule-description {
+  -moz-animation: hero_titles 1s 0.3s normal forwards;
+  -webkit-animation: hero_titles 1s 0.3s normal forwards;
+  animation: hero_titles 1s 0.3s normal forwards;
 }
