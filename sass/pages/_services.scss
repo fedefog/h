@@ -10,7 +10,10 @@
 	}
 
 	.service-container {
-		margin: 100px 0px;
+		margin: 50px 0px 150px;
+		@include respond-to("medium"){
+			margin: 100px 0px;
+		}
 		
 		&.custom-animate {
 				opacity: 1;

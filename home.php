@@ -35,7 +35,7 @@
         <div class="pure-g">
           <div class="offset-lg-1 pure-u-12-12 padding-mb">
             <h2 class="heading">We team up with companies to help them move forward through…</h2>
-            <div class="text underline">Discovery & Strategy, Branding & Visual lineup, User experience, Web interface Design, Mobile app interface design, Development Solutions</div>
+            <div class="text"><a href="#" class="underline">Discovery & Strategy</a>, <a href="#" class="underline">Branding & Visual lineupa</a>, <a href="#" class="underline">User experience</a>, <a href="#" class="underline">Web interface Design</a>, <a href="#" class="underline">Mobile app interface design</a>, <a href="#" class="underline">Development Solutions</a></div>
             <a href="" title="Learn more" class="btn btn-side-arrow">Learn more</a>
           </div>
         </div>

@@ -19,6 +19,7 @@
 		}
 
 		.work {
+			margin: 10px 0;
 
 			@include respond-to('medium') {
 				bottom: -160px;

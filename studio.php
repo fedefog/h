@@ -43,7 +43,7 @@
         <div class="pure-g padding-mb">
           <div class="pure-u-12-12">
 						<img class="ig-icon" src="css/images/ig-icon.png">
-            <a href="" title="More about the studio" class="btn border-white btn-side-arrow">Follow us on Instagram</a>
+            <a href="" title="More about the studio" class="btn border-white btn-side-arrow">Follow us <span class="hidden-text">on Instagram<span></a>
           </div>
         </div>
         <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
