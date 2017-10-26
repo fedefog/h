@@ -10,7 +10,7 @@
 	}
 
 	.service-container {
-		margin: 50px 0px 150px;
+		margin: 50px 0px 100px;
 		@include respond-to("medium"){
 			margin: 100px 0px;
 		}
@@ -41,10 +41,32 @@
 	.banner {
 		position:relative;
 
+		img{
+			height: 400px;
+			max-width: initial;
+
+			@include respond-to("medium"){
+				max-width: 100%;
+				height: auto;
+			}
+
+		}
+
 		.banner-absolute {
 			position: absolute;
-			top: 0;
+			top: calc(50% - 135px);
 			width: 100%;
+			padding-left: 10px;
+
+			@include respond-to("small"){
+				top: calc(50% - 105px);
+			}
+
+			@include respond-to("medium"){
+				padding: 0;
+				top: calc(50% - 90px);
+			}
+
 		}
 
 		.banner-heading {
@@ -52,7 +74,6 @@
 			color: $white;
 			font-weight: $semi-bold;
 			letter-spacing: 0.5px;
-			margin-top: 230px;
 		}
 	}
 	
