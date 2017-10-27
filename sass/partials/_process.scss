@@ -95,13 +95,18 @@
 				position: absolute;
 				padding: 20px 30px;
 				top: 20px;
-				
+				display: none;
+                
 				.process-info-description{
 					font-size: 16px;
 					font-weight: $light;
 					color: #636ec6;
 					line-height: 25px;
 				}
+                
+                @include respond-to("medium"){
+                    display: block;
+                }
 				
 			}
 						
@@ -161,12 +166,20 @@
 	}
 		
 	.left-slide{
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    top: calc(50% - 35px);
-    left: 110px;
-		cursor: pointer;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: calc(50% - 35px);
+        left: 10px;
+        cursor: pointer;
+        
+        @include respond-to("medium"){
+            left: 25px;
+        }
+        
+        @include respond-to("xlarge"){
+            left: 110px;
+        }
 		
 		.arrow-1{
 			position: absolute;
@@ -198,8 +211,16 @@
 	.right-slide{
 		@extend .left-slide;
 		left: initial;
-		right: 110px;
+		right: 10px;
 		transform: rotate(180deg);
+        
+        @include respond-to("medium"){
+            right: 25px;
+        }
+        
+         @include respond-to("xlarge"){
+            right: 110px;
+        }
 		
 	}
 
