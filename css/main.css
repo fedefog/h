@@ -1522,6 +1522,7 @@ footer .footer-bottom {
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
+  letter-spacing: 0.1px;
 }
 @media (min-width: 768px) {
   /* line 96, ../sass/partials/_process.scss */
@@ -1529,16 +1530,16 @@ footer .footer-bottom {
     display: block;
   }
 }
-/* line 143, ../sass/partials/_process.scss */
+/* line 144, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .last-slide {
   top: initial;
   top: 400px;
 }
-/* line 148, ../sass/partials/_process.scss */
+/* line 149, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .last-slide .process-info-title {
   opacity: 0;
 }
-/* line 153, ../sass/partials/_process.scss */
+/* line 154, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide {
   border: 3px solid;
   border-image: linear-gradient(#5812d0, #63ccd9, #30f237) 0 100%;
@@ -1549,14 +1550,14 @@ footer .footer-bottom {
   margin: 0 50px;
 }
 @media (min-width: 768px) {
-  /* line 153, ../sass/partials/_process.scss */
+  /* line 154, ../sass/partials/_process.scss */
   .process-section .flexslider .slides .main-slide {
     width: 60%;
     height: 226px;
     margin-left: 50px;
   }
 }
-/* line 168, ../sass/partials/_process.scss */
+/* line 169, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info {
   -moz-transform: translate(0, 220px);
   -ms-transform: translate(0, 220px);
@@ -1568,7 +1569,7 @@ footer .footer-bottom {
   transition-property: all;
   color: #636ec6;
 }
-/* line 172, ../sass/partials/_process.scss */
+/* line 173, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info.custom-animate {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -1581,19 +1582,19 @@ footer .footer-bottom {
   transition: all 1s;
   color: #FFFFFF;
 }
-/* line 181, ../sass/partials/_process.scss */
+/* line 182, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info-title {
   font-size: 20px;
   font-weight: 300;
 }
-/* line 186, ../sass/partials/_process.scss */
+/* line 187, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info-description {
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
   letter-spacing: 0.1px;
 }
-/* line 193, ../sass/partials/_process.scss */
+/* line 194, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide:before {
   content: "";
   width: 100%;
@@ -1603,7 +1604,7 @@ footer .footer-bottom {
   top: 0;
   left: 0;
 }
-/* line 203, ../sass/partials/_process.scss */
+/* line 204, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide:after {
   content: "";
   width: 100%;
@@ -1613,7 +1614,7 @@ footer .footer-bottom {
   bottom: 0;
   left: 0;
 }
-/* line 219, ../sass/partials/_process.scss */
+/* line 220, ../sass/partials/_process.scss */
 .process-section .left-slide, .process-section .right-slide, .process-section .page-studio .work-rules .rules-slider .right-slide, .page-studio .work-rules .rules-slider .process-section .right-slide {
   position: absolute;
   width: 35px;
@@ -1623,18 +1624,18 @@ footer .footer-bottom {
   cursor: pointer;
 }
 @media (min-width: 768px) {
-  /* line 219, ../sass/partials/_process.scss */
+  /* line 220, ../sass/partials/_process.scss */
   .process-section .left-slide, .process-section .right-slide, .process-section .page-studio .work-rules .rules-slider .right-slide, .page-studio .work-rules .rules-slider .process-section .right-slide {
     left: 25px;
   }
 }
 @media (min-width: 1280px) {
-  /* line 219, ../sass/partials/_process.scss */
+  /* line 220, ../sass/partials/_process.scss */
   .process-section .left-slide, .process-section .right-slide, .process-section .page-studio .work-rules .rules-slider .right-slide, .page-studio .work-rules .rules-slider .process-section .right-slide {
     left: 110px;
   }
 }
-/* line 235, ../sass/partials/_process.scss */
+/* line 236, ../sass/partials/_process.scss */
 .process-section .left-slide .arrow-1, .process-section .right-slide .arrow-1, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-1, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-1, .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
   position: absolute;
   width: 25px;
@@ -1644,12 +1645,12 @@ footer .footer-bottom {
   left: 0;
 }
 @media (min-width: 768px) {
-  /* line 235, ../sass/partials/_process.scss */
+  /* line 236, ../sass/partials/_process.scss */
   .process-section .left-slide .arrow-1, .process-section .right-slide .arrow-1, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-1, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-1, .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
     width: 35px;
   }
 }
-/* line 248, ../sass/partials/_process.scss */
+/* line 249, ../sass/partials/_process.scss */
 .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2 {
   width: 18px;
   top: 9px;
@@ -1657,13 +1658,13 @@ footer .footer-bottom {
   transform: rotate(-45deg);
 }
 @media (min-width: 768px) {
-  /* line 248, ../sass/partials/_process.scss */
+  /* line 249, ../sass/partials/_process.scss */
   .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2 {
     width: 23px;
     top: 7px;
   }
 }
-/* line 261, ../sass/partials/_process.scss */
+/* line 262, ../sass/partials/_process.scss */
 .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
   width: 18px;
   top: 21px;
@@ -1671,26 +1672,26 @@ footer .footer-bottom {
   transform: rotate(45deg);
 }
 @media (min-width: 768px) {
-  /* line 261, ../sass/partials/_process.scss */
+  /* line 262, ../sass/partials/_process.scss */
   .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
     width: 23px;
     top: 23px;
   }
 }
-/* line 276, ../sass/partials/_process.scss */
+/* line 277, ../sass/partials/_process.scss */
 .process-section .right-slide {
   left: initial;
   right: 10px;
   transform: rotate(180deg);
 }
 @media (min-width: 768px) {
-  /* line 276, ../sass/partials/_process.scss */
+  /* line 277, ../sass/partials/_process.scss */
   .process-section .right-slide {
     right: 25px;
   }
 }
 @media (min-width: 1280px) {
-  /* line 276, ../sass/partials/_process.scss */
+  /* line 277, ../sass/partials/_process.scss */
   .process-section .right-slide {
     right: 110px;
   }
