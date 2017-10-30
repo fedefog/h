@@ -93,28 +93,44 @@
 		
 		.slides{
 			
-			.process-info{
-				opacity: 0;
-				@include transform (translate( 0, 50px));
-					@include transition-property(all);
-					&.custom-animate {
-						@include animation(hero_titles 1s normal forwards);
-					}
-			}
-			
 			.first-slide{
 				display: block;
 				width: 60%;
 				margin-left: 50px;
 				position: absolute;
 				padding: 20px 30px;
-				top: 20px;
+				top: -5px;
 				display: none;
+                
+                .process-info{
+				    @include transform (translate( 0, 163px));
+					@include transition-property(all);
+                    color: $white;
+
+					&.custom-animate {
+                        @include transform (translate( 0, 0));
+					   @include transition-property(all);
+                        transition: all 0.8s;
+                        color: #636ec6;
+                        
+                        .process-info-title{
+                            opacity: 0;
+                            transition: all 0.6s;
+                        }
+					}
+			     }
+                
+                .process-info-title{
+                    font-size: 20px;
+                    font-weight: $light;
+                    transition: all 0.5s;
+
+                }
+
                 
 				.process-info-description{
 					font-size: 16px;
 					font-weight: $light;
-					color: #636ec6;
 					line-height: 25px;
 				}
                 
@@ -127,7 +143,10 @@
 			.last-slide{
 				@extend .first-slide;
 				top: initial;
-				bottom: 20px;
+				bottom: 40px;
+                .process-info-title{
+                    opacity: 0;
+                }
 			}
 			
 			.main-slide{
@@ -144,6 +163,19 @@
 				    height: 226px;
                     margin-left: 50px;
                 }
+                
+                .process-info{
+				    @include transform (translate( 0, 240px));
+					@include transition-property(all);
+                    color: #636ec6;
+					&.custom-animate {
+                        @include transform (translate( 0, 0));
+					   @include transition-property(all);
+                        transition: all 0.8s;
+                        color: $white;
+					}
+			     }
+			
 
 				.process-info-title{
 					font-size: 20px;

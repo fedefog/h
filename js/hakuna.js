@@ -163,8 +163,8 @@ $(document).ready(function() {
 			$('.process-section .slides .process-info').removeClass('custom-animate');
 
 			setTimeout(function(){$('.process-section .slides .last-slide .process-info').addClass('custom-animate'); }, 0);
-			setTimeout(function(){$('.process-section .slides .main-slide .process-info').addClass('custom-animate'); }, 250);
-			setTimeout(function(){$('.process-section .slides .first-slide .process-info').addClass('custom-animate'); }, 500);
+			setTimeout(function(){$('.process-section .slides .main-slide .process-info').addClass('custom-animate'); }, 0);
+			setTimeout(function(){$('.process-section .slides .first-slide .process-info').addClass('custom-animate'); }, 0);
 			
 			var processTitle = $('.process-section .slides .main-slide .process-info-title span').html();
 			$('.process-section .process-title').html(processTitle);
