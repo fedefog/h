@@ -1483,17 +1483,18 @@ footer .footer-bottom {
 }
 /* line 105, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .first-slide .process-info, .process-section .flexslider .slides .last-slide .process-info {
-  -moz-transform: translate(0, 163px);
-  -ms-transform: translate(0, 163px);
-  -webkit-transform: translate(0, 163px);
-  transform: translate(0, 163px);
+  padding-left: 4px;
+  -moz-transform: translate(0, 190px);
+  -ms-transform: translate(0, 190px);
+  -webkit-transform: translate(0, 190px);
+  transform: translate(0, 190px);
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
   color: #FFFFFF;
 }
-/* line 110, ../sass/partials/_process.scss */
+/* line 111, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .first-slide .process-info.custom-animate, .process-section .flexslider .slides .last-slide .process-info.custom-animate {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -1503,25 +1504,24 @@ footer .footer-bottom {
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
-  transition: all 0.8s;
+  transition: all 1s;
   color: #636ec6;
 }
-/* line 116, ../sass/partials/_process.scss */
+/* line 117, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .first-slide .process-info.custom-animate .process-info-title, .process-section .flexslider .slides .last-slide .process-info.custom-animate .process-info-title {
   opacity: 0;
   transition: all 0.6s;
 }
-/* line 123, ../sass/partials/_process.scss */
+/* line 124, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .first-slide .process-info-title, .process-section .flexslider .slides .last-slide .process-info-title {
   font-size: 20px;
   font-weight: 300;
-  transition: all 0.5s;
 }
 /* line 131, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .first-slide .process-info-description, .process-section .flexslider .slides .last-slide .process-info-description {
   font-size: 16px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
 }
 @media (min-width: 768px) {
   /* line 96, ../sass/partials/_process.scss */
@@ -1532,13 +1532,13 @@ footer .footer-bottom {
 /* line 143, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .last-slide {
   top: initial;
-  bottom: 40px;
+  top: 400px;
 }
-/* line 147, ../sass/partials/_process.scss */
+/* line 148, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .last-slide .process-info-title {
   opacity: 0;
 }
-/* line 152, ../sass/partials/_process.scss */
+/* line 153, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide {
   border: 3px solid;
   border-image: linear-gradient(#5812d0, #63ccd9, #30f237) 0 100%;
@@ -1549,26 +1549,26 @@ footer .footer-bottom {
   margin: 0 50px;
 }
 @media (min-width: 768px) {
-  /* line 152, ../sass/partials/_process.scss */
+  /* line 153, ../sass/partials/_process.scss */
   .process-section .flexslider .slides .main-slide {
     width: 60%;
     height: 226px;
     margin-left: 50px;
   }
 }
-/* line 167, ../sass/partials/_process.scss */
+/* line 168, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info {
-  -moz-transform: translate(0, 240px);
-  -ms-transform: translate(0, 240px);
-  -webkit-transform: translate(0, 240px);
-  transform: translate(0, 240px);
+  -moz-transform: translate(0, 220px);
+  -ms-transform: translate(0, 220px);
+  -webkit-transform: translate(0, 220px);
+  transform: translate(0, 220px);
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
   color: #636ec6;
 }
-/* line 171, ../sass/partials/_process.scss */
+/* line 172, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info.custom-animate {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -1578,22 +1578,22 @@ footer .footer-bottom {
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
-  transition: all 0.8s;
+  transition: all 1s;
   color: #FFFFFF;
 }
-/* line 180, ../sass/partials/_process.scss */
+/* line 181, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info-title {
   font-size: 20px;
   font-weight: 300;
 }
-/* line 185, ../sass/partials/_process.scss */
+/* line 186, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide .process-info-description {
   font-size: 16px;
   line-height: 30px;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.1px;
 }
-/* line 192, ../sass/partials/_process.scss */
+/* line 193, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide:before {
   content: "";
   width: 100%;
@@ -1603,7 +1603,7 @@ footer .footer-bottom {
   top: 0;
   left: 0;
 }
-/* line 202, ../sass/partials/_process.scss */
+/* line 203, ../sass/partials/_process.scss */
 .process-section .flexslider .slides .main-slide:after {
   content: "";
   width: 100%;
@@ -1613,7 +1613,7 @@ footer .footer-bottom {
   bottom: 0;
   left: 0;
 }
-/* line 218, ../sass/partials/_process.scss */
+/* line 219, ../sass/partials/_process.scss */
 .process-section .left-slide, .process-section .right-slide, .process-section .page-studio .work-rules .rules-slider .right-slide, .page-studio .work-rules .rules-slider .process-section .right-slide {
   position: absolute;
   width: 35px;
@@ -1623,18 +1623,18 @@ footer .footer-bottom {
   cursor: pointer;
 }
 @media (min-width: 768px) {
-  /* line 218, ../sass/partials/_process.scss */
+  /* line 219, ../sass/partials/_process.scss */
   .process-section .left-slide, .process-section .right-slide, .process-section .page-studio .work-rules .rules-slider .right-slide, .page-studio .work-rules .rules-slider .process-section .right-slide {
     left: 25px;
   }
 }
 @media (min-width: 1280px) {
-  /* line 218, ../sass/partials/_process.scss */
+  /* line 219, ../sass/partials/_process.scss */
   .process-section .left-slide, .process-section .right-slide, .process-section .page-studio .work-rules .rules-slider .right-slide, .page-studio .work-rules .rules-slider .process-section .right-slide {
     left: 110px;
   }
 }
-/* line 234, ../sass/partials/_process.scss */
+/* line 235, ../sass/partials/_process.scss */
 .process-section .left-slide .arrow-1, .process-section .right-slide .arrow-1, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-1, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-1, .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
   position: absolute;
   width: 25px;
@@ -1644,12 +1644,12 @@ footer .footer-bottom {
   left: 0;
 }
 @media (min-width: 768px) {
-  /* line 234, ../sass/partials/_process.scss */
+  /* line 235, ../sass/partials/_process.scss */
   .process-section .left-slide .arrow-1, .process-section .right-slide .arrow-1, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-1, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-1, .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .left-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .left-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
     width: 35px;
   }
 }
-/* line 247, ../sass/partials/_process.scss */
+/* line 248, ../sass/partials/_process.scss */
 .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2 {
   width: 18px;
   top: 9px;
@@ -1657,13 +1657,13 @@ footer .footer-bottom {
   transform: rotate(-45deg);
 }
 @media (min-width: 768px) {
-  /* line 247, ../sass/partials/_process.scss */
+  /* line 248, ../sass/partials/_process.scss */
   .process-section .left-slide .arrow-2, .process-section .right-slide .arrow-2, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-2, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-2 {
     width: 23px;
     top: 7px;
   }
 }
-/* line 260, ../sass/partials/_process.scss */
+/* line 261, ../sass/partials/_process.scss */
 .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
   width: 18px;
   top: 21px;
@@ -1671,26 +1671,26 @@ footer .footer-bottom {
   transform: rotate(45deg);
 }
 @media (min-width: 768px) {
-  /* line 260, ../sass/partials/_process.scss */
+  /* line 261, ../sass/partials/_process.scss */
   .process-section .left-slide .arrow-3, .process-section .right-slide .arrow-3, .process-section .page-studio .work-rules .rules-slider .right-slide .arrow-3, .page-studio .work-rules .rules-slider .process-section .right-slide .arrow-3 {
     width: 23px;
     top: 23px;
   }
 }
-/* line 275, ../sass/partials/_process.scss */
+/* line 276, ../sass/partials/_process.scss */
 .process-section .right-slide {
   left: initial;
   right: 10px;
   transform: rotate(180deg);
 }
 @media (min-width: 768px) {
-  /* line 275, ../sass/partials/_process.scss */
+  /* line 276, ../sass/partials/_process.scss */
   .process-section .right-slide {
     right: 25px;
   }
 }
 @media (min-width: 1280px) {
-  /* line 275, ../sass/partials/_process.scss */
+  /* line 276, ../sass/partials/_process.scss */
   .process-section .right-slide {
     right: 110px;
   }

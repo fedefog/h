@@ -103,14 +103,15 @@
 				display: none;
                 
                 .process-info{
-				    @include transform (translate( 0, 163px));
+                    padding-left: 4px;
+				    @include transform (translate( 0, 190px));
 					@include transition-property(all);
                     color: $white;
 
 					&.custom-animate {
                         @include transform (translate( 0, 0));
 					   @include transition-property(all);
-                        transition: all 0.8s;
+                        transition: all 1s;
                         color: #636ec6;
                         
                         .process-info-title{
@@ -123,7 +124,6 @@
                 .process-info-title{
                     font-size: 20px;
                     font-weight: $light;
-                    transition: all 0.5s;
 
                 }
 
@@ -131,7 +131,7 @@
 				.process-info-description{
 					font-size: 16px;
 					font-weight: $light;
-					line-height: 25px;
+					line-height: 30px;
 				}
                 
                 @include respond-to("medium"){
@@ -143,7 +143,8 @@
 			.last-slide{
 				@extend .first-slide;
 				top: initial;
-				bottom: 40px;
+				top: 400px;
+                
                 .process-info-title{
                     opacity: 0;
                 }
@@ -159,19 +160,19 @@
                 margin: 0 50px;
                 
                 @include respond-to("medium"){
-                    width: 60%;
+                    width: 60%; 
 				    height: 226px;
                     margin-left: 50px;
                 }
                 
                 .process-info{
-				    @include transform (translate( 0, 240px));
+				    @include transform (translate( 0, 220px));
 					@include transition-property(all);
                     color: #636ec6;
 					&.custom-animate {
                         @include transform (translate( 0, 0));
 					   @include transition-property(all);
-                        transition: all 0.8s;
+                        transition: all 1s;
                         color: $white;
 					}
 			     }
@@ -185,7 +186,7 @@
 				.process-info-description{
 					font-size: 16px;
 					line-height: 30px;
-					font-weight: 100;
+					font-weight: $light;
 					letter-spacing: 0.1px;
 				}
 
