@@ -137,14 +137,14 @@
 				<div class="arrow-3"></div>
 			</div>
 				
-      <div class="pure-u-12-12 pure-u-md-5-12 padding-mb">
+      <div class="pure-u-12-12 pure-u-md-5-12">
 		  <div class="process-absolute">
 			  <h2 class="process-subtitle">Our process</h2>
 			  <h1 class="process-title">Learning</h1>	 
 		 </div>
 	  </div>
 		
-	  <div class="pure-u-12-12 pure-u-md-7-12 padding-mb">
+	  <div class="pure-u-12-12 pure-u-md-7-12">
 				<div class="flexslider">
 						<ol class="flex-control-nav flex-control-paging">
 							<li><a id="1" class="flex-active">1</a></li>
