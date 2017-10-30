@@ -42,6 +42,11 @@ $(document).ready(function() {
         animationLoop: true,
         directionNav: true
     });
+    
+    
+    setTimeout(function(){$(".refresh-animate").addClass("custom-animate"); }, 1000);
+        
+
 
     /* Functions working on Scroll */
     $(window).scroll( function(){

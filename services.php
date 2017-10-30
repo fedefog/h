@@ -23,7 +23,7 @@
 
     <section class="services-details">
       <div class="container">
-        <div class="pure-g service-container hideme custom-animate">
+        <div class="pure-g service-container hideme refresh-animate">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb hidden-xs">
             <h2 class="heading">Discovery &#38; Strategy</h2>
             <p class="service-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depth of your project so that we can develop realistic project recommendations. These initial phases also teach us about how we can best work together.</p>
