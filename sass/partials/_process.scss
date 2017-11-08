@@ -20,10 +20,12 @@
 		font-family: 'Open Sans';
 		color: #4f5eb3;
 		opacity: 0;
+        transform: translate(-220px, 0);
 		
 		&.fade-number{
 			opacity: 0.5;
-			transition: all 2s;
+			transition: all 1.5s;
+            transform: translate(0, 0);
 		}
 	}
 	
@@ -95,35 +97,36 @@
 			
 			.first-slide{
 				display: block;
-				width: 60%;
+				width: 61%;
 				margin-left: 50px;
 				position: absolute;
 				padding: 20px 30px;
 				top: -5px;
 				display: none;
+                color: #636ec6;
                 
                 .process-info{
-                    padding-left: 4px;
-				    @include transform (translate( 0, 190px));
-					@include transition-property(all);
-                    color: $white;
 
 					&.custom-animate {
-                        @include transform (translate( 0, 0));
-					   @include transition-property(all);
-                        transition: all 1s;
-                        color: #636ec6;
+                         &.to-right{
+                            @include animation(process-slides 1s 0s normal forwards);
+                        }
+                        
+                        &.to-left{
+                            @include animation(process-slides-left 1s 0s normal forwards);
+                        }
                         
                         .process-info-title{
-                            opacity: 0;
-                            transition: all 0.6s;
-                        }
+                                @include animation(fade 1s 0s normal forwards);
+                            }
+                        
 					}
 			     }
                 
                 .process-info-title{
                     font-size: 20px;
                     font-weight: $light;
+                    opacity: 0;
 
                 }
 
@@ -167,14 +170,15 @@
                 }
                 
                 .process-info{
-				    @include transform (translate( 0, 220px));
-					@include transition-property(all);
-                    color: #636ec6;
 					&.custom-animate {
-                        @include transform (translate( 0, 0));
-					   @include transition-property(all);
-                        transition: all 1s;
-                        color: $white;
+                        
+                        &.to-right{
+                            @include animation(process-main 1s 0s normal forwards);
+                        }
+                        
+                        &.to-left{
+                            @include animation(process-main-left 1s 0s normal forwards);
+                        }
 					}
 			     }
 			

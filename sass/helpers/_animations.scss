@@ -39,3 +39,58 @@
       width: 100%;
     }
 }
+
+// Process section
+
+@include keyframes(process-main){
+    0%   { 
+      @include transform (translate( 0, 220px));
+        color: #636ec6;
+    }
+    100% { 
+      @include transform (translate( 0, 0));
+        color: $white;
+    }
+}
+
+@include keyframes(process-slides){
+    0%   { 
+      @include transform (translate( 0, 190px));
+        color: $white;
+    }
+    100% { 
+      @include transform (translate( 0, 0));
+        color: #636ec6;
+    }
+}
+
+@include keyframes(process-main-left){
+    0%   { 
+      @include transform (translate( 0, -220px));
+        color: #636ec6;
+    }
+    100% { 
+      @include transform (translate( 0, 0));
+        color: $white;
+    }
+}
+
+@include keyframes(process-slides-left){
+    0%   { 
+      @include transform (translate( 0, -190px));
+        color: $white;
+    }
+    100% { 
+      @include transform (translate( 0, 0));
+        color: #636ec6;
+    }
+}
+
+@include keyframes(fade){
+    0%   { 
+    	opacity: 1;
+    }
+  	100% { 
+  		opacity: 0;
+  	}
+}

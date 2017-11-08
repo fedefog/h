@@ -107,6 +107,8 @@ $(document).ready(function() {
 		});
 	
 		$('.left-slide').click(function(){
+            $(".process-info").removeClass("to-right");
+            $(".process-info").addClass("to-left");
 			if(slideActive!=1){
 				slideActive--;
 			}
@@ -128,6 +130,8 @@ $(document).ready(function() {
 		}
 	
 		$('.right-slide').click(function(){
+            $(".process-info").removeClass("to-left");
+            $(".process-info").addClass("to-right");
 			rightSlide();
 			clearTimeout(timer);
 		});
