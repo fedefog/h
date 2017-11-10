@@ -97,17 +97,22 @@
 			
 			.first-slide{
 				display: block;
-				width: 61%;
+				width: 60%;
 				margin-left: 50px;
 				position: absolute;
 				padding: 20px 30px;
 				top: -5px;
 				display: none;
                 color: #636ec6;
+                border: 3px solid transparent;
                 
                 .process-info{
+                    opacity: 0;
+                    transition: all 0.5s;
 
 					&.custom-animate {
+                        opacity: 1;
+                        
                          &.to-right{
                             @include animation(process-slides 1s 0s normal forwards);
                         }
@@ -170,7 +175,10 @@
                 }
                 
                 .process-info{
+                    opacity: 0; 
+                    
 					&.custom-animate {
+                        opacity: 1;
                         
                         &.to-right{
                             @include animation(process-main 1s 0s normal forwards);

@@ -55,7 +55,7 @@
 
 @include keyframes(process-slides){
     0%   { 
-      @include transform (translate( 0, 190px));
+      @include transform (translate( 0, 185px));
         color: $white;
     }
     100% { 
