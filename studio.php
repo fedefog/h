@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <section class="carrousel">
+    <section class="carrousel hideme refresh-animate">
       <div class="flexslider studio-slider">
         <img src="images/bg-testimonials.png" class="pure-img bg-testimonials" title="slide" alt="slide">
         <ul class="slides">

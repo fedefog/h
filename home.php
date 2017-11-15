@@ -18,10 +18,10 @@
               <a href="" title="See our work" class="btn btn-white btn-bottom-arrow custom-animate">See our Work</a>
 
               <div class="social-networks">
-                <a class="social-link transition" href="" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a class="social-link transition" href="" title=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a class="social-link transition" href="" title=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a class="social-link transition" href="" title=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="social-link transition" target="_blank" href="https://www.facebook.com/StudioHakuna/" title="Hakuna Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="social-link transition" target="_blank" href="https://twitter.com/studiohakuna" title="Hakuna Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="social-link transition" target="_blank" href="https://dribbble.com/studiohakuna" title="Hakuna Dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                <a class="social-link transition" target="_blank" href="https://www.instagram.com/studiohakuna/" title="Hakuna Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               </div>
             </div>
 
@@ -35,8 +35,8 @@
         <div class="pure-g">
           <div class="offset-lg-1 pure-u-12-12 padding-mb">
             <h2 class="heading">We team up with companies to help them move forward through…</h2>
-            <div class="text"><a href="#" class="underline">Discovery & Strategy</a>, <a href="#" class="underline">Branding & Visual lineupa</a>, <a href="#" class="underline">User experience</a>, <a href="#" class="underline">Web interface Design</a>, <a href="#" class="underline">Mobile app interface design</a>, <a href="#" class="underline">Development Solutions</a></div>
-            <a href="" title="Learn more" class="btn btn-side-arrow">Learn more</a>
+            <div class="text"><a href="" class="underline">Discovery & Strategy</a>, <a href="#" class="underline">Branding & Visual lineupa</a>, <a href="#" class="underline">User experience</a>, <a href="#" class="underline">Web interface Design</a>, <a href="#" class="underline">Mobile app interface design</a>, <a href="#" class="underline">Development Solutions</a></div>
+            <a href="services.php" title="Learn more" class="btn btn-side-arrow">Learn more</a>
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@
       <div class="container">
         <div class="pure-g padding-mb">
           <div class="offset-lg-1 pure-u-12-12">
-            <a href="" title="More about the studio" class="btn border-white btn-side-arrow">More about the studio</a>
+            <a href="studio.php" title="More about the studio" class="btn border-white btn-side-arrow">More about the studio</a>
           </div>
         </div>
       </div>

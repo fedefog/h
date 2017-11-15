@@ -9,10 +9,10 @@
             <div class="footer-text">Ready to get started?</div>
             <a class="footer-mail" href="mailto:hello@studiohakuna.com" title="">hello@studiohakuna.com</a>
             <div class="social-networks">
-              <a class="social-link transition" href="" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a class="social-link transition" href="" title=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a class="social-link transition" href="" title=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-              <a class="social-link transition" href="" title=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a class="social-link transition" target="_blank" href="https://www.facebook.com/StudioHakuna/" title="Hakuna Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a class="social-link transition" target="_blank" href="https://twitter.com/studiohakuna" title="Hakuna Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a class="social-link transition" target="_blank" href="https://dribbble.com/studiohakuna" title="Hakuna Dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+              <a class="social-link transition" target="_blank" href="https://www.instagram.com/studiohakuna/" title="Hakuna Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>

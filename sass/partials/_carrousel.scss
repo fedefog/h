@@ -60,6 +60,17 @@
 		}
 
 	}
+	
+	.btn {
+		position: relative;
+		z-index: 100;
+		
+		&:before, 
+		&:after {
+			background-color:$black;
+		}
+
+	}
 
 	.bg-testimonials {
 		position: absolute;
