@@ -43,10 +43,22 @@ $(document).ready(function() {
         directionNav: true
     });
     
+    /* Fade for second blocks after hero section */
     
     setTimeout(function(){$(".refresh-animate").addClass("custom-animate"); }, 1000);
         
+    /* See more work loading*/
 
+    $( ".see-more-work-js" ).click(function( event ) {
+      event.preventDefault();
+      $(this).fadeOut("fast");
+	  $( ".works-container-row2-js" ).load( "works-2.php", function( response, status, xhr ) {
+		  if ( status == "error" ) {
+		    var msg = "Sorry but there was an error: ";
+		    $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+		  }
+		});
+});
 
     /* Functions working on Scroll */
     $(window).scroll( function(){

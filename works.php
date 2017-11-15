@@ -18,8 +18,8 @@
 
     <section class="works">
       <div class="container">
-        <div class="pure-g">
-          <div class="pure-u-12-12">
+        <div class="pure-g transition">
+          <div class="pure-u-12-12 works-container-row-js">
             <div class="works-row">
               <a href="#" class="work pull-right hideme refresh-animate">
                 <img src="images/works/work-1.png" title="work" alt="work" class="pure-img">
@@ -52,7 +52,7 @@
                 </div>
               </a>
             </div>
-            <div class="works-row">
+            <div id="work-row-latest-1" class="works-row">
               <a href="#" class="work pull-right hideme">
                 <img src="images/works/work-5.png" title="work" alt="work" class="pure-img">
                 <div class="work-info">
@@ -68,8 +68,14 @@
                 </div>
               </a>
             </div>
-            <a href="" title="See more work" class="btn btn-side-arrow">See more Work</a>
+
+            <a href="" title="See more work" class="btn btn-side-arrow see-more-work-js">See more Work</a>
+
           </div>
+          
+          <div class="pure-u-12-12 works-container-row2-js">
+          </div>
+
         </div>
       </div>
     </section>

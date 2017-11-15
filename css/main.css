@@ -5970,11 +5970,11 @@ footer .footer-bottom {
 /* line 10, ../sass/pages/_works.scss */
 .page-works .works:before {
   position: absolute;
-  top: 31%;
+  top: 660px;
   content: '';
   display: block;
   width: 100%;
-  height: 51%;
+  height: 1083px;
   background: #F7F7F7;
   z-index: -1;
 }
