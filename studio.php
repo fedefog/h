@@ -173,7 +173,7 @@
         </div>
         <div class="pure-g padding-mb">
           <div class="pure-u-1 join-team">
-            <a href="" title="Join or team" class="btn btn-side-arrow">Join our team</a>
+            <a href="mailto:hello@studiohakuna.com" title="Join or team" class="btn btn-side-arrow">Join our team</a>
           </div>
         </div>
 			</div>

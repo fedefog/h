@@ -27,9 +27,11 @@ p {
 }
 .pull-left {
 	left: 0;
+	float: left;
 }
 .pull-right {
 	right: 0;
+	float: right;
 }
 .text-center {
 	text-align: center;

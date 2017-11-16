@@ -15,7 +15,7 @@
           </div>
           <div class="pure-g">
             <div class="offset-lg-1 pure-u-12-12 padding-mb">
-              <a href="" title="See our work" class="btn btn-white btn-bottom-arrow custom-animate">See our Work</a>
+              <a href="#works" title="See our work" class="btn btn-white btn-bottom-arrow custom-animate scroll-btn-js">See our Work</a>
 
               <div class="social-networks">
                 <a class="social-link transition" target="_blank" href="https://www.facebook.com/StudioHakuna/" title="Hakuna Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -42,7 +42,7 @@
       </div>
     </section>
 
-    <section class="works">
+    <section id="works" class="works">
       <div class="container">
         <div class="pure-g">
           <div class="pure-u-12-12">
@@ -94,7 +94,7 @@
                 </div>
               </a>
             </div>
-            <a href="" title="See more work" class="btn btn-side-arrow">See more Work</a>
+            <a href="works.php" title="See more work" class="btn btn-side-arrow">See more Work</a>
           </div>
         </div>
       </div>

@@ -69,12 +69,15 @@
               </a>
             </div>
 
-            <a href="" title="See more work" class="btn btn-side-arrow see-more-work-js">See more Work</a>
-
           </div>
           
           <div class="pure-u-12-12 works-container-row2-js">
           </div>
+
+          <div class="pure-u-12-12 works-container-row3-js">
+          </div>
+
+          <a href="" title="See more work" class="btn btn-bottom-arrow-black see-more-work-js">See more Work</a>
 
         </div>
       </div>
@@ -190,7 +193,7 @@
             </div>
           </div>
           <div class="pure-u-12-12">
-            <a href="" title="See more work" class="btn btn-side-arrow">See more Work</a>
+            <a href="https://dribbble.com/studiohakuna" target="_blank" title="See more work" class="btn btn-side-arrow">See more Work</a>
           </div>
         </div>
       </div>

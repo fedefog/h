@@ -13,11 +13,18 @@
 		z-index: -1;
 	}
 
-	.slides {
-		margin-bottom: 8px;
+	.studio-slider {
+		
+	    margin: auto;
+	    position: relative;
+	    margin-bottom: 8px;
 
-		img {
+	    .flex-viewport {
 			@include box-shadow(rgba(#666, 0.4) 0 6px 20px);
+	    }
+
+		@include respond-to('medium') {
+			max-width: 1325px;
 		}
 
 	}
@@ -59,6 +66,12 @@
 
 		}
 
+	}
+
+	strong {
+		font-size: 18px;
+    	font-weight: $regular;
+    	margin-top: 5px;
 	}
 	
 	.btn {

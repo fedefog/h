@@ -1,0 +1,269 @@
+.page-case-study {
+
+	.hero-section {
+		z-index: 10;
+
+		.arrow {
+
+			&.custom-animate {
+				height: 510px;
+			}
+
+		}
+
+	}
+
+	.default {
+
+		&.custom-animate {
+			opacity: 1;
+			transition: all 2s;
+		}
+	
+		.arrow{
+
+			top: -120px;
+
+			&.custom-animate {
+				min-height: 560px;
+				@include transition-property(all);
+				@include transition-delay(1.2s);
+				@include transition-duration(0.5s);
+				@include transition-timing-function(forwards);
+			}
+		}
+
+	}
+
+	.banner {
+		position:relative;
+        overflow: hidden;
+
+        &.custom-animate {
+			opacity: 1;
+			transition: all 2s;
+		}
+
+		&.small-images {
+			max-width: 1325px;
+			margin: auto;
+		}
+
+		&.space-top {
+			padding-top: 100px;
+		}
+
+		img{
+			height: 400px;
+			max-width: initial;
+
+			@include respond-to("medium"){
+				max-width: 100%;
+				height: auto;
+			}
+
+			&.space-top {
+				margin-top: 50px;
+			}
+
+		}
+
+		.hideme {
+			display: inline-block;
+			clear: both;
+			width: 100%;
+
+			&.custom-animate {
+				opacity: 1;
+				transition: all 2s;
+			}
+
+		}
+
+	}
+
+	.testimonials {
+		padding-top: 150px;
+
+		&.custom-animate {
+			opacity: 1;
+			transition: all 2s;
+		}
+
+		.arrow {
+			top: -128px;
+
+			&.custom-animate {
+				height: 530px
+			}
+
+		}
+
+		@include respond-to('medium') {
+			padding-top: 128px;
+		}
+
+	}
+
+	.carrousel{
+
+		&.custom-animate {
+			opacity: 1;
+			transition: all 2s;
+		}
+
+		@include respond-to('medium') {
+			padding-top: 100px;
+		}
+
+		.hidden-text{
+			display: none;
+
+			@include respond-to("medium"){
+				display: inline;
+			}
+
+		}
+
+		.arrow{
+
+			&.custom-animate {
+				min-height: 370px;
+				@include transition-property(all);
+				@include transition-delay(1.2s);
+				@include transition-duration(0.5s);
+				@include transition-timing-function(forwards);
+			}
+		}
+
+
+	}
+
+	.more-works {
+
+		padding: 90px 0;
+
+		&.custom-animate {
+			opacity: 1;
+			transition: all 2s;
+		}
+
+		.heading {
+			margin-bottom: 50px;
+		}
+
+		.work {
+			padding: 0 15px;
+			position: relative;
+
+			img {
+				@include box-shadow(rgba(#666, 0.4) 0 6px 20px);
+				@include transition-property(all);
+				@include transition-duration(0.3s);
+				@include transition-timing-function(ease-in-out);
+				@include transform(Scale(1));	
+
+			}
+
+			a {
+
+				position: relative;
+				display: inline-block;
+				
+				&:before {
+
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					content: '';
+					display: block;
+					z-index: 10;
+					opacity: 0;
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#413da4+0,5bc9db+100 */
+					background: rgb(65,61,164); /* Old browsers */
+					background: -moz-linear-gradient(top, rgba(65,61,164,1) 0%, rgba(91,201,219,1) 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(top, rgba(65,61,164,1) 0%,rgba(91,201,219,1) 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to bottom, rgba(65,61,164,1) 0%,rgba(91,201,219,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#413da4', endColorstr='#5bc9db',GradientType=0 ); /* IE6-9 */
+					@include box-shadow(rgba(#666, 0.4) 0 6px 20px);
+					@include transition-property(all);
+					@include transition-duration(0.3s);
+					@include transition-timing-function(ease-in-out);
+					@include transform(Scale(1));
+
+				}
+
+			}
+
+			&:hover {
+
+				.work-info {
+					opacity: 1;
+				}
+
+				img {
+				
+					@include respond-to('medium') {
+						@include transform(Scale(1.03));
+					}
+				}
+
+				a {
+					
+					&:before {
+						opacity: 0.9;
+
+						@include respond-to('medium') {
+							@include transform(Scale(1.03));
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+		.work-info {
+			position: absolute;
+		    bottom: 17px;
+		    left: 0px;
+		    z-index: 20;
+		    background: $white;
+		    padding: 25px 20px;
+		    width: 310px;
+		    text-align: left;
+		    opacity: 1;
+		    @include transition-property(all);
+			@include transition-duration(0.3s);
+			@include transition-timing-function(ease-in-out);
+
+			@include respond-to('medium') {
+				opacity: 0;
+				left: -46px;
+			}
+		}
+
+		.work-title {
+			font-size: 24px;
+		    font-weight: $extra-bold;
+		    color: $black;
+		    margin: 0px 0px 10px;
+			
+			@include respond-to('medium') {
+				font-size: 35px;
+			}
+
+		}
+
+		.work-info {
+			font-size: 16px;
+			color: $grey;
+			font-weight: $light;
+		}
+
+	}
+
+
+}

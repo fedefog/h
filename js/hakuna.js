@@ -28,7 +28,7 @@ $(document).ready(function() {
     });
 
     $('.studio-slider').flexslider({
-        animation: "fade",
+        animation: "slide",
         animationLoop: false,
         slideshow: true,
         animationLoop: true,
@@ -42,23 +42,46 @@ $(document).ready(function() {
         animationLoop: true,
         directionNav: true
     });
+
+
     
-    /* Fade for second blocks after hero section */
-    
-    setTimeout(function(){$(".refresh-animate").addClass("custom-animate"); }, 1000);
+    /* Function for second blocks after hero section */
+
+    custom_refresh( '1000' );
+
+    function custom_refresh( speed ) {
+    	setTimeout(function(){$(".refresh-animate").addClass("custom-animate"); }, speed );
+    }
         
     /* See more work loading*/
 
+    var counter_works = 2; 
+
     $( ".see-more-work-js" ).click(function( event ) {
       event.preventDefault();
-      $(this).fadeOut("fast");
-	  $( ".works-container-row2-js" ).load( "works-2.php", function( response, status, xhr ) {
+	  $( ".works-container-row" + counter_works + "-js" ).load( "works-" + counter_works + ".php", function( response, status, xhr ) {
+	  	  custom_refresh('500');
 		  if ( status == "error" ) {
 		    var msg = "Sorry but there was an error: ";
 		    $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
 		  }
 		});
-});
+	  	if( counter_works == 3 ){
+            $(this).fadeOut("fast");
+        }
+	  	counter_works++;
+	});
+
+	/* Function for scroll down */
+
+	$( ".scroll-btn-js" ).click(function( event ) {
+	    event.preventDefault();
+
+	    $('html, body').animate({
+	        scrollTop: $($.attr(this, 'href')).offset().top
+	    }, 800, 'easeInOutCubic');
+
+	});
 
     /* Functions working on Scroll */
     $(window).scroll( function(){
