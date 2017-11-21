@@ -11,6 +11,12 @@
 	ntType=0 ); /* IE6-9 */
 	font-size: 0;
 	overflow: hidden;
+    
+    .process-container{
+        position: relative;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
 
 	.process-number {
 		position: absolute;
@@ -236,6 +242,7 @@
         top: calc(50% - 35px);
         left: 10px;
         cursor: pointer;
+        z-index: 5;
         
         @include respond-to("medium"){
             left: 25px;
