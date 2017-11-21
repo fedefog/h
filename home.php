@@ -35,7 +35,7 @@
         <div class="pure-g">
           <div class="offset-lg-1 pure-u-12-12 padding-mb">
             <h2 class="heading">We team up with companies to help them move forward through…</h2>
-            <div class="text"><a href="" class="underline">Discovery & Strategy</a>, <a href="#" class="underline">Branding & Visual lineupa</a>, <a href="#" class="underline">User experience</a>, <a href="#" class="underline">Web interface Design</a>, <a href="#" class="underline">Mobile app interface design</a>, <a href="#" class="underline">Development Solutions</a></div>
+            <div class="text"><a href="services.php#discovery" class="underline">Discovery & Strategy</a>, <a href="services.php#branding" class="underline">Branding & Visual lineupa</a>, <a href="services.php#ux" class="underline">User experience</a>, <a href="services.php#web-design" class="underline">Web interface Design</a>, <a href="services.php#app-design" class="underline">Mobile app interface design</a>, <a href="services.php#front-end" class="underline">Development Solutions</a></div>
             <a href="services.php" title="Learn more" class="btn btn-side-arrow">Learn more</a>
           </div>
         </div>

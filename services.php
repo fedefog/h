@@ -23,7 +23,7 @@
 
     <section class="services-details">
       <div class="container">
-        <div class="pure-g service-container hideme refresh-animate">
+        <div id="discovery" class="pure-g service-container hideme refresh-animate">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb hidden-xs">
             <h2 class="heading">Discovery &#38; Strategy</h2>
             <p class="service-description">A thoughtful discovery process will help us gain an accurate understanding of the breadth and depth of your project so that we can develop realistic project recommendations. These initial phases also teach us about how we can best work together.</p>
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="pure-g service-container hideme">
+        <div id="ux" class="pure-g service-container hideme">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
             <img src="images/services/service-2.png" title="service" alt="service" class="pure-img">
           </div>
@@ -53,7 +53,7 @@
           </div>
         </div>
 
-        <div class="pure-g service-container hideme">
+        <div id="web-design" class="pure-g service-container hideme">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb hidden-xs">
             <h2 class="heading">Web App Design</h2>
             <p class="service-description">The amount of web based apps is vastly growing. We excel in creating platform independent web app UI’s. Thorough research forms the steady foundation for the road from wire-frames to pixel perfect web apps.</p>
@@ -90,14 +90,14 @@
             <img src="images/services/service-4.png" title="service" alt="service" class="pure-img">
           </div>
 
-          <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
+          <div id="app-design" class="pure-u-12-12 pure-u-md-6-12 padding-mb">
             <h2 class="heading">Mobile App Design</h2>
             <p class="service-description">Having created several iOS and Android apps, designing for mobile is right up alley. We know every pixel is valuable on mobile devices and know how to make the most pretty and intuitive apps.</p>
             <a href="" title="See it in action" class="btn btn-side-arrow">See it in action</a>
           </div>
         </div>
 
-        <div class="pure-g service-container hideme">
+        <div id="branding" class="pure-g service-container hideme">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb hidden-xs">
             <h2 class="heading">Branding and Visual Lineup</h2>
             <p class="service-description">Our strategic process aims at defining a foundation and rationale for your brand, and ensures that the subsequent design process is specific to your needs and those of your end user.</p>
@@ -115,7 +115,7 @@
           </div>
         </div>
 
-        <div class="pure-g service-container hideme">
+        <div id="front-end" class="pure-g service-container hideme">
           <div class="pure-u-12-12 pure-u-md-6-12 padding-mb">
             <img src="images/services/service-6.png" title="service" alt="service" class="pure-img">
           </div>
