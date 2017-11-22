@@ -32,7 +32,7 @@ $(document).ready(function() {
         animationLoop: false,
         slideshow: true,
         animationLoop: true,
-        directionNav: false
+        directionNav: true
     });
 
     $('.rules-slider').flexslider({

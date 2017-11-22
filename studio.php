@@ -22,6 +22,16 @@
     </section>
 
     <section class="carrousel hideme refresh-animate">
+        <div class="left-slide">
+            <div class="arrow-1"></div>
+            <div class="arrow-2"></div>
+            <div class="arrow-3"></div>
+          </div>
+          <div class="right-slide">
+            <div class="arrow-1"></div>
+            <div class="arrow-2"></div>
+            <div class="arrow-3"></div>
+          </div>
       <div class="flexslider studio-slider">
         <img src="images/bg-testimonials.png" class="pure-img bg-testimonials" title="slide" alt="slide">
         <ul class="slides">
