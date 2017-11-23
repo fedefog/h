@@ -17,7 +17,7 @@
         position: absolute;
         width: 35px;
         height: 35px;
-        top: calc(50% - 55px);
+        top: calc(50% - 35px);
         left: 40px;
         cursor: pointer;
         z-index: 10;
@@ -74,6 +74,7 @@
 	}
 
 	.flexslider {
+        position: relative;
         
         .flex-direction-nav{
 
