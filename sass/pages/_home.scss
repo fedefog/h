@@ -201,9 +201,24 @@
          .left-slide{
             top: calc(50% + 30px);
         }
+        
+        .flexslider {
 
+            .flex-direction-nav{
 
-	}
+                    .flex-prev{
+                        top: calc(50% - 20px);
+                    }
+
+                    .flex-next{
+                        top: calc(50% - 20px);
+                    }
+
+                } 
+            
+            }
+
+	   }
 
 	.clients {
 		

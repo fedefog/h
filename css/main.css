@@ -1355,12 +1355,12 @@ footer .footer-bottom {
 /* line 95, ../sass/partials/_carrousel.scss */
 .carrousel .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 1;
-  left: -95px;
+  left: 30px;
 }
 /* line 100, ../sass/partials/_carrousel.scss */
 .carrousel .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 1;
-  right: -95px;
+  right: 30px;
 }
 /* line 110, ../sass/partials/_carrousel.scss */
 .carrousel .flexslider .flex-control-nav {
@@ -6359,7 +6359,15 @@ footer .footer-bottom {
 .page-home .carrousel .left-slide, .page-home .carrousel .right-slide, .page-home .carrousel .page-studio .work-rules .rules-slider .right-slide, .page-studio .work-rules .rules-slider .page-home .carrousel .right-slide {
   top: calc(50% + 30px);
 }
-/* line 210, ../sass/pages/_home.scss */
+/* line 209, ../sass/pages/_home.scss */
+.page-home .carrousel .flexslider .flex-direction-nav .flex-prev {
+  top: calc(50% - 20px);
+}
+/* line 213, ../sass/pages/_home.scss */
+.page-home .carrousel .flexslider .flex-direction-nav .flex-next {
+  top: calc(50% - 20px);
+}
+/* line 225, ../sass/pages/_home.scss */
 .page-home .clients .arrow {
   min-height: 150px;
   top: -175px;
@@ -6380,7 +6388,7 @@ footer .footer-bottom {
   -webkit-transition-timing-function: forwards;
   transition-timing-function: forwards;
 }
-/* line 218, ../sass/pages/_home.scss */
+/* line 233, ../sass/pages/_home.scss */
 .page-home .clients .arrow.custom-animate {
   min-height: 345px;
 }
