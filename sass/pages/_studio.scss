@@ -127,6 +127,7 @@
 
 			.member-info{
 				position: absolute;
+				display: none;
 				bottom: -5px;
 				left: 5px;
 				z-index: 20;
@@ -140,6 +141,10 @@
 				@include transition-property(all);
 				@include transition-duration(0.2s);
 				@include transition-timing-function(ease-in-out);
+
+				@include respond-to('medium') {
+					display: block;
+				}
 
 				.member-name{
 					font-size: 22px;
@@ -191,11 +196,11 @@
 				cursor: pointer;
 				position: relative;
 				width: auto;
-				max-width: initial;
-				height: 300px;
+				max-width: 100%;
 
 				@include respond-to('medium') {
 					max-width: 100%;
+					height: 300px;
 					height: initial;
 				}
 			}
@@ -319,47 +324,68 @@
 				margin-top: 150px;
 			}
 
-				.left-slide{
-					position: absolute;
-					width: 35px;
-					height: 35px;
-					top: calc(50% - 16px);
-					left: -50px;
-					cursor: pointer;
+			.flex-direction-nav{
+
+				a{
+					opacity: 0.7;
+					text-indent: -3000px;
+					text-align: start;
+					width: 47px;
+					height: 36px;
+
+					&:before{
+						opacity: 0;
+						content: '';
+						background-image: url(images/prev-carrousel.png);
+						width: 36px;
+						height: 47px;
+						display: block;
+						background-repeat: no-repeat;
+					}
+
+				}
+
+				.flex-prev{
+					left: 30px;
+				}
+
+				.flex-next{
+					right: 30px;
+					transform: rotate(-180deg);
+
+					&:before {
 						
-					.arrow-1{
-						position: absolute;
-						width: 35px;
-						height: 2px;
-						background-color: #30f237;
-						top: calc(50% - 2px);
-						left: 0;
 					}
-					
-					.arrow-2{
-						@extend .arrow-1;
-						width: 23px;
-						top: 7px;
-						left: -4px;
-						transform: rotate(-45deg);
-					}
-					
-					.arrow-3{
-						@extend .arrow-1;
-						width: 23px;
-						top: 23px;
-						left: -4px;
-						transform: rotate(45deg);
-					}
-					
+
 				}
-				
-				.right-slide{
-					@extend .left-slide;
-					left: initial;
-					right: -45px;
-					transform: rotate(180deg);
-				}
+
+			}
+
+			&:hover{
+
+				.flex-direction-nav{
+
+					.flex-prev{
+				        left: 30px;
+
+				        &:before{
+							opacity: 1;
+						}
+
+					}
+
+					.flex-next{
+				        right: 30px;
+
+				        &:before{
+							opacity: 1;
+						}
+
+					}
+	                
+				} 
+
+			} 
 
 			.rule{
 				position: relative;
