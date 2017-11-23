@@ -22,12 +22,12 @@
     </section>
 
     <section class="carrousel hideme refresh-animate">
-        <div class="left-slide">
+        <div class="left-slide hidden-xs">
             <div class="arrow-1"></div>
             <div class="arrow-2"></div>
             <div class="arrow-3"></div>
           </div>
-          <div class="right-slide">
+          <div class="right-slide hidden-xs">
             <div class="arrow-1"></div>
             <div class="arrow-2"></div>
             <div class="arrow-3"></div>
@@ -216,12 +216,12 @@
         <div class="pure-g padding-mb">
           <div class="pure-u-12-12">
             <div class="flexslider rules-slider">
-                  <div class="left-slide">
+                  <div class="left-slide hidden-xs">
                     <div class="arrow-1"></div>
                     <div class="arrow-2"></div>
                     <div class="arrow-3"></div>
                   </div>
-                  <div class="right-slide">
+                  <div class="right-slide hidden-xs">
                     <div class="arrow-1"></div>
                     <div class="arrow-2"></div>
                     <div class="arrow-3"></div>
