@@ -23,9 +23,9 @@
 
   <body class="page-<?php echo $page_name; ?>">
 
-    <header>
+    <header class="cd-auto-hide-header">
       <div class="container">
-        <div id="haku-logo">
+        <div id="haku-logo" class="transition">
           <? if ($page_name=="home") { ?>
           <img src="images/hakuna-logo.png" title="Hakuna - Creative design & development studio." alt="Hakuna Logo">
           <?php } else { ?>

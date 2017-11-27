@@ -1,6 +1,18 @@
 .page-home {
+	
+	padding-top: 65px;
+
 	header {
 		padding-top: 0;
+
+		&.is-hidden {
+
+			#haku-logo {
+				transform: translateY(-100%);
+			}
+
+		}
+
 	}
 
 	.hero-home {
