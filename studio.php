@@ -41,8 +41,8 @@
       <div class="container">
         <div class="pure-g padding-mb">
           <div class="pure-u-12-12">
-						<img class="ig-icon" src="css/images/ig-icon.png">
-              <a href="#" title="More about the studio" class="btn border-white btn-side-arrow">Follow us <span class="hidden-text">on Instagram</span></a>
+              <i class="fa fa-instagram ig-icon" aria-hidden="true"></i>
+              <a href="#" title="More about the studio" class="btn border-white btn-side-arrow">Follow us</a>
           </div>
         </div>
         <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
@@ -63,110 +63,110 @@
 				<div class="pure-g padding-mb">
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/marce.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Marcelo Angel</h3>
                 <div class="member-position">Founder / Creative Director</div>
               </div>
-              <img src="images/team/marce.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/fede.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Founder / Lead Developer</div>
               </div>
-              <img src="images/team/fede.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/guille.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Guille Lambiase</h3>
                 <div class="member-position">Business Development</div>
               </div>
-              <img src="images/team/guille.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/steven.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Steve Rea</h3>
                 <div class="member-position">Business Development</div>
               </div>
-              <img src="images/team/steven.jpg" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
                 <div class="member-position">Lead Developer</div>
               </div>
-              <img src="images/team/team1.png" class="pure-img">
             </div>
           </div>
         </div>
@@ -207,7 +207,7 @@
             <div class="flexslider rules-slider">
                 <ul class="slides">
                   <li class="rule">
-                    <div class="bg-number hidden-xs">16</div>
+                    <div class="bg-number">16</div>
                     <div class="rule-content">
                       <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
@@ -215,7 +215,7 @@
                     </div>
                   </li>
                   <li class="rule">
-                    <div class="bg-number hidden-xs">16</div>
+                    <div class="bg-number">16</div>
                     <div class="rule-content">
                       <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
@@ -223,7 +223,7 @@
                     </div>
                   </li>
                   <li class="rule">
-                    <div class="bg-number hidden-xs">16</div>
+                    <div class="bg-number">16</div>
                     <div class="rule-content">
                       <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
@@ -231,14 +231,14 @@
                     </div>
                   </li>
                   <li class="rule">
-                    <div class="bg-number hidden-xs">16</div>
+                    <div class="bg-number">16</div>
                     <div class="rule-content">
                       <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>
                       <p class="rule-description">Successful teamwork is built on a foundation of trust. Each member of the team must establish trust, cultivate trust through his actions and words, and work to maintain it. Each member also needs to be able to trust his team members to make a commitment to the team and its goals, work competently with those goals in mind, and communicate consistently about any issues that affect the team.</p>
                     </div>
                   </li><li class="rule">
-                    <div class="bg-number hidden-xs">16</div>
+                    <div class="bg-number">16</div>
                     <div class="rule-content">
                       <p class="rule-number"># 16</p>
                       <h3 class="rule-title">Always trust your team.</h3>

@@ -1,3 +1,15 @@
+// Menu Mobile
+@include keyframes(item_menu_mobile){
+    0%   { 
+      opacity: 0;
+      @include transform (translate( 0, 30px));
+    }
+    100% { 
+      opacity: 1;
+      @include transform (translate( 0, 0));
+    }
+}
+
 // Hero Titles 
 
 @include keyframes(hero_titles) {
@@ -8,6 +20,17 @@
   		@include transform (translate( 0, 0px)); 
   		opacity: 1;
   	}
+}
+
+// Rule Number 
+
+@include keyframes(rule_number) {
+    0%   { 
+      opacity: 0;
+    }
+    100% { 
+      opacity: 1;
+    }
 }
 
 // Hero Fade animate 
@@ -93,4 +116,17 @@
   	100% { 
   		opacity: 0;
   	}
+}
+
+// Btn border animate 
+
+@include keyframes(clients_anim) {
+    0%   { 
+      opacity: 0;
+      @include transform (translate( 0, 20px)); 
+    }
+    100% { 
+      opacity: 1;
+      @include transform (translate( 0, 0px)); 
+    }
 }

@@ -47,20 +47,24 @@
 	&.btn-bottom-arrow {
 		background-image: url(images/bottom-arrow.png);
 		background-position: right 3px;
+		background-size: 12px 15px;
 	}
 
 	&.btn-bottom-arrow-black {
 		background-image: url(images/bottom-arrow-black.png);
 		background-position: right 3px;
+		background-size: 12px 15px;
 	}
 
 	&.btn-side-arrow {
 		background-image: url(images/side-arrow.png);
 		background-position: right 5px;
+		background-size: 18px 14px;
 	}
 
 	&.btn-white.btn-side-arrow {
 		background-image: url(images/side-arrow-white.png);
+		background-size: 18px 14px;
 	}
 
 }

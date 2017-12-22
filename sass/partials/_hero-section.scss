@@ -97,6 +97,10 @@
 		@include transform (translate( 0, 50px));
 		@include transition-property(all);
 
+		span {
+			font-weight: $semi-bold;
+		}
+
 		@include respond-to('medium') {
 			font-size: 18px;
 			margin: 0px 30px 0;

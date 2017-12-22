@@ -170,7 +170,7 @@
       <div class="container">
         <div class="pure-g padding-mb">
           <div class="offset-lg-1 pure-u-12-12">
-            <a href="studio.php" title="More about the studio" class="btn border-white btn-side-arrow">More about the studio</a>
+            <a href="studio.php" title="More about the studio" class="btn border-white btn-side-arrow">The studio</a>
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@
             <div class="text">We partner with amazing people to innovate, creating meaningful digital products and services that solve problems for their customers.</div>
           </div>
         </div>
-        <div class="pure-g padding-mb clients-container">
+        <div class="pure-g padding-mb clients-container hideme">
           <div class="pure-u-6-12 pure-u-md-3-12 text-center client">
             <img src="images/clients/client-1.png" class="pure-img" title="slide" alt="slide">
           </div>

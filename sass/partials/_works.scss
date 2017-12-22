@@ -4,16 +4,19 @@
 	.works-row {
 		position: relative;
 		margin: 0 15px;
+		overflow-x: hidden;
 
 		@include respond-to('medium') {
 			top: -160px;
 			height: 580px;
 			margin: 0 30px;
+			overflow-x: visible;
 		}
 
 	}
 	
 	.work {
+		margin: 10px 0;
 		opacity: 0;
 		display: block;
 		@include transition-property(all);
@@ -103,12 +106,11 @@
 			bottom: auto;
 
 			.work-info {
-				text-align: right;
-				left: 0px;
-				right: auto;
+				text-align: right;				
 
 				@include respond-to('medium') {
 					left: -46px;
+					right: auto;
 				}
 
 			}
@@ -117,12 +119,13 @@
 
 		.work-info {
 			position: absolute;
-		    bottom: 17px;
-		    right: 0px;
+		    bottom: 5%;
 		    z-index: 20;
+		    left: 5%;
+		    width: 90%;
 		    background: $white;
 		    padding: 25px 20px;
-		    width: 310px;
+		    box-sizing: border-box;
 		    text-align: left;
 		    opacity: 1;
 		    @include transition-property(all);
@@ -131,7 +134,11 @@
 
 			@include respond-to('medium') {
 				opacity: 0;
+				bottom: 17px;
+				width: 310px;
 				right: -46px;
+				left: auto;
+				box-sizing: initial;
 			}
 		}
 

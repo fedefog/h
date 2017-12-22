@@ -7,16 +7,13 @@
           <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
           <div class="pure-g">
 
-            <div class="pure-u-12-12 pure-u-md-5-12 padding-mb">
+            <div class="pure-u-12-12 padding-mb">
               <h2 class="hero-section-subtitle custom-animate">Donation Platform</h2>
               <h1 class="hero-section-title custom-animate">Achisomoch.</h1>
-              <h3 class="hero-section-extrainfo custom-animate">Service Provided<br>
+              <h2 class="hero-section-description custom-animate">We teamed up with Achisomoch.org to plan, design and develop a robust donation platform. AAC makes giving tzedakah as tax-efficient and simple as possible.</h2>
+              <h3 class="hero-section-extrainfo custom-animate"><span>Service Provided</span><br>
               UX / UI / Development
               </h3>
-            </div>
-
-            <div class="pure-u-12-12 pure-u-md-7-12 padding-mb">
-							<h2 class="hero-section-description custom-animate">We teamed up with Achisomoch.org to plan, design and develop a robust donation platform. AAC makes giving tzedakah as tax-efficient and simple as possible.</h2>
             </div>
 
           </div>
@@ -28,7 +25,7 @@
       <img src="images/works/achimosoch/big-1.png" alt="img-banner" class="pure-img">
     </section>
 
-    <section class="default hideme">
+    <section class="default">
       <div class="container">
         <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
         <div class="pure-g padding-mb">
@@ -45,7 +42,7 @@
       <img src="images/works/achimosoch/small-2.png" alt="img-banner" class="pure-img pull-right">
     </section>
 
-    <section class="default hideme">
+    <section class="default">
       <div class="container">
         <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
         <div class="pure-g padding-mb">
@@ -66,7 +63,7 @@
       <img src="images/works/achimosoch/small-2.png" alt="img-banner" class="pure-img pull-right space-top">
     </section>
 
-    <section class="testimonials hideme">
+    <section class="testimonials">
       <div class="container">
         <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
         <div class="pure-g padding-mb">
@@ -99,7 +96,7 @@
         <img src="images/works/achimosoch/small-8.png" alt="img-banner" class="pure-img pull-right space-top">
     </section>
 
-    <section class="default hideme">
+    <section class="default">
       <div class="container">
         <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
         <div class="pure-g padding-mb">
@@ -111,7 +108,7 @@
       </div>
     </section>
 
-    <section class="carrousel hideme">
+    <section class="carrousel">
       <div class="flexslider studio-slider">
         <img src="images/bg-testimonials.png" class="pure-img bg-testimonials" title="slide" alt="slide">
         <ul class="slides">
@@ -132,7 +129,7 @@
       <div class="container">
         <div class="pure-g padding-mb">
           <div class="pure-u-12-12">
-						<strong>AAC Donation Platform’s dashboard</strong>
+						<strong>AAC Donation Platform</strong>
           </div>
         </div>
       </div>

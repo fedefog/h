@@ -1,14 +1,38 @@
 .page-case-study {
 
+	header {
+		&.small {
+		  transform: translateY(-0px);
+
+		  @include respond-to('medium') {
+		  	transform: translateY(-40px);
+		  }
+			
+		  .logo-section {
+		  	transform: scale(0.7);
+		  }
+
+		}
+	}
+
 	.hero-section {
 		z-index: 10;
 
 		.arrow {
 
+			height: 360px;
+
 			&.custom-animate {
 				height: 510px;
 			}
 
+		}
+
+		.hero-section-description {
+			@include respond-to('medium') {
+				margin: 10px 30px 20px;
+				max-width: 75%;
+			}
 		}
 
 	}
@@ -39,14 +63,41 @@
 		position:relative;
         overflow: hidden;
 
+        &.small-images {
+			max-width: 1325px;
+			margin: auto;
+
+			img {
+				@include transition-property(all);
+				@include transition-duration(0.5s);
+				opacity: 0;
+
+				&:nth-child(1) {
+					@include transform (translate( 20px, 0)); 
+				}
+				&:nth-child(2) {
+					@include transform (translate( -20px, 0)); 
+				}
+
+				@include respond-to('max-small') {
+				margin-bottom: 30px;
+				}
+			}
+
+			&.custom-animate {
+
+				img {
+					@include transform (translate( 0px, 0)); 
+					@include transition-delay(0.4s);
+					opacity: 1;
+				}
+			}
+
+		}
+
         &.custom-animate {
 			opacity: 1;
 			transition: all 2s;
-		}
-
-		&.small-images {
-			max-width: 1325px;
-			margin: auto;
 		}
 
 		&.space-top {
@@ -54,16 +105,16 @@
 		}
 
 		img{
-			height: 400px;
-			max-width: initial;
-
-			@include respond-to("medium"){
-				max-width: 100%;
-				height: auto;
-			}
+			max-width: 100%;
+			height: auto;
 
 			&.space-top {
-				margin-top: 50px;
+				margin-top: 30px;
+
+				@include respond-to('medium') {
+					margin-top: 50px;
+				}
+
 			}
 
 		}
@@ -155,6 +206,10 @@
 		.work {
 			padding: 0 15px;
 			position: relative;
+
+			@include respond-to('max-small') {
+				margin: 15px 0;
+			}
 
 			img {
 				@include box-shadow(rgba(#666, 0.4) 0 6px 20px);

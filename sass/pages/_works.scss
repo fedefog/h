@@ -1,6 +1,22 @@
 .page-works {
+
+	header {
+		&.small {
+		  transform: translateY(-0px);
+
+		  @include respond-to('medium') {
+		  	transform: translateY(-40px);
+		  }
+			
+		  .logo-section {
+		  	transform: scale(0.7);
+		  }
+
+		}
+	}
+
 	.works {
-		padding-top: 185px;
+		padding-top: 130px;
 		position: relative;
 
 		@include respond-to('medium') {
@@ -19,7 +35,6 @@
 		}
 
 		.work {
-			margin: 10px 0;
 
 			@include respond-to('medium') {
 				bottom: -160px;

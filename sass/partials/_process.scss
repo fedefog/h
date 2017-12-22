@@ -57,9 +57,13 @@
 		
 		.process-title{
 			font-size: 38px;
-			font-weight: $regular;
+			font-weight: $extra-bold;
 			margin: 0;
 			opacity: 0;
+
+			@include respond-to("medium"){
+				font-weight: $semi-bold;
+			}
 			
 			&.fade-in{
 			opacity: 1;
@@ -136,7 +140,7 @@
                 
                 .process-info-title{
                     font-size: 20px;
-                    font-weight: $light;
+                    font-weight: $semi-bold;
                     opacity: 0;
 
                 }
@@ -199,7 +203,7 @@
 
 				.process-info-title{
 					font-size: 20px;
-					font-weight: $light;
+					font-weight: $semi-bold;
 				}
 
 				.process-info-description{

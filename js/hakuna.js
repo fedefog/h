@@ -81,13 +81,57 @@ $(document).ready(function() {
 
 	});
 
+	/* START HERE */
+
+	/* Function for scroll down */
+
+	$( ".start-link-js" ).click(function( event ) {
+	    event.preventDefault();
+	    $('html, body').toggleClass('no-scroll');
+	    $('aside').toggleClass('visible');
+
+	});
+
+	$( ".close-sidebar" ).click(function( event ) {
+	    event.preventDefault();
+	    $('html, body').toggleClass('no-scroll');
+	    $('aside').toggleClass('visible');
+
+	});
+
+	/* MENU MOBILE */
+
+	/* Function for scroll down */
+
+	$( ".menu-link" ).click(function( event ) {
+	    event.preventDefault();
+	    $('html, body').toggleClass('no-scroll');
+	    $(this).toggleClass('active');
+	    $('.menu-mobile').toggleClass('visible');
+
+	});
+
+	/* Function to know screen width */
+	var screen = $(window)    
+	var y_point = 0;
+
+    if (screen.width() < 768) {
+        var y_point = 500;
+    }
+    else {
+        var y_point = 300;
+    }
+
     /* Functions working on Scroll */
     $(window).scroll( function(){
 
+    	//console.log(y_point);
+
         /* Function for animate general elements */
         $('.hideme').each( function(i){
-            var bottom_of_object =  $(this).offset().top + $(this).outerHeight()-300;
+            var bottom_of_object =  $(this).offset().top + $(this).outerHeight() - y_point;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
+            console.log(bottom_of_object);
             //console.log(bottom_of_window);
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
@@ -128,7 +172,7 @@ $(document).ready(function() {
 			timer = setTimeout(refreshProcess, 5000);
 			if($('.process-section').hasClass('refresh')){
 				rightSlide();
-				console.log(timer);
+				//console.log(timer);
 			}
     }
     refreshProcess();

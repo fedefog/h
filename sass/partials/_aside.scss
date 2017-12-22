@@ -1,0 +1,137 @@
+aside {
+	background: $white;
+	position: fixed;
+	z-index: 3500;
+	background: #FFF;
+	top: 0;
+	right: 0;
+	width: 70%;
+	height: 100vh;
+	@include box-shadow(rgba(#666, 0.4) 0 6px 20px);
+	opacity: 0;
+	visibility: hidden;
+	@include transition-property(all);
+	@include transition-duration(0.2s);
+	@include transition-timing-function(ease-in-out);
+	@include transform (translate( -100px, 0)); 
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+
+	&.visible {
+		opacity: 1;
+		visibility: visible;
+		@include transform (translate( 0, 0)); 
+	}
+
+	.arrow {
+		left: 80px;
+		top: 45px;
+	}
+
+	.aside-title {
+		font-size: 46px;
+		font-weight: $semi-bold;
+		margin: 0 0 15px;
+	}
+
+	.aside-description {
+		font-size: 20px;
+		font-weight: $light;
+		margin: 0px;
+	}
+
+	.close-sidebar {
+		position: absolute;
+		background: $green;
+		color: $white; 
+		border-radius: 50%;
+		height: 52px;
+		width: 52px;
+		font-size: 19px;
+		top: 20px;
+		border: none;
+		right: 40px;
+	}
+
+	.form-container {
+		padding: 70px 120px;
+		display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	    -ms-flex-pack: justify;
+	    justify-content: space-between;
+	}
+
+	.form-group {
+		margin-top: 25px;
+
+		.btn {
+			border: none;
+			margin-top: 25px;
+			padding-left: 0px;
+		}
+
+	}
+
+	textarea {
+		padding-top: 25px;
+		height: 135px!important;
+	}
+
+	.form-control {
+		width: 100%;
+		border: none;
+		background: #F7F7F7;
+		height: 56px;
+		padding-left: 25px;
+		margin-top: 25px;
+		box-sizing: border-box;
+		font-size: 18px;
+		font-weight: $light;
+
+		&.middle-width {
+			width: 48%;
+			float: left;
+			display: inline-block;
+
+			&.pull-right {
+				float: right;
+			}
+		}
+	}
+	
+	.aside-text {
+		font-size: 18px;
+		font-weight: $light;
+		margin-top: 60px;
+	}
+
+	.aside-mail {
+		font-size: 42px;
+		font-weight: $extra-bold;
+	}
+
+	.mail-networks {
+		position: relative;
+
+		.social-networks {
+		
+			position: absolute;
+			bottom: 6px;
+			right: -40px;
+
+			.social-link {
+				color: #1FFF00;
+			}
+			
+		}
+
+	}
+
+}
