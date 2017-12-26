@@ -26,7 +26,7 @@
     <header class="cd-auto-hide-header">
       <div class="container">
         <div id="haku-logo" class="transition">
-          <? if ($page_name=="home") { ?>
+          <?php if ($page_name=="home") { ?>
           <a href="home.php" title="Hakuna"><img class="logo-home" src="images/hakuna-logo.png" title="Hakuna - Creative design & development studio." alt="Hakuna Logo"></a>
           <?php } else { ?>
           <a href="home.php" title="Hakuna"><img class="logo-section" width="40" height="49" src="images/hakuna-logo-section.png" title="Hakuna - Creative design & development studio." alt="Hakuna Logo"></a>
@@ -37,20 +37,20 @@
         </a>
         <nav class="pure-menu pure-menu-horizontal hidden-xs">
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="home.php" title="" class="pure-menu-link transition <? if ($page_name=="home") echo 'pure-button-active'; ?>">Home</a></li>
-                <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition <? if ($page_name=="works") echo 'pure-button-active'; ?>">Works</a></li>
-                <li class="pure-menu-item"><a href="services.php" title="" class="pure-menu-link transition <? if ($page_name=="services") echo 'pure-button-active'; ?>">Services</a></li>
-                <li class="pure-menu-item"><a href="studio.php" title="" class="pure-menu-link transition <? if ($page_name=="studio") echo 'pure-button-active'; ?>">Studio</a></li>
+                <li class="pure-menu-item"><a href="home.php" title="" class="pure-menu-link transition <?php if ($page_name=="home") echo 'pure-button-active'; ?>">Home</a></li>
+                <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition <?php if ($page_name=="works") echo 'pure-button-active'; ?>">Works</a></li>
+                <li class="pure-menu-item"><a href="services.php" title="" class="pure-menu-link transition <?php if ($page_name=="services") echo 'pure-button-active'; ?>">Services</a></li>
+                <li class="pure-menu-item"><a href="studio.php" title="" class="pure-menu-link transition <?php if ($page_name=="studio") echo 'pure-button-active'; ?>">Studio</a></li>
                 <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link start-link-js btn btn-side-arrow transition">Start here</a></li>
             </ul>
         </nav>
       </div>
       <div class="menu-mobile">
       <ul class="pure-menu-list">
-          <li class="pure-menu-item"><a href="home.php" title="" class="pure-menu-link transition <? if ($page_name=="home") echo 'pure-button-active'; ?>">Home</a></li>
-          <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition <? if ($page_name=="works") echo 'pure-button-active'; ?>">Works</a></li>
-          <li class="pure-menu-item"><a href="services.php" title="" class="pure-menu-link transition <? if ($page_name=="services") echo 'pure-button-active'; ?>">Services</a></li>
-          <li class="pure-menu-item"><a href="studio.php" title="" class="pure-menu-link transition <? if ($page_name=="studio") echo 'pure-button-active'; ?>">Studio</a></li>
+          <li class="pure-menu-item"><a href="home.php" title="" class="pure-menu-link transition <?php if ($page_name=="home") echo 'pure-button-active'; ?>">Home</a></li>
+          <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition <?php if ($page_name=="works") echo 'pure-button-active'; ?>">Works</a></li>
+          <li class="pure-menu-item"><a href="services.php" title="" class="pure-menu-link transition <?php if ($page_name=="services") echo 'pure-button-active'; ?>">Services</a></li>
+          <li class="pure-menu-item"><a href="studio.php" title="" class="pure-menu-link transition <?php if ($page_name=="studio") echo 'pure-button-active'; ?>">Studio</a></li>
       </ul>
       <div class="social-networks">
         <a class="social-link transition" target="_blank" href="https://www.facebook.com/StudioHakuna/" title="Hakuna Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
