@@ -1,6 +1,6 @@
 .process-section {
 	width: 100%;
-	height: 630px;
+	height: 600px;
 	color: $white;
 	position:relative;
 	background: rgb(65,13,150); /* Old browsers */
@@ -27,6 +27,10 @@
 		color: #4f5eb3;
 		opacity: 0;
         transform: translate(-220px, 0);
+
+        &.fade-left{
+            transform: translate(220px, 0);
+		}
 		
 		&.fade-number{
 			opacity: 0.5;
@@ -79,10 +83,10 @@
 		.flex-control-nav{
 			width: 20px;
 			height: 120px;
-            bottom: 0;
+            bottom: 20px;
             transform: rotate(-90deg);
             left: calc(50% - 15px);
-            z-index: 99999999;
+            z-index: 999;
             
             @include respond-to("medium"){
               display: block;
@@ -131,7 +135,7 @@
                         }
 
                          &.to-left{
-                            @include animation(process-slides-left 1s 0s normal forwards);
+                            @include animation(process-slides-mobile-left 1s 0s normal forwards);
                         }
                         
                          @include respond-to("medium"){
@@ -181,14 +185,16 @@
 				border-image: linear-gradient(#5812d0, #63ccd9, #30f237)0 100%;
 				padding: 20px 30px;
 				position: absolute;
-				top: calc(50% - 135px);
+				top: calc(50% - 160px);
 				display: block;
                 margin: 0 50px;
+                height: 300px;
                 
                 @include respond-to("medium"){
                     width: 60%; 
 				    height: 226px;
                     margin-left: 50px;
+                    top: calc(50% - 135px);
                 }
                 
                 .process-info{

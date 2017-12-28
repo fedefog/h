@@ -99,6 +99,19 @@
     }
 }
 
+@include keyframes(process-slides-mobile-left){
+    0%   { 
+      @include transform (translate( 0, -200px));
+        color: $white;
+        opacity: 1;
+    }
+    100% { 
+      @include transform (translate( 0, 0));
+        color: #636ec6;
+        opacity: 0;
+    }
+}
+
 @include keyframes(process-main-left){
     0%   { 
       @include transform (translate( 0, -220px));

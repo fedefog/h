@@ -42,7 +42,44 @@ $(document).ready(function() {
         animationLoop: true,
         directionNav: true
     });
-    
+
+
+    /* Swipe in process slider */
+    document.addEventListener('touchstart', function(event) {
+	if (event.touches.length == 1 && event.target.matches('.process-section .main-slide .process-info, .process-section .main-slide .process-info *')) {
+		event.preventDefault();
+		document.querySelector('.process-section').classList.remove('refresh');
+		var slide = event.target.closest('.main-slide .process-info'), startX = event.touches[0].pageX, offsetX = 0;
+		function touchmove(event) {
+			event.preventDefault();
+			slide.style.transform = 'translateX(' + (offsetX = event.touches[0].pageX - startX) + 'px)';
+		}
+		function touchend(event) {
+			event.preventDefault();
+			if (event.touches.length == 0) {
+				slide.removeEventListener('touchmove', touchmove);
+				slide.removeEventListener('touchend', touchend);
+				if (offsetX > 20) {
+					document.querySelector('.process-section .left-slide').click();
+					document.querySelector('.process-number').classList.remove('fade-left');
+				} else if (offsetX < -20) {
+					document.querySelector('.process-section .right-slide').click();
+					document.querySelector('.process-number').classList.add('fade-left');
+				}
+				slide.style.transition = 'transform .4s';
+				slide.style.transform = '';
+				slide.addEventListener('transitionend', function transitionend() {
+					slide.removeEventListener('transitionend', transitionend);
+					slide.style.transition = '';
+					document.querySelector('.process-section').classList.add('refresh');
+				});
+			}
+		}
+		slide.addEventListener('touchmove', touchmove);
+		slide.addEventListener('touchend', touchend);
+	}
+}, { passive: false });
+  
     /* Function for second blocks after hero section */
 
     custom_refresh( '1000' );
@@ -178,8 +215,17 @@ $(document).ready(function() {
     refreshProcess();
 	
 		$('.process-section .flex-control-nav li a').click(function(){
+			prevSlideActive = slideActive;
 			slideActive = parseInt($(this).attr('id'));
+
 			process();
+			if(prevSlideActive>slideActive){
+				if (prevSlideActive==5 && slideActive==1) {}
+				else{
+					$(".process-info").removeClass("to-right");
+	            	$(".process-info").addClass("to-left");
+            	}
+			}
 			clearTimeout(timer);
 		});
 	

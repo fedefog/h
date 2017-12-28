@@ -18,7 +18,6 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
-
   </head>
 
   <body class="page-<?php echo $page_name; ?>">
