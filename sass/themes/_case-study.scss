@@ -88,7 +88,7 @@
 
 				img {
 					@include transform (translate( 0px, 0)); 
-					@include transition-delay(0.4s);
+					@include transition-delay(0.2s);
 					opacity: 1;
 				}
 			}
@@ -118,6 +118,15 @@
 			}
 
 		}
+        
+        .main-img{
+            margin-top: 40px;
+            
+            @include respond-to('medium') {
+                margin-top: 0;
+            }
+
+        }
 
 		.hideme {
 			display: inline-block;

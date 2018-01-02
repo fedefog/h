@@ -43,8 +43,8 @@
 
 		.hero-absolute {
 			position: absolute;
-			top: 35%;
 			width: 100%;
+            bottom: 30px;
 
 			@include respond-to('medium') {
 				top: 0;

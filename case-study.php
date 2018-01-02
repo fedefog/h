@@ -22,7 +22,7 @@
     </section>
 
     <section class="banner hideme refresh-animate">
-      <img src="images/works/achimosoch/big-1.png" alt="img-banner" class="pure-img">
+      <img src="images/works/achimosoch/big-1.png" alt="img-banner" class="pure-img main-img">
     </section>
 
     <section class="default">

@@ -30,6 +30,24 @@ header {
 		height: 65px;
 		padding-top: 40px;
 	}
+    
+    &.small{
+        
+        #haku-logo {
+            
+            .logo-home{
+                width: 60%;
+                transition: all 0.5s;
+                
+                @include respond-to('medium') {
+                    width: auto;
+                }
+                
+            }
+            
+        }
+        
+    }
 
 	#haku-logo {
 		position: absolute;
@@ -39,7 +57,8 @@ header {
 		transition: transform .5s;
 
 		.logo-home {
-			width: 60%;
+			width: 80%;
+            transition: all 0.5s;
 
 			@include respond-to('medium') {
 				width: auto;
