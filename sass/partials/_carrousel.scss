@@ -21,6 +21,26 @@
 
 	    .flex-viewport {
 			@include box-shadow(rgba(#666, 0.4) 0 6px 20px);
+
+			li{
+				height: 300px;
+
+				@include respond-to('medium') {
+					height: auto;
+				}
+
+				img{
+					height: 300px;
+					width: auto;
+					object-fit: cover;
+					object-position: center;
+
+					@include respond-to('medium') {
+						height: auto;
+						width: 100%;
+					}
+				}
+			}
 	    }
 
 		@include respond-to('medium') {

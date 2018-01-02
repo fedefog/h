@@ -135,7 +135,7 @@
       </div>
     </section>
 
-    <section class="more-works hideme">
+    <section class="more-works">
       <div class="container">
         <div class="pure-g">
           
@@ -144,7 +144,7 @@
           </div>
 
           <div class="pure-u-1 pure-u-md-1-3">
-            <div class="work">
+            <div class="work hideme">
               <a href="#">
                 <img src="https://cdn.dribbble.com/users/609785/screenshots/3795360/image_1x.png" class="pure-img transition">
                 <div class="work-info">
@@ -155,7 +155,7 @@
             </div>
           </div>
           <div class="pure-u-1 pure-u-md-1-3">
-            <div class="work">
+            <div class="work hideme">
               <a href="#">
                 <img src="https://cdn.dribbble.com/users/1559223/screenshots/3526812/ipad_pro_portrait_1x.png" class="pure-img transition">
                 <div class="work-info">
@@ -166,7 +166,7 @@
             </div>
           </div>
           <div class="pure-u-1 pure-u-md-1-3">
-            <div class="work">
+            <div class="work hideme">
               <a href="#">
                 <img src="https://cdn.dribbble.com/users/1059583/screenshots/3419820/popchest-map_1x.png" class="pure-img transition">
                 <div class="work-info">
