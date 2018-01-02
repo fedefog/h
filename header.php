@@ -50,6 +50,7 @@
           <li class="pure-menu-item"><a href="works.php" title="" class="pure-menu-link transition <?php if ($page_name=="works") echo 'pure-button-active'; ?>">Works</a></li>
           <li class="pure-menu-item"><a href="services.php" title="" class="pure-menu-link transition <?php if ($page_name=="services") echo 'pure-button-active'; ?>">Services</a></li>
           <li class="pure-menu-item"><a href="studio.php" title="" class="pure-menu-link transition <?php if ($page_name=="studio") echo 'pure-button-active'; ?>">Studio</a></li>
+          <li class="pure-menu-item"><a href="#" title="" class="pure-menu-link start-link-js btn btn-side-arrow transition">Start here</a></li>
       </ul>
       <div class="social-networks">
         <a class="social-link transition" target="_blank" href="https://www.facebook.com/StudioHakuna/" title="Hakuna Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>

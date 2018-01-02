@@ -108,7 +108,7 @@
 
 		img{
 			height: 230px;
-		    width: auto;
+		    width: 100%;
 		    object-fit: cover;
 		    object-position: center;
 		    margin-top: 15px;
@@ -225,6 +225,7 @@
 		.work {
 			padding: 0 15px;
 			position: relative;
+			text-align: center;
 
 			&.custom-animate {
 				opacity: 1;
