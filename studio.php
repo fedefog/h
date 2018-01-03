@@ -66,7 +66,7 @@
               <img src="images/team/marce.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Marcelo Angel</h3>
-                <div class="member-position">Founder / Creative Director</div>
+                <div class="member-position">Partner / Creative Director</div>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
               <img src="images/team/fede.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Founder / Lead Developer</div>
+                <div class="member-position">Partner / Operations Director</div>
               </div>
             </div>
           </div>
@@ -99,19 +99,19 @@
           </div>-->
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
-              <img src="images/team/cami.jpg" class="pure-img">
+              <img src="images/team/lean.jpg" class="pure-img">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Leandro Longo</h3>
+                <div class="member-position">Art Director</div>
               </div>
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
-              <img src="images/team/lean.jpg" class="pure-img">
+              <img src="images/team/cami.jpg" class="pure-img">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Camila Enrique</h3>
+                <div class="member-position">Graphic Designer</div>
               </div>
             </div>
           </div>
@@ -119,8 +119,8 @@
             <div class="team-member">
               <img src="images/team/ro.jpg" class="pure-img">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Rocio Rogé</h3>
+                <div class="member-position">Graphic Designer</div>
               </div>
             </div>
           </div>
@@ -128,8 +128,8 @@
             <div class="team-member">
               <img src="images/team/sofi.jpg" class="pure-img">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Sofia Soldano</h3>
+                <div class="member-position">Frontend Developer</div>
               </div>
             </div>
           </div>
@@ -137,8 +137,8 @@
             <div class="team-member">
               <img src="images/team/dani.jpg" class="pure-img">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Daniela Revilla</h3>
+                <div class="member-position">Graphic Designer</div>
               </div>
             </div>
           </div>
