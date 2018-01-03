@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"> 
     <link href="css/vendors/grid.css" rel="stylesheet">
     <link href="css/vendors/flexslider.css" rel="stylesheet">
+     <link href="css/vendors/bootstrapValidator.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
     <!--[if lte IE 8]>

@@ -13,9 +13,9 @@
           <div class="form-group">
             <input type="text" class="form-control middle-width" name="name" id="name-field" placeholder="Your name*">
             <input type="email" class="form-control middle-width pull-right" name="email" id="email-field" placeholder="Email address*"></br>
-            <input type="text" class="form-control" name="name" id="how-field" placeholder="How did you hear about us?"></br>
+            <input type="text" class="form-control" name="how-field" id="how-field" placeholder="How did you hear about us?"></br>
             <textarea type="textarea" class="form-control" name="message" placeholder="Write your message…"></textarea></br>
-            <button type="submit" name="" class="btn btn-side-arrow transition">Send message</button>
+            <button type="submit" value="submit" name="" class="btn btn-side-arrow transition">Send message</button>
           </div>
         </form>
         

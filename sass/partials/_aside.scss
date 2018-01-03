@@ -68,6 +68,7 @@ aside {
 		top: 15px;
 		border: none;
 		right: 15px;
+		text-align: center;
 
 		@include respond-to('medium') {
 			height: 52px;
