@@ -79,7 +79,7 @@
               </div>
             </div>
           </div>
-          <div class="pure-u-1-2 pure-u-lg-1-4">
+          <!--<div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
               <img src="images/team/guille.jpg" class="pure-img">
               <div class="member-info">
@@ -96,8 +96,62 @@
                 <div class="member-position">Business Development</div>
               </div>
             </div>
+          </div>-->
+          <div class="pure-u-1-2 pure-u-lg-1-4">
+            <div class="team-member">
+              <img src="images/team/cami.jpg" class="pure-img">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+            </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
+            <div class="team-member">
+              <img src="images/team/lean.jpg" class="pure-img">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+            </div>
+          </div>
+          <div class="pure-u-1-2 pure-u-lg-1-4">
+            <div class="team-member">
+              <img src="images/team/ro.jpg" class="pure-img">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+            </div>
+          </div>
+          <div class="pure-u-1-2 pure-u-lg-1-4">
+            <div class="team-member">
+              <img src="images/team/sofi.jpg" class="pure-img">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+            </div>
+          </div>
+          <div class="pure-u-1-2 pure-u-lg-1-4">
+            <div class="team-member">
+              <img src="images/team/dani.jpg" class="pure-img">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+            </div>
+          </div>
+          <div class="pure-u-1-2 pure-u-lg-1-4">
+            <div class="team-member">
+              <img src="images/team/team1.png" class="pure-img">
+              <div class="member-info">
+                <h3 class="member-name">Federico Fogel</h3>
+                <div class="member-position">Lead Developer</div>
+              </div>
+            </div>
+          </div>
+         <!-- <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
               <img src="images/team/team1.png" class="pure-img">
               <div class="member-info">
@@ -115,61 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="pure-u-1-2 pure-u-lg-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-              <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
-              </div>
-            </div>
-          </div>
-          <div class="pure-u-1-2 pure-u-lg-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-              <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
-              </div>
-            </div>
-          </div>
-          <div class="pure-u-1-2 pure-u-lg-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-              <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
-              </div>
-            </div>
-          </div>
-          <div class="pure-u-1-2 pure-u-lg-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-              <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
-              </div>
-            </div>
-          </div>
-          <div class="pure-u-1-2 pure-u-lg-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-              <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
-              </div>
-            </div>
-          </div>
-          <div class="pure-u-1-2 pure-u-lg-1-4">
-            <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
-              <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>-->
         <div class="pure-g padding-mb">
           <div class="pure-u-1 join-team">
             <a href="mailto:hello@studiohakuna.com" title="Join or team" class="btn btn-side-arrow">Join our team</a>
