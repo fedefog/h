@@ -299,6 +299,36 @@ $(document).ready(function() {
 
 
 		 //Form 
+    $("#enableButtonForm").submit(function(e) {
+    var url = "../mailsender.php"; // the script where you handle the form input.
+    $('.ajax-loader').show();
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#enableButtonForm").serialize(), // serializes the form's elements.
+           success: function(data)
+           {
+               var message = data.trim();
+               var msg = '';
+               if(message = "ok"){
+                    msg= "Great! We will get in touch soon!";
+               } else{
+                    msg= "Ops! Something went wrong, please try again or write us to hello@studiohakuna.com!";
+               }
+            $('.ajax-loader').hide();
+            $('#enableButtonForm')[0].reset();
+            $('#enableButtonForm .glyphicon').hide();
+            $('.success').addClass('visible');
+            $('.success').html(msg);
+                setTimeout(function() {
+                  $('.success').removeClass('visible');
+            }, 4000);
+           }
+         });
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    
+});
+    
     $('#enableButtonForm')
         .bootstrapValidator({
             feedbackIcons: {
