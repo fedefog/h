@@ -63,6 +63,23 @@
     }
 }
 
+@include keyframes(btn_border_animate-menu) {
+    0%   { 
+      width: 160px;
+    }
+    100% { 
+      width: 0%;
+    }
+}
+@include keyframes(btn_border_animate_two-menu) {
+    0%   { 
+      width: 0%;
+    }
+    100% { 
+      width: 160px;
+    }
+}
+
 // Process section
 
 @include keyframes(process-main){

@@ -89,6 +89,13 @@ html, body {
 		
 		.pure-menu-item {
 
+            a{
+                &:hover{
+                    background: none;
+                }
+            }
+
+
 			&:nth-child(1) {
 				@include animation(item_menu_mobile 0.5s 0.3s normal forwards);
 			}
@@ -106,6 +113,36 @@ html, body {
 
 				.btn-side-arrow{
 					background-image: none;
+                    display: block;
+                    
+                    &:before {
+                        content: '';
+                        display: block;
+                        width: 160px;
+                        height: 3px;
+                        background-color: $green;
+                        position: absolute;
+                        bottom: -3px;
+                        right: calc(50% - 80px);
+                    }
+
+                    &:after {
+                        content: '';
+                        display: block;
+                        width: 0%;
+                        height: 3px;
+                        background-color: $green;
+                        position: absolute;
+                        bottom: -3px;
+                        left: calc(50% - 80px);
+	}
+                    
+                    &:hover:before {
+                        @include animation(btn_border_animate-menu 0.4s 0s normal forwards);
+                    }
+                    &:hover:after {
+                        @include animation(btn_border_animate_two-menu 0.4s 0.4s normal forwards);
+                    }
 				}
 			}
 		}
