@@ -16,6 +16,24 @@ $(document).ready(function() {
     // Clock numbers by Fede 
     var time_2 = moment().tz("America/Argentina/Buenos_Aires").format('h:mm A');
     $('.numbers').text(time_2);
+    
+    // Form Validate
+    $("#enableButtonForm").validate({
+    rules: {
+      name: "required",
+      email: {
+        required: true,
+        email: true
+      },
+    },
+    messages: {
+      name: "Please enter your name",
+      email: "Please enter a valid email address"
+    },
+    submitHandler: function(form) {
+      form.submit();
+    }
+  });
 
     /* slider */
 

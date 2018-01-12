@@ -110,7 +110,24 @@ aside {
 		padding-top: 25px;
 		height: 135px!important;
 	}
+    
+    .middle-width {
+        width: 48%;
+        float: left;
+        display: inline-block;
+        
+        &.pull-right {
+            float: right;
+        }
+    }
 
+    .error{
+        color: #e60202;
+        padding-left: 10px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
 	.form-control {
 		width: 100%;
 		border: none;
@@ -122,15 +139,6 @@ aside {
 		font-size: 18px;
 		font-weight: $light;
 
-		&.middle-width {
-			width: 48%;
-			float: left;
-			display: inline-block;
-
-			&.pull-right {
-				float: right;
-			}
-		}
 
 		@include respond-to('medium') {
 			height: 56px;

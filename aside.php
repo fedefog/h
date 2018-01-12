@@ -11,8 +11,8 @@
 
         <form action="mailsender.php" id="enableButtonForm" method="post" class="center-block">
           <div class="form-group">
-            <input type="text" class="form-control middle-width" name="name" id="name-field" placeholder="Your name*">
-            <input type="email" class="form-control middle-width pull-right" name="email" id="email-field" placeholder="Email address*"></br>
+            <div class="middle-width"><input type="text" class="form-control " name="name" id="name-field" placeholder="Your name*"></div>
+              <div class="middle-width pull-right"><input type="email" class="form-control" name="email" id="email-field" placeholder="Email address*"></div></br>
             <input type="text" class="form-control" name="how-field" id="how-field" placeholder="How did you hear about us?"></br>
             <textarea type="textarea" class="form-control" name="message" placeholder="Write your message…"></textarea></br>
             <button type="submit" value="submit" name="" class="btn btn-side-arrow transition">Send message</button>
