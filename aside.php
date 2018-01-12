@@ -9,7 +9,7 @@
         <h1 class="aside-title">Ready to get started?</h1>
         <h2 class="aside-description">If you have a new idea or just want to say hi, Don´t be shy and use the contact form below. We’ll get back to you shortly.</h2>
 
-        <form id="enableButtonForm" method="post" class="center-block">
+        <form action="mailsender.php" id="enableButtonForm" method="post" class="center-block">
           <div class="form-group">
             <input type="text" class="form-control middle-width" name="name" id="name-field" placeholder="Your name*">
             <input type="email" class="form-control middle-width pull-right" name="email" id="email-field" placeholder="Email address*"></br>

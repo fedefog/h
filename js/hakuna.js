@@ -168,7 +168,7 @@ $(document).ready(function() {
         $('.hideme').each( function(i){
             var bottom_of_object =  $(this).offset().top + $(this).outerHeight() - y_point;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
-            console.log(bottom_of_object);
+            //console.log(bottom_of_object);
             //console.log(bottom_of_window);
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
@@ -297,86 +297,8 @@ $(document).ready(function() {
 			setTimeout(function(){$('.process-section .process-title').addClass('fade-in');}, 0);
 		}
 
-
-		 //Form 
-    $("#enableButtonForm").submit(function(e) {
-    var url = "../mailsender.php"; // the script where you handle the form input.
-    $('.ajax-loader').show();
-    $.ajax({
-           type: "POST",
-           url: url,
-           data: $("#enableButtonForm").serialize(), // serializes the form's elements.
-           success: function(data)
-           {
-               var message = data.trim();
-               var msg = '';
-               if(message = "ok"){
-                    msg= "Great! We will get in touch soon!";
-               } else{
-                    msg= "Ops! Something went wrong, please try again or write us to hello@studiohakuna.com!";
-               }
-            $('.ajax-loader').hide();
-            $('#enableButtonForm')[0].reset();
-            $('#enableButtonForm .glyphicon').hide();
-            $('.success').addClass('visible');
-            $('.success').html(msg);
-                setTimeout(function() {
-                  $('.success').removeClass('visible');
-            }, 4000);
-           }
-         });
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-    
-});
-    
-    $('#enableButtonForm')
-        .bootstrapValidator({
-            feedbackIcons: {
-                valid: 'glyphicon glyphicon-ok',
-                invalid: 'glyphicon glyphicon-remove',
-                validating: 'glyphicon glyphicon-refresh'
-            },
-            fields: {
-                name: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The name is required'
-                        }
-                    }
-                },
-                email: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The email is required'
-                        }
-                    }
-                },
-                message: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The message is required'
-                        }
-                    }
-                }
-            }
-        })
-        .on('error.field.bv', function(e, data) {
-            // $(e.target)  --> The field element
-            // data.bv      --> The BootstrapValidator instance
-            // data.field   --> The field name
-            // data.element --> The field element
-
-            data.bv.disableSubmitButtons(false);
-        })
-        .on('success.field.bv', function(e, data) {
-            // e, data parameters are the same as in error.field.bv event handler
-            // Despite that the field is valid, by default, the submit button will be disabled if all the following conditions meet
-            // - The submit button is clicked
-            // - The form is invalid
-            data.bv.disableSubmitButtons(false);
-        });
-		
-});
+	});
+  
 
 /* SHOW/HIDE header plugin */
 

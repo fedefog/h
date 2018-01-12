@@ -5,11 +5,11 @@ require 'phpMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 //Set who the message is to be sent from
-$mail->setFrom('hello@hakuna.com.ar', $_POST['name']);
+$mail->setFrom('hello@studiohakuna.com', $_POST['name']);
 //Set an alternative reply-to address
 $mail->addReplyTo($_POST['email'], $_POST['name']);
 //Set who the message is to be sent to
-$mail->addAddress('hello@hakuna.com.ar', 'Mr Haku');
+$mail->addAddress('hello@studiohakuna.com', 'Mr Haku');
 //Set the subject line
 $mail->isHTML(true);                                  // Set email format to HTML
 
