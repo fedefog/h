@@ -69,6 +69,17 @@ aside {
 		border: none;
 		right: 15px;
 		text-align: center;
+        transition: all 0.5s;
+        
+        &:focus{
+            outline: none;
+        }
+        
+        &:hover{
+            background: #6573DA;
+            transition: all 0.5s;
+            transform: rotate(90deg);
+        }
 
 		@include respond-to('medium') {
 			height: 52px;
@@ -76,6 +87,10 @@ aside {
 			top: 20px;
 			right: 40px;
 		}
+        
+        .fa-lg{
+            vertical-align: -13%;
+        }
 	}
 
 	.form-container {

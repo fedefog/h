@@ -2686,6 +2686,17 @@ aside .close-sidebar {
   border: none;
   right: 15px;
   text-align: center;
+  transition: all 0.5s;
+}
+/* line 74, ../sass/partials/_aside.scss */
+aside .close-sidebar:focus {
+  outline: none;
+}
+/* line 78, ../sass/partials/_aside.scss */
+aside .close-sidebar:hover {
+  background: #6573DA;
+  transition: all 0.5s;
+  transform: rotate(90deg);
 }
 @media (min-width: 768px) {
   /* line 60, ../sass/partials/_aside.scss */
@@ -2696,7 +2707,11 @@ aside .close-sidebar {
     right: 40px;
   }
 }
-/* line 81, ../sass/partials/_aside.scss */
+/* line 91, ../sass/partials/_aside.scss */
+aside .close-sidebar .fa-lg {
+  vertical-align: -13%;
+}
+/* line 96, ../sass/partials/_aside.scss */
 aside .form-container {
   width: 95%;
   padding: 10px;
@@ -2708,45 +2723,45 @@ aside .form-container {
   justify-content: space-between;
 }
 @media (min-width: 768px) {
-  /* line 81, ../sass/partials/_aside.scss */
+  /* line 96, ../sass/partials/_aside.scss */
   aside .form-container {
     padding: 70px 120px;
     width: 100%;
   }
 }
-/* line 98, ../sass/partials/_aside.scss */
+/* line 113, ../sass/partials/_aside.scss */
 aside .form-group {
   margin-top: 25px;
 }
-/* line 101, ../sass/partials/_aside.scss */
+/* line 116, ../sass/partials/_aside.scss */
 aside .form-group .btn {
   border: none;
   margin-top: 25px;
   padding-left: 0px;
 }
-/* line 109, ../sass/partials/_aside.scss */
+/* line 124, ../sass/partials/_aside.scss */
 aside textarea {
   padding-top: 25px;
   height: 135px !important;
 }
-/* line 114, ../sass/partials/_aside.scss */
+/* line 129, ../sass/partials/_aside.scss */
 aside .middle-width {
   width: 48%;
   float: left;
   display: inline-block;
 }
-/* line 119, ../sass/partials/_aside.scss */
+/* line 134, ../sass/partials/_aside.scss */
 aside .middle-width.pull-right {
   float: right;
 }
-/* line 124, ../sass/partials/_aside.scss */
+/* line 139, ../sass/partials/_aside.scss */
 aside .error {
   color: #e60202;
   padding-left: 10px;
   display: inline-block;
   margin-top: 10px;
 }
-/* line 131, ../sass/partials/_aside.scss */
+/* line 146, ../sass/partials/_aside.scss */
 aside .form-control {
   width: 100%;
   border: none;
@@ -2759,52 +2774,52 @@ aside .form-control {
   font-weight: 300;
 }
 @media (min-width: 768px) {
-  /* line 131, ../sass/partials/_aside.scss */
+  /* line 146, ../sass/partials/_aside.scss */
   aside .form-control {
     height: 56px;
     margin-top: 25px;
   }
 }
-/* line 149, ../sass/partials/_aside.scss */
+/* line 164, ../sass/partials/_aside.scss */
 aside .aside-text {
   font-size: 18px;
   font-weight: 300;
   margin-top: 45px;
 }
 @media (min-width: 768px) {
-  /* line 149, ../sass/partials/_aside.scss */
+  /* line 164, ../sass/partials/_aside.scss */
   aside .aside-text {
     margin-top: 60px;
   }
 }
-/* line 160, ../sass/partials/_aside.scss */
+/* line 175, ../sass/partials/_aside.scss */
 aside .aside-mail {
   font-size: 25px;
   font-weight: 800;
 }
 @media (min-width: 768px) {
-  /* line 160, ../sass/partials/_aside.scss */
+  /* line 175, ../sass/partials/_aside.scss */
   aside .aside-mail {
     font-size: 42px;
   }
 }
-/* line 170, ../sass/partials/_aside.scss */
+/* line 185, ../sass/partials/_aside.scss */
 aside .mail-networks {
   position: relative;
 }
-/* line 173, ../sass/partials/_aside.scss */
+/* line 188, ../sass/partials/_aside.scss */
 aside .mail-networks .social-networks {
   position: absolute;
   bottom: 6px;
   right: -40px;
   display: none;
 }
-/* line 180, ../sass/partials/_aside.scss */
+/* line 195, ../sass/partials/_aside.scss */
 aside .mail-networks .social-networks .social-link {
   color: #1FFF00;
 }
 @media (min-width: 768px) {
-  /* line 173, ../sass/partials/_aside.scss */
+  /* line 188, ../sass/partials/_aside.scss */
   aside .mail-networks .social-networks {
     display: block;
   }
