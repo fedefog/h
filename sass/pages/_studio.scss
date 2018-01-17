@@ -458,12 +458,13 @@
 					z-index: -1;
 					letter-spacing: -30px;
 					top: 0px;
-					
+				    left: calc(50% - 201px);
 					
 					@include respond-to('medium') {
 						font-size: 650px;
 						letter-spacing: -54px;
 						top: -175px;
+                        left: 0;
 					}
 
 					@include respond-to('large') {

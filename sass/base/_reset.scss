@@ -5,6 +5,9 @@ html {
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 }
+body {
+    overflow-x: hidden;
+}
 a {
 	color: $black;
 	text-decoration: none;

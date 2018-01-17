@@ -60,7 +60,7 @@
             </div>
           </div>
         </div>
-				<div class="pure-g padding-mb">
+        <div class="pure-g padding-mb">
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
               <img src="images/team/marce.jpg" class="pure-img">
@@ -170,12 +170,13 @@
             </div>
           </div>
         </div>-->
+                </div>
+			</div>
         <div class="pure-g padding-mb">
           <div class="pure-u-1 join-team">
             <a href="mailto:hello@studiohakuna.com" title="Join or team" class="btn btn-side-arrow">Join our team</a>
           </div>
         </div>
-			</div>
 		</section>
 
     <section class="hakuna-video">
