@@ -28,7 +28,7 @@ if (!$mail->send()) {
     echo "error";
     //echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    echo "ok";
+    header("Location: http://studiohakuna.com/projects/new/");
 }
 
 endif;
