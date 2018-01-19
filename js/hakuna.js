@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+    
+    setTimeout(function(){ $("aside").removeClass("hidden");}, 100);
+   
     /* Function for Clock on Footer */
     function clock() { 
       var t = moment().tz("America/Argentina/Buenos_Aires"),

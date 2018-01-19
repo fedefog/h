@@ -1,4 +1,4 @@
-<aside>
+<aside class="hidden">
 
   <span class="arrow arrow-bottom anim-arrow hidden-xs"></span>
 
