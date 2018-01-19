@@ -111,7 +111,7 @@
               <img src="images/team/cami.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Camila Enrique</h3>
-                <div class="member-position">Graphic Designer</div>
+                <div class="member-position">Designer</div>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@
               <img src="images/team/ro.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Rocio Rogé</h3>
-                <div class="member-position">Graphic Designer</div>
+                <div class="member-position">Designer</div>
               </div>
             </div>
           </div>
@@ -138,16 +138,16 @@
               <img src="images/team/dani.jpg" class="pure-img">
               <div class="member-info">
                 <h3 class="member-name">Daniela Revilla</h3>
-                <div class="member-position">Graphic Designer</div>
+                <div class="member-position">Designer</div>
               </div>
             </div>
           </div>
           <div class="pure-u-1-2 pure-u-lg-1-4">
             <div class="team-member">
-              <img src="images/team/team1.png" class="pure-img">
+              <img src="images/team/fran.jpg" class="pure-img">
               <div class="member-info">
-                <h3 class="member-name">Federico Fogel</h3>
-                <div class="member-position">Lead Developer</div>
+                <h3 class="member-name">Fran Lo Giudice</h3>
+                <div class="member-position">Developer</div>
               </div>
             </div>
           </div>

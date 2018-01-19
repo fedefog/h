@@ -35,8 +35,8 @@
         <div class="pure-g">
           <div class="offset-lg-1 pure-u-12-12 padding-mb">
             <h2 class="heading">We team up with companies to help them move forward through…</h2>
-            <div class="text"><a href="services.php#discovery" class="underline">Discovery & Strategy</a>, <a href="services.php#branding" class="underline">Branding & Visual lineupa</a>, <a href="services.php#ux" class="underline">User experience</a>, <a href="services.php#web-design" class="underline">Web interface Design</a>, <a href="services.php#app-design" class="underline">Mobile app interface design</a>, <a href="services.php#front-end" class="underline">Development Solutions</a></div>
-            <a href="services.php" title="Learn more" class="btn btn-side-arrow">Learn more</a>
+            <div class="text"><a href="services#discovery" class="underline">Discovery & Strategy</a>, <a href="services#branding" class="underline">Branding & Visual lineupa</a>, <a href="services#ux" class="underline">User experience</a>, <a href="services#web-design" class="underline">Web interface Design</a>, <a href="services#app-design" class="underline">Mobile app interface design</a>, <a href="services#front-end" class="underline">Development Solutions</a></div>
+            <a href="services" title="Learn more" class="btn btn-side-arrow">Learn more</a>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@
                 </div>
               </a>
             </div>
-            <a href="works.php" title="See more work" class="btn btn-side-arrow">See more Work</a>
+            <a href="works" title="See more work" class="btn btn-side-arrow">See more Work</a>
           </div>
         </div>
       </div>
@@ -170,7 +170,7 @@
       <div class="container">
         <div class="pure-g padding-mb">
           <div class="offset-lg-1 pure-u-12-12">
-            <a href="studio.php" title="More about the studio" class="btn border-white btn-side-arrow">The studio</a>
+            <a href="studio" title="More about the studio" class="btn border-white btn-side-arrow">The studio</a>
           </div>
         </div>
       </div>
