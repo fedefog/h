@@ -293,7 +293,7 @@
                 </li>
                 <li class="slide text-center">
                     <div class="box">
-                        <img src="images/team/fede.png" alt="team" class="pure-img">
+                        <img src="images/team/marce.jpg" alt="team" class="pure-img">
                         
                         <div class="info-hover">
                             <div class="name"><p>Leandro Longo</p></div>
@@ -303,7 +303,7 @@
                 </li>
                 <li class="slide text-center">
                     <div class="box">
-                        <img src="images/team/fede.png" alt="team" class="pure-img">
+                        <img src="images/team/lean.jpg" alt="team" class="pure-img">
                         
                         <div class="info-hover">
                             <div class="name"><p>Leandro Longo</p></div>
@@ -313,7 +313,7 @@
                 </li>
                 <li class="slide text-center">
                     <div class="box">
-                        <img src="images/team/fede.png" alt="team" class="pure-img">
+                        <img src="images/team/sofi.jpg" alt="team" class="pure-img">
                         
                         <div class="info-hover">
                             <div class="name"><p>Leandro Longo</p></div>
@@ -323,7 +323,7 @@
                 </li>
                 <li class="slide text-center">
                     <div class="box">
-                        <img src="images/team/fede.png" alt="team" class="pure-img">
+                        <img src="images/team/cami.jpg" alt="team" class="pure-img">
                         
                         <div class="info-hover">
                             <div class="name"><p>Leandro Longo</p></div>
@@ -333,7 +333,7 @@
                 </li>
                 <li class="slide text-center">
                     <div class="box">
-                        <img src="images/team/fede.png" alt="team" class="pure-img">
+                        <img src="images/team/fran.jpg" alt="team" class="pure-img">
                         
                         <div class="info-hover">
                             <div class="name"><p>Leandro Longo</p></div>
