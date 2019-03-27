@@ -102,7 +102,6 @@ $(document).ready(function() {
         animation: "slide",
         animationLoop: false,
         slideshow: true,
-        animationLoop: true,
         directionNav: false,
         itemWidth: 256,
         itemMargin: 10,
