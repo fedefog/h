@@ -1,0 +1,139 @@
+.services{
+    background-image: url(images/services-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    padding-top: 100px;
+    
+    @include respond-to("medium"){
+         margin-bottom: 100px;
+    }
+    
+        
+    .services-slider{
+        width: 100%;
+        margin-bottom: 100px;
+        
+        @include respond-to("medium"){
+             margin-bottom: 0;
+            
+            .slides li{
+                display: inline-block !important;
+                visibility: visible !important;
+            }
+        }
+        
+        .flex-viewport{
+            margin-right: -30px;
+            margin-left: -30px;
+            
+            @include respond-to("medium"){
+                margin: 0;
+                padding: 0;
+            }
+            
+            li:first-of-type{
+                margin-left: 30px;
+            }
+        }
+    }
+    
+    .box{
+        padding: 15px;
+        color: #3A3A3A;
+        transition: all 0.5s;
+        min-height: 440px;
+        
+        @include respond-to("medium"){
+            min-height: auto;
+        }
+
+        img{
+            max-width: 95%;
+        }
+        
+        .service-title{
+            margin-bottom: 10px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            p{
+                text-align: center;
+                width: 100%;
+                font-family: "Montserrat";
+                font-size: 18px;
+                font-weight: $wblack;
+                
+                @include respond-to("medium"){
+                    font-size: 22px;
+                }
+            }
+        }
+        
+        @include respond-to("medium"){
+             &:hover{
+                transform: translateY(-10px);
+                transition: all 0.5s;
+
+                .info-hover{
+                    opacity: 1;
+                    visibility: visible;
+                    transition: all 0.5s;
+                }
+            }
+        }
+        
+        .info-hover{
+            display: block;
+            position: relative;
+            opacity: 1;
+            visibility: visible;
+            width: 100%;
+            height: auto;
+            background: transparent;
+            color: #3A3A3A;
+            padding: 0;
+
+            @include respond-to("medium"){
+                position: absolute;
+                opacity: 0;
+                visibility: hidden;
+                width: calc(100% - 40px);
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: linear-gradient(to bottom right, #6666ff, #169cff);
+                color: #ffffff;
+                padding: 0 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                transition: all 0.5s;
+            
+            }
+            
+           
+
+            .service-title{
+                display: none;
+
+                @include respond-to("medium"){
+                    display: flex;
+                }
+            }
+            .info{
+                font-size: 15px;
+                line-height: 1.5;
+                margin: 0;
+                
+                @include respond-to("medium"){
+                    font-size: 16px;
+                }
+            }
+        }
+        
+
+    }
+}

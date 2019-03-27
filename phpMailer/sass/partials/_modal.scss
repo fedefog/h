@@ -1,0 +1,204 @@
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999999999999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    
+    &.visible{
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.5s;
+    }
+    
+    .title-top{
+        padding: 25px;
+        color: $white;
+        overflow: hidden;
+        
+        @include respond-to("medium"){
+            padding: 50px 80px;
+        }
+        
+        .breadcrumb{
+            font-family: "Montserrat", Helvetica, sans-serif;
+            float: left;
+            padding-right: 25px;
+            margin-right: 20px;
+            background: url(images/side-arrow-white.png) right no-repeat;
+            background-size: 15px;
+            display: none;
+            
+            @include respond-to("medium"){
+                display: block;
+            }
+        }
+        
+        .work-info{
+            float: left;
+            
+            .work-title{
+                font-family: "Montserrat", Helvetica, sans-serif;
+                font-weight: 900;
+                font-size: 28px;
+                
+                @include respond-to("medium"){
+                    font-size: 38px;
+                }
+            }
+            
+            .work-type{
+                color: $green;
+                font-size: 22px;
+            }
+        }
+    }
+    
+    .close-modal{
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        background: $white;
+        color: $green;
+        border: 0;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        transition: all 0.5s; 
+        
+        @include respond-to("medium"){
+            right: 80px;
+            top: 60px;
+            width: 47px;
+            height: 47px;
+        }
+        
+        
+        .fa-times{
+            font-size: 20px;
+        }
+        
+        &:focus{
+            outline: none;
+        }
+        
+        &:hover{
+            transition: all 0.5s;
+            transform: rotate(90deg);
+            background: $green;
+            color: $white;
+        }
+    }
+    
+    .modal-slider{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        
+         &:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 30%;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+            z-index: 1;
+        }
+
+         &:after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 30%;
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+            z-index: 1;
+        }
+        
+        .flex-viewport{
+            width: 100%;
+            height: 100%;
+            
+            .slides{
+                height: 100%;
+                
+                li{
+                    height: 100%;
+                    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+            }
+        }
+        
+        .flex-control-nav{
+            bottom: 15%;
+            z-index: 2;
+            
+            li:nth-child(1) a{
+                background: #6BC6EB;
+            }
+            li:nth-child(2) a{
+                background: #F7F7F7;
+            }
+            li:nth-child(3) a{
+                background: #1FFF00;
+            }
+            li:nth-child(4) a{
+                background: #6573DA;
+            }
+            li:nth-child(5) a{
+                background: #6BC6EB;
+            }
+        }
+
+        .flex-direction-nav{
+            display: none;
+            
+            @include respond-to("medium"){
+                display: block;
+            }
+            
+            a{
+                width: 50px;
+                height: 50px;
+                
+                &:before{
+                    content: '';
+                    background-image: url(images/prev-carrousel.png);
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    background-repeat: no-repeat;
+                }
+            }
+
+            .flex-next{
+                transform: rotate(-180deg);
+            }
+        }
+        
+        &:hover{
+            .flex-direction-nav{
+                .flex-prev{
+                    left: 80px;
+                }
+
+                .flex-next{
+                   right: 80px;
+                }
+            }
+        }
+    }
+}

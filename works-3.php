@@ -1,51 +1,89 @@
 
-<div class="works-row">
-  <a href="#" class="work pull-right refresh-animate">
-    <img src="images/works/work-1.png" title="work" alt="work" class="pure-img">
-    <div class="work-info">
-      <h3 class="work-title">Banking App</h3>
-      <div class="work-description">UI / UX / Development</div>
-    </div>
-  </a>
-  <a href="#" class="work pull-left refresh-animate">
-    <img src="images/works/work-2.png" title="work" alt="work" class="pure-img">
-    <div class="work-info">
-      <h3 class="work-title">Banking App</h3>
-      <div class="work-description">UI / UX / Development</div>
-    </div>
-  </a>
-</div>
-<div class="works-row">
-  <a href="#" class="work pull-right hideme">
-    <img src="images/works/work-3.png" title="work" alt="work" class="pure-img">
-    <div class="work-info">
-      <h3 class="work-title">Banking App</h3>
-      <div class="work-description">UI / UX / Development</div>
-    </div>
-  </a>
-  <a href="#" class="work pull-left hideme">
-    <img src="images/works/work-4.png" title="work" alt="work" class="pure-img">
-    <div class="work-info">
-      <h3 class="work-title">Banking App</h3>
-      <div class="work-description">UI / UX / Development</div>
-    </div>
-  </a>
-</div>
-<div class="works-row">
-  <a href="#" class="work pull-right hideme">
-    <img src="images/works/work-5.png" title="work" alt="work" class="pure-img">
-    <div class="work-info">
-      <h3 class="work-title">Banking App</h3>
-      <div class="work-description">UI / UX / Development</div>
-    </div>
-  </a>
-  <a href="#" class="work pull-left hideme">
-    <img src="images/works/work-2.png" title="work" alt="work" class="pure-img">
-    <div class="work-info">
-      <h3 class="work-title">Banking App</h3>
-      <div class="work-description">UI / UX / Development</div>
-    </div>
-  </a>
-</div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners1.png" alt="service" class="pure-img">
+                        
+                        <div class="info-hover">
+                            <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners2.png" alt="service" class="pure-img">
+                        
+                        <div class="info-hover">
+                              <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners3.png" alt="service" class="pure-img">
+                        
+                        <div class="info-hover">
+                              <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners4.png" alt="service" class="pure-img">
+                        
+                        <div class="info-hover">
+                             <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners5.png" alt="service" class="pure-img">
+                        
+                        <div class="info-hover">
+                             <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners6.png" alt="service" class="pure-img">
 
+                        <div class="info-hover">
+                         <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners7.png" alt="service" class="pure-img">
 
+                        <div class="info-hover">
+                            <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-6-12 text-center">
+                    <div class="box">
+                        <img src="images/partners/partners8.png" alt="service" class="pure-img">
+
+                        <div class="info-hover">
+                             <div class="box-title"><p>POA Network</p></div>
+                            <p class="info">UX/UI Desktop Design</p>
+                            <a href="#" class="btn btn-white btn-side-arrow">See it in Action</a>
+                        </div>
+                    </div>
+                </div>
