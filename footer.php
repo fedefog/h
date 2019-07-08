@@ -14,7 +14,7 @@
         </div>
         <div class="pure-g footer-bottom padding-mb">
           <div class="pure-u-12-12">
-            <div class="footer-rights">&#169; <?php date('Y'); ?> Hakuna. All Rights Reserved.</div>
+            <div class="footer-rights">&#169; <?php echo date('Y'); ?> Hakuna. All Rights Reserved.</div>
             <div class="clock-container">
               <div class="numbers"></div>
               <strong class="location">Buenos Aires</strong>
