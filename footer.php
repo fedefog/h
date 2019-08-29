@@ -1,8 +1,8 @@
     <footer>
       <div class="container">
         <div class="pure-g padding-mb">
-          <div class="offset-lg-1 pure-u-12-12">
-            <div class="footer-text">Ready to get started?</div>
+          <div class="pure-u-12-12">
+            <div class="footer-text">Do you want to partner with us?</div>
             <a class="footer-mail" href="mailto:hello@studiohakuna.com" title="">hello@studiohakuna.com</a>
             <div class="social-networks">
               <a class="social-link transition" target="_blank" href="https://www.facebook.com/StudioHakuna/" title="Hakuna Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>

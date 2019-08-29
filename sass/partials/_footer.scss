@@ -9,14 +9,8 @@ footer {
     
     @include respond-to('small') {
         height: 460px;
-        background-image: url(images/footer-bg.png);
-        background-position-x: 5px;
+        @include background-image(linear-gradient(to bottom right, #169CFF, #6666FF));
         margin-top: 85px;
-    }
-    
-    @include respond-to('xlarge') {
-        background-position-x: right;
-        background-size: 95%;
     }
 
 	.logo-footer {
@@ -38,7 +32,6 @@ footer {
 		color: $green;
 		font-size: 22px;
 		font-weight: $extra-bold;
-        text-align: right;
         
         @include respond-to('small') {
              padding-top: 118px;
@@ -53,7 +46,6 @@ footer {
 		font-size: 22px;
 		font-weight: $extra-bold;
 		display: block;
-		text-align: right; 
         
         @include respond-to('small') {
              font-size: 26px;
@@ -67,7 +59,6 @@ footer {
 
 	.social-networks {
 		padding-top: 60px;
-		text-align: right;
 	}
 
 	.footer-rights {
